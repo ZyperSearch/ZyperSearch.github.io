@@ -361,7 +361,7 @@ def parse_seeds_as_domains(seeds: List[str]) -> List[str]:
     bases = []
     for s in seeds:
         parsed = urlparse(s)
-        bases.append(f"{parsed.scheme}://{parsed.netloc}".rstrip("/"))
+        bases.append(f"{parsed.scheme}://{parsed.netloc}".rstrip("/",":"))
     return bases
 
 
