@@ -96,22 +96,26 @@ font-weight: bold;
 <body>
 <div class="logo">Zyper</div>
 <div class="search-container">
-<input type="text" id="ui-search" class="search-box" placeholder="Explore the system..." autofocus autocomplete="off">
+<input type="text" id="ui-search" class="input search-box" placeholder="Explore the system..." autofocus autocomplete="off">
 <div id="suggestion">Did you mean: <span class="suggest-link" id="suggest-word"></span>?</div>
 <div id="results"></div>
 </div>
 <script>
-let db = [
-{ title: "System Core", url: "#", content: "The central processing unit of the Zyper architecture.", raw: "processor cpu engine" },
-{ title: "Network Protocols", url: "#", content: "Documentation on high-speed data transfer and security.", raw: "internet wifi secure" },
-{ title: "Neural Interface", url: "#", content: "Advanced connectivity modules for biological synchronization.", raw: "brain link bio" },
-{ title: "Encryption Keys", url: "#", content: "Manage your 256-bit security layers and access tokens.", raw: "password security lock" },
-{ title: "Cloud Storage", url: "#", content: "Distributed database for high-availability file management.", raw: "files backup server" }
-];
+let db = [];
 const searchInput = document.getElementById('ui-search');
 const resDiv = document.getElementById('results');
 const suggDiv = document.getElementById('suggestion');
 const suggWord = document.getElementById('suggest-word');
+const loadData = async () => {
+try {
+const response = await fetch('./data.json');
+if (!response.ok) throw new Error("File not found");
+db = await response.json();
+console.log("Zyper database loaded.");
+} catch (err) {
+console.error("Index unavailable. Run the crawler to generate data.json.");
+}
+};
 const renderResults = (matches) => {
 resDiv.innerHTML = matches.map(m => `
 <div class="result-item">
@@ -146,6 +150,7 @@ searchInput.dispatchEvent(new Event('input'));
 }
 }
 });
+loadData();
 </script>
 </body>
 </html>
