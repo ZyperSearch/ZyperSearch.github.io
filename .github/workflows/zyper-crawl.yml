@@ -25,6 +25,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.15-dev' # Uses the latest experimental build
+          allow-prereleases: true
+          architecture: 'x64-freethreading'
 
       - name: Install Python Dependencies
         run: |
