@@ -7,7 +7,7 @@
   },
   {
     "title": "Search - Microsoft Bing",
-    "url": "https://www.bing.com/?toWww=1&redig=90E485BDE8CE433191666DC617F686BE",
+    "url": "https://www.bing.com/?toWww=1&redig=C5DE0A0BF479474093C64794388C0664",
     "content": "Summary generation currently unavailable.",
     "raw": "Search - Microsoft BingSign in"
   },
@@ -27,7 +27,7 @@
     "title": "Yandex — fast Internet search",
     "url": "https://yandex.com",
     "content": "Summary generation currently unavailable.",
-    "raw": "Yandex — fast Internet searchSearch with Yandex AISearch{\"static\":\"2026-05-08-1122\",\"content\":\"big\",\"domain\":\"com\",\"nodeVersion\":false}1778346488344670-11748515668179452086-balancer-l7leveler-kubr-yp-sas-202-BAL"
+    "raw": "Yandex — fast Internet searchSearch with Yandex AISearch{\"static\":\"2026-05-08-1122\",\"content\":\"big\",\"domain\":\"com\",\"nodeVersion\":false}1778346579588311-261136212946758377-balancer-l7leveler-kubr-yp-vla-255-BAL"
   },
   {
     "title": "Internet Archive: Digital Library of Free & Borrowable Texts, Movies, Music & Wayback Machine",
@@ -63,7 +63,7 @@
     "title": "Breaking News, Latest News and Videos | CNN",
     "url": "https://www.cnn.com/",
     "content": "Summary generation currently unavailable.",
-    "raw": "Breaking News, Latest News and Videos | CNN Live Updates 55 min ago War with Iran Trending Frontier Airlines collision Teen takeovers Venice Biennale Kentucky Derby-winning trainer CNN Underscored Mother’s Day gifts • For Subscribers • For Subscriber"
+    "raw": "Breaking News, Latest News and Videos | CNN Live Updates 1 hr ago War with Iran Trending Frontier Airlines collision Teen takeovers Venice Biennale Kentucky Derby-winning trainer CNN Underscored Mother’s Day gifts • For Subscribers • For Subscribers "
   },
   {
     "title": "Breaking News, World News and Video from Al Jazeera",
@@ -75,13 +75,13 @@
     "title": "Forbes",
     "url": "https://www.forbes.com/",
     "content": "Summary generation currently unavailable.",
-    "raw": "ForbesBillionairesMoneyInnovationLifestyleBusinessLeadershipNewslettersGamesVettedListsTrendingU.S. EditionBETAThis is a BETA experience. Opt out here. BriefAnxiety Over Social Security Benefits Grows As Funding Cliff LoomsAmerica’s Top Architects: A"
+    "raw": "ForbesBillionairesMoneyInnovationLifestyleBusinessLeadershipNewslettersGamesVettedListsTrendingU.S. Edition BriefAnxiety Over Social Security Benefits Grows As Funding Cliff LoomsAmerica’s Top Architects: An Island Home by New York’s Desai Chia Archi"
   },
   {
-    "title": "",
+    "title": "Amazon.com",
     "url": "https://www.amazon.com/",
     "content": "Summary generation currently unavailable.",
-    "raw": ""
+    "raw": "Amazon.com Click the button below to continue shopping Continue shopping Conditions of Use Privacy Policy © 1996-2025, Amazon.com, Inc. or its affiliates"
   },
   {
     "title": "Electronics, Cars, Fashion, Collectibles & More | eBay",
@@ -138,10 +138,10 @@
     "raw": "Shopify: The All-in-One Commerce Platform for Businesses - ShopifySkip to ContentBe the nextAI all-starBe the nextstore they line up forAI all-star household name solo-preneur category creator global empire store they line up for big thing Dream big "
   },
   {
-    "title": "craigslist: winchester jobs, apartments, for sale, services, community, and events",
-    "url": "https://winchester.craigslist.org/",
+    "title": "craigslist: phoenix jobs, apartments, for sale, services, community, and events",
+    "url": "https://phoenix.craigslist.org/",
     "content": "Summary generation currently unavailable.",
-    "raw": "craigslist: winchester jobs, apartments, for sale, services, community, and events craigslist post an ad event calendar S M T W T F S 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 help, faq, abuse, legal avoid scams & f"
+    "raw": "craigslist: phoenix jobs, apartments, for sale, services, community, and events craigslist post an ad event calendar S M T W T F S 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 help, faq, abuse, legal avoid scams & frau"
   },
   {
     "title": "Facebook",
@@ -151,7 +151,7 @@
   },
   {
     "title": "Instagram",
-    "url": "https://www.instagram.com/",
+    "url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F&is_from_rle",
     "content": "Summary generation currently unavailable.",
     "raw": "Instagram"
   },
@@ -165,7 +165,7 @@
     "title": "LinkedIn: Log In or Sign Up",
     "url": "https://www.linkedin.com/",
     "content": "Summary generation currently unavailable.",
-    "raw": "LinkedIn: Log In or Sign Up Skip to main content Agree & Join LinkedIn By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy. Discover new opportunities Sign in with email By clicking Conti"
+    "raw": "LinkedIn: Log In or Sign Up Skip to main content Agree & Join LinkedIn By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy. Explore jobs and grow your network Sign in with email By clicki"
   },
   {
     "title": "Pinterest",
@@ -234,6 +234,12 @@
     "raw": "Dribbble - Discover the World’s Top Designers & Creative Professionals Get 20% (up to $100) off your first payment for design and development services on Dribbble! Use code WELCOME20 🎉 Get Started Dribbble: the community for graphic design Shots Shot"
   },
   {
+    "title": "DeviantArt - The Largest Online Art Gallery and Community",
+    "url": "https://www.deviantart.com/",
+    "content": "Summary generation currently unavailable.",
+    "raw": "DeviantArt - The Largest Online Art Gallery and CommunityAllCottoncandyskyDigital ArtFan ArtPhotographyFantasyAnime and MangaCosplayAdoptablesCharacter DesignComicsConcept ArtGame ArtScience FictionSuperheroesTraditional Art3D ArtThink by Luna-Fay, l"
+  },
+  {
     "title": "Apple",
     "url": "https://www.apple.com/",
     "content": "Summary generation currently unavailable.",
@@ -279,7 +285,7 @@
     "title": "Cloud Computing Services | Microsoft Azure",
     "url": "https://azure.microsoft.com/en-us",
     "content": "Summary generation currently unavailable.",
-    "raw": "Cloud Computing Services | Microsoft Azure This is the Trace Id: 19604b5b7377857046de64adeeea018b Skip to main content AZURE. YOUR INTELLIGENT CLOUD. Now shipping: Microsoft Build 2026 Be part of Microsoft Build and learn how tech leaders train and f"
+    "raw": "Cloud Computing Services | Microsoft Azure This is the Trace Id: 107ec7a1fe27b42a62c682d905b5c99c Skip to main content AZURE. YOUR INTELLIGENT CLOUD. Now shipping: Microsoft Build 2026 Be part of Microsoft Build and learn how tech leaders train and f"
   },
   {
     "title": "AI and Cloud Computing Services | Google Cloud",
@@ -411,17 +417,17 @@
     "title": "Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes & Experiences",
     "url": "https://www.airbnb.com/",
     "content": "Summary generation currently unavailable.",
-    "raw": "Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes & ExperiencesSkip to contentWe’re sorry, some parts of the Airbnb website don’t work properly without JavaScript enabled.Airbnb homepagePopular homes in Myrtle Beach0 of 0 items showing__Gu"
+    "raw": "Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes & ExperiencesSkip to contentWe’re sorry, some parts of the Airbnb website don’t work properly without JavaScript enabled.Airbnb homepagePopular homes in San Diego0 of 0 items showing__Guest"
   },
   {
     "title": "Search Flights, Hotels & Rental Cars | KAYAK",
     "url": "https://www.kayak.com/",
     "content": "Summary generation currently unavailable.",
-    "raw": "Search Flights, Hotels & Rental Cars | KAYAKFind the right flight from 100s of sites.Round-trip0 bagsWashington, D.C. (WAS)Departure–Return1 adult, EconomySearchStart your travel planning hereSearch Flights, Hotels & Rental CarsLas VegasCARS • FLIGHT"
+    "raw": "Search Flights, Hotels & Rental Cars | KAYAKFind the right flight from 100s of sites.Round-trip0 bagsPhoenix (PHX)Departure–Return1 adult, EconomySearchStart your travel planning hereSearch Flights, Hotels & Rental CarsLas VegasCARS • FLIGHTS • HOTEL"
   },
   {
     "title": "Skyscanner",
-    "url": "https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=a90bab7e-4bc9-11f1-9035-3f2dd11b84d0&vid=",
+    "url": "https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=e0727e58-4bc9-11f1-b415-0373bca208bc&vid=",
     "content": "Summary generation currently unavailable.",
     "raw": "SkyscannerYou need to enable JavaScript to run this app."
   },
@@ -462,10 +468,16 @@
     "raw": "Ulta Beauty | Makeup, Skin Care, Fragrance, Hair Care & Beauty Products Beauty in 2 hours or lessorder online, pick up in store.Learn moreShop nowEnds tomorrowSave up to 40% when you buy 2Shop 40+ brands starting at 2 for $20. Brands cannot be combin"
   },
   {
+    "title": "ESPN - Serving Sports Fans. Anytime. Anywhere.",
+    "url": "https://www.espn.com/",
+    "content": "Summary generation currently unavailable.",
+    "raw": "ESPN - Serving Sports Fans. Anytime. Anywhere. Skip to main content Skip to navigation < > All of ESPN.All In One Place.Sign Up NowWatch Now Subscribe Now Backlash NBA Playoffs Live: Wings vs. Fever Live: Truist Championship MLB.TV UFL Live: LALIGA L"
+  },
+  {
     "title": "Bleacher Report | Sports. Highlights. News. Now.",
     "url": "https://bleacherreport.com",
     "content": "Summary generation currently unavailable.",
-    "raw": "Bleacher Report | Sports. Highlights. News. Now.Featured VideoNBAToday03:00pm1DET(2-0)O/U: 212.54CLE(0-2)-4.5Today08:30pm1OKC(2-0)-8.54LAL(0-2)O/U: 211.5NHLToday06:00pmCAR(3-0)-194PHI(0-3)+160Today09:00pmCOL(2-0)-130MIN(0-2)+108MLBToday04:10pmHOU(16-"
+    "raw": "Bleacher Report | Sports. Highlights. News. Now.Featured VideoNBAToday12:00pm1DET(2-0)O/U: 212.54CLE(0-2)-4.5Today05:30pm1OKC(2-0)-8.54LAL(0-2)O/U: 211.5NHLToday03:00pmCAR(3-0)-194PHI(0-3)+160Today06:00pmCOL(2-0)-130MIN(0-2)+108MLBToday01:10pmHOU(16-"
   },
   {
     "title": "CBS Sports - News, Live Scores, Schedules, Fantasy Games, Video and more. - CBS Sports",
@@ -498,10 +510,10 @@
     "raw": "Strava | Running, Cycling & Hiking App - Train, Track & ShareCommunity-Powered MotivationTrack your progress and cheer each other on. Join over 100 million active people on Strava for free.Already a Member? Log InSign Up With GoogleSign Up With Apple"
   },
   {
-    "title": "Fitbit Official Site for Activity Trackers & Smartwatches",
-    "url": "https://store.google.com/category/watches_trackers?hl=en-US&utm_source=fitbit_redirect&utm_medium=google_ooo&utm_campaign=category",
+    "title": "Website für Google Fitbit Aktivitätstracker und Smartwatches",
+    "url": "https://store.google.com/de/category/watches_trackers?hl=de&utm_source=fitbit_redirect&utm_medium=google_ooo&utm_campaign=category",
     "content": "Summary generation currently unavailable.",
-    "raw": "Fitbit Official Site for Activity Trackers & SmartwatchesPre-order Google Fitbit Air and get $35 in Google Store credit after your order ships, so you can choose a band that fits your style. Ends 5/25.^^Learn morePhonesPhonesPixel 10 Pro and Pro XLPi"
+    "raw": "Website für Google Fitbit Aktivitätstracker und SmartwatchesWenn du Google Fitbit Air kaufst, erhältst du ein Google Store-Guthaben in Höhe von 45 € für deinen nächsten Einkauf. So kannst du dir ein Armband aussuchen, das zu deinem Stil passt. Das An"
   },
   {
     "title": "Coursera | Courses, Professional Certificates, and Degrees Online",
