@@ -39,6 +39,8 @@ jobs:
 
       - name: Sync and Deploy
         run: |
+          git config --global rebase.autoStash true
+          git pull --rebase origin main
           git config --global user.name "ZyperBot"
           git config --global user.email "bot@zypersearch.local"
           
