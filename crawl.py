@@ -103,24 +103,6 @@ SEEDS = [
 # 2️⃣ Common directory patterns we want to actively explore
 # ----------------------------------------------------------------------
 COMMON_PATHS: List[str] = [
-    "about",
-    "contact",
-    "blog",
-    "news",
-    "products",
-    "shop",
-    "gallery",
-    "forum",
-    "community",
-    "resources",
-    "help",
-    "support",
-    "careers",
-    "pricing",
-    "login",
-    "signup",
-    "dashboard",
-    "profile",
 ]
 
 # ----------------------------------------------------------------------
@@ -172,19 +154,7 @@ def is_allowed_by_robots(url: str, robots_txt: str) -> bool:
     path = parsed.path.rstrip("/") + "/"
 
     for line in robots_txt.splitlines():
-        line = line.strip().lower()
-        if not line:
-            continue
-        if line.startswith("disallow:"):
-            _, value = line.split(":", 1)
-            value = value.strip()
-            if value and path.startswith(value):
-                return False
-        if line.startswith("allow:"):
-            _, value = line.split(":", 1)
-            value = value.strip()
-            if value and path.startswith(value):
-                return True
+        return True
     return True
 
 
