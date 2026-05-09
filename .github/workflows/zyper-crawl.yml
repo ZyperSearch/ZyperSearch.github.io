@@ -4,13 +4,13 @@ on:
     branches: [ main ]
   schedule:
     - cron: '0 0 * * *'
-  workflow_dispatch: # Allows you to run it manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   crawl_and_index:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Required to push data.json back to the repo
+      contents: write
     
     steps:
       - name: Checkout Repository
@@ -24,9 +24,8 @@ jobs:
       - name: Set up Python 3.15
         uses: actions/setup-python@v5
         with:
-          python-version: '3.15-dev' # Uses the latest experimental build
+          python-version: '3.15.0-beta.1'
           allow-prereleases: true
-          architecture: 'x64-freethreading'
 
       - name: Install Python Dependencies
         run: |
@@ -34,15 +33,20 @@ jobs:
           pip install requests beautifulsoup4
 
       - name: Run Zyper Crawler
-        env:
-          PYTHON_GIL: "0" # Enabling Free-Threading
+        # We remove PYTHON_GIL: "0" here to avoid the fatal config error.
+        # Python 3.15 still handles ThreadPoolExecutor very efficiently for I/O.
         run: python crawl.py
 
       - name: Deploy to GitHub Pages
         run: |
           git config --global user.name "ZyperBot"
           git config --global user.email "bot@zypersearch.local"
-          git add data.json
-          # Only commit if there are changes to avoid workflow failure
-          git commit -m "Automated ZyperSearch Index Update: $(date +'%Y-%m-%d')" || exit 0
-          git push
+          # Check if data.json was created
+          if [ -f data.json ]; then
+            git add data.json
+            git commit -m "Automated ZyperSearch Index Update: $(date +'%Y-%m-%d')" || exit 0
+            git push
+          else
+            echo "data.json not found, skipping commit."
+            exit 1
+          fi
