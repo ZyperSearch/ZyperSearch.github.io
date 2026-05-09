@@ -91,7 +91,7 @@ SEEDS = [
     "https://dwell.com"
 ]
 
-MODEL_URL = "https://api-inference.huggingface.co/models/ZyperAI/Z-AI-0.1-1.1B-Code.web"
+MODEL_URL = "https://api-inference.huggingface.co/models/Qwen/Qwen3.6-35B-A3B"
 HEADERS = {"Authorization": "Bearer YOUR_HF_TOKEN"}
 
 async def get_ai_summary(client, text):
