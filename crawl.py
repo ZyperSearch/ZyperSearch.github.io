@@ -128,7 +128,7 @@ HEADERS = {
 # ----------------------------------------------------------------------
 # 5️⃣ Respect robots.txt? ------------------------------------------------
 # ----------------------------------------------------------------------
-RESPECT_ROBOTS = True    # set False to ignore robots.txt (dangerous on big crawls)
+RESPECT_ROBOTS = False
 ROBOTS_PATH = "/robots.txt"
 
 # ----------------------------------------------------------------------
@@ -139,7 +139,7 @@ LIMITS = httpx.Limits(max_connections=10, max_keepalive_connections=5)
 # ----------------------------------------------------------------------
 # 7️⃣ How deep can we go from the seed(s)? -------------------------------
 # ----------------------------------------------------------------------
-MAX_DEPTH = 2   # 0 = only seeds, 1 = seeds + direct children, 2 = children of children, …
+MAX_DEPTH = 8   # 0 = only seeds, 1 = seeds + direct children, 2 = children of children, …
 
 # ----------------------------------------------------------------------
 # Helper: tiny friendly robots.txt parser (does NOT implement full spec) --
@@ -152,27 +152,19 @@ def fetch_robots(url: str) -> str:
         r.raise_for_status()
         return r.text
     except Exception:
-        # Either the site has no robots.txt or we cannot fetch it – treat as empty
-        return ""
+        return "Passed"
 
 def is_allowed_by_robots(url: str, robots_txt: str) -> bool:
-    """
-    Very naïve check – looks for lines like:
-        Disallow: /path/
-        Allow: /another/
-    Returns True if the URL path is not explicitly disallowed.
-    """
     if not robots_txt:
         return True
     parsed = urlparse(url)
-    path = parsed.path.rstrip("/") + "/"   # ensure trailing slash
+    path = parsed.path.rstrip("/") + "/"
     for line in robots_txt.splitlines():
         line = line.strip().lower()
         if line.startswith("disallow:"):
-            # Remove the keyword and any leading spaces
             _, value = line.split(":", 1)
             if value.strip() and path.startswith(value.strip()):
-                return False        # Simple allow handling (not mandatory)
+                return False
         if line.startswith("allow:"):
             _, value = line.split(":", 1)
             if value.strip() and path.startswith(value.strip()):
@@ -196,9 +188,6 @@ def clean_html(html_content: str) -> tuple[str, str]:
 # 9️⃣ Summarisation via HuggingFace ---------------------------------------
 # ----------------------------------------------------------------------
 async def summarise_text(client: httpx.AsyncClient, text: str) -> str:
-    """
-    Sends a short prompt to the HuggingFace inference API and returns the    generated summary (up to 40 tokens, forced to ~15 words by the prompt).
-    """
     prompt = (
         "You are a professional summarizer. Summarize the following text "
         "in *exactly* 15 words. Return only the summary, nothing else.\n\n"
@@ -214,7 +203,7 @@ async def summarise_text(client: httpx.AsyncClient, text: str) -> str:
     }
 
     try:
-        resp = await client.post(MODEL_URL, json=payload, timeout=20.0)
+        resp = await client.post(MODEL_URL, json=payload, timeout=2.0)
         if resp.status_code == 200:
             data = resp.json()
             result = data[0].get("generated_text", "").strip()
@@ -227,7 +216,7 @@ async def summarise_text(client: httpx.AsyncClient, text: str) -> str:
         return f"Network error: {e}"
 
 # ----------------------------------------------------------------------
-# 10️⃣ Crawl a single URL (seed or discovered) ---------------------------
+# 10️⃣ Crawl a single URL (seed or discovered)
 # ----------------------------------------------------------------------
 async def crawl_url(
     client: httpx.AsyncClient,
@@ -260,8 +249,6 @@ async def crawl_url(
         if not is_allowed_by_robots(norm_url, robots_txt):
             print(f"[skip] Disallowed by robots.txt → {url}")
             return
-        # Quick check for any `Disallow:` that directly matches the URL        if any(line.lower().startswith("disallow:") for line in robots_txt.splitlines()):
-            # Scan lines again to see if the specific path is blocked
             for line in robots_txt.splitlines():
                 if line.lower().startswith("disallow:"):
                     _, target = line.split(":", 1)
@@ -361,7 +348,7 @@ def parse_seeds_as_domains(seeds: list) -> list:
 
 
 # ----------------------------------------------------------------------
-# 11️⃣ Entry point ---------------------------------------------------------
+# 11️⃣ Entry point
 # ----------------------------------------------------------------------
 async def main():
     # ------------------------------------------------------------------
