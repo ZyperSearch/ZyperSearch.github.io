@@ -145,10 +145,10 @@ HEADERS = {
 # ----------------------------------------------------------------------
 # 5️⃣ Respect robots.txt
 # ----------------------------------------------------------------------
-RESPECT_ROBOTS = True
+RESPECT_ROBOTS = False
 ROBOTS_PATH = "/robots.txt"
-LIMITS = httpx.Limits(max_connections=10, max_keepalive_connections=5)
-MAX_DEPTH = 8   # 0 = only seeds, 1 = seeds + direct children, 2 = grandchildren …
+LIMITS = httpx.Limits(max_connections=20, max_keepalive_connections=10)
+MAX_DEPTH = 80   # 0 = only seeds, 1 = seeds + direct children, 2 = grandchildren …
 
 def fetch_robots(scheme: str, host: str) -> str:
     robots_url = f"{scheme}://{host}{ROBOTS_PATH}"
