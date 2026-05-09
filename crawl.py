@@ -1,7 +1,7 @@
-# -------------------------------------------------
+# -------------------------------------------------------
 # Crawl a set of seed URLs, follow internal links,
 # collect page summaries, and store results in data.json
-# -------------------------------------------------
+# -------------------------------------------------------
 
 import asyncio
 import json
@@ -12,7 +12,7 @@ import httpx
 from bs4 import BeautifulSoup
 
 # ----------------------------------------------------------------------
-# Configuration ---------------------------------------------------------
+# Configuration
 # ----------------------------------------------------------------------
 
 SEEDS = [
@@ -65,7 +65,7 @@ SEEDS = [
     "https://medscape.com", "https://everydayhealth.com", "https://medicalnewstoday.com",
     "https://sleepfoundation.org", "https://headspace.com", "https://calm.com", "https://myfitnesspal.com",
     "https://healthgrades.com", "https://zocdoc.com", "https://drugs.com",
-        # SaaS & Productivity
+    # SaaS & Productivity
     "https://salesforce.com", "https://slack.com", "https://zoom.us", "https://trello.com",
     "https://notion.so", "https://canva.com", "https://monday.com", "https://asana.com",
     "https://dropbox.com", "https://evernote.com", "https://microsoft365.com", "https://google.workspace",
@@ -88,7 +88,7 @@ SEEDS = [
     "https://theatlantic.com", "https://newyorker.com", "https://time.com", "https://usnews.com",
     "https://politico.com", "https://axios.com", "https://dailymail.co.uk", "https://foxnews.com",
     "https://msnbc.com", "https://usatoday.com", "https://independent.co.uk",
-        # International Orgs & Gov
+     # International Orgs & Gov
     "https://imf.org", "https://worldbank.org", "https://wto.org", "https://nato.int",
     "https://redcross.org", "https://amnesty.org", "https://greenpeace.org", "https://icrc.org",
     "https://wmo.int", "https://unesco.org",
@@ -100,7 +100,31 @@ SEEDS = [
 ] 
 
 # ----------------------------------------------------------------------
-# 3️⃣ Model endpoint ----------------------------------------------------
+# 2️⃣ Common directory patterns we want to actively explore
+# ----------------------------------------------------------------------
+COMMON_PATHS: List[str] = [
+    "about",
+    "contact",
+    "blog",
+    "news",
+    "products",
+    "shop",
+    "gallery",
+    "forum",
+    "community",
+    "resources",
+    "help",
+    "support",
+    "careers",
+    "pricing",
+    "login",
+    "signup",
+    "dashboard",
+    "profile",
+]
+
+# ----------------------------------------------------------------------
+# 3️⃣ Model endpoint
 # ----------------------------------------------------------------------
 MODEL_URL = "https://api-inference.huggingface.co/models/Qwen/Qwen3.6-35B-A3B"
 
@@ -165,7 +189,7 @@ def is_allowed_by_robots(url: str, robots_txt: str) -> bool:
 
 
 # ----------------------------------------------------------------------
-# 8️⃣ HTML cleaning -------------------------------------------------------
+# 8️⃣ HTML cleaning
 # ----------------------------------------------------------------------
 def clean_html(html_content: str) -> tuple[str, str]:
     """Strip unwanted tags and return a (title, body_text) pair."""
@@ -179,7 +203,7 @@ def clean_html(html_content: str) -> tuple[str, str]:
 
 
 # ----------------------------------------------------------------------
-# 9️⃣ Summarisation via HuggingFace ---------------------------------------
+# 9️⃣ Summarisation via HuggingFace
 # ----------------------------------------------------------------------
 async def summarise_text(client: httpx.AsyncClient, text: str) -> str:
     """
@@ -214,7 +238,7 @@ async def summarise_text(client: httpx.AsyncClient, text: str) -> str:
 
 
 # ----------------------------------------------------------------------
-# 10️⃣ Crawl a single URL (seed or discovered) ---------------------------
+# 10️⃣ Crawl a single URL (seed or discovered)
 # ----------------------------------------------------------------------
 async def crawl_url(
     client: httpx.AsyncClient,
@@ -229,9 +253,9 @@ async def crawl_url(
     schedule discovered internal links for further crawling.
     """
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # Normalise URL (strip query/fragment, enforce trailing slash consistency)
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     parsed = urlparse(url)
     norm_url = f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
     norm_url = norm_url.rstrip("/")
@@ -263,7 +287,8 @@ async def crawl_url(
         print(f"[skip] Non‑200 ({resp.status_code}) for {url}")
         return
 
-    # ------------------- Parse & clean ---------------------------------    title, body_text = clean_html(resp.text)
+    # ------------------- Parse & clean ---------------------------------
+    title, body_text = clean_html(resp.text)
 
     # Summarise – fall back if there isn’t enough text
     if len(body_text) < 10:
@@ -294,7 +319,7 @@ async def crawl_url(
 
     for a in anchors:
         href = a["href"]
-        link = urljoin(resp.url, href)                     # resolve relative URLs
+        link = urljoin(resp.url, href)
         parsed_link = urlparse(link)
 
         # Keep only URLs that share the same host (internal links only)
@@ -306,9 +331,9 @@ async def crawl_url(
         if canonical not in visited:
             child_urls.add(canonical)
 
-    # ----------------------------------------------------------------
+    # ------------------------------------------------------------------------
     # Also explicitly enqueue common directory paths that belong to this host
-    # ----------------------------------------------------------------
+    # ------------------------------------------------------------------------
     parent_path = parsed.path.rstrip("/")
     for common in COMMON_PATHS:
         candidate = f"{parent_path}/{common}".replace("//", "/")
@@ -349,7 +374,7 @@ def parse_seeds_as_domains(seeds: List[str]) -> List[str]:
 
 
 # ----------------------------------------------------------------------
-# 11️⃣ Entry point ---------------------------------------------------------
+# 11️⃣ Entry point
 # ----------------------------------------------------------------------
 async def main() -> None:
     # ------------------------------------------------------------------
@@ -363,7 +388,8 @@ async def main() -> None:
     base_domains = parse_seeds_as_domains(SEEDS)
 
     # ------------------------------------------------------------------
-    # Shared HTTP client    # ------------------------------------------------------------------
+    # Shared HTTP client
+    # ------------------------------------------------------------------
     async with httpx.AsyncClient(limits=LIMITS, headers=HEADERS) as client:
         # Kick‑off crawling for each base domain and its common entry points
         crawl_tasks = []
@@ -399,14 +425,15 @@ async def main() -> None:
         await asyncio.gather(*crawl_tasks)
 
     # ------------------------------------------------------------------
-    # Persist the collected data    # ------------------------------------------------------------------
+    # Persist the collected data
+    # ------------------------------------------------------------------
     with open("data.json", "w", encoding="utf-8") as fp:
         json.dump(results, fp, indent=2, ensure_ascii=False)
     print(f"\n✅ Crawl complete – {len(results)} pages summarised → data.json")
 
 
 # ----------------------------------------------------------------------
-# 12️⃣ Run -----------------------------------------------------------------
+# 12️⃣ Run
 # ----------------------------------------------------------------------
 if __name__ == "__main__":
     asyncio.run(main())
