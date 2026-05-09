@@ -54,6 +54,7 @@ box-shadow: 0 0 12px rgba(88, 240, 27, 0.15);
 }
 #results {
 margin-top: 30px;
+width: 100%;
 }
 .result-item {
 margin-bottom: 32px;
@@ -100,19 +101,17 @@ font-weight: bold;
 <div id="results"></div>
 </div>
 <script>
-let db = [];
+let db = [
+{ title: "System Core", url: "#", content: "The central processing unit of the Zyper architecture.", raw: "processor cpu engine" },
+{ title: "Network Protocols", url: "#", content: "Documentation on high-speed data transfer and security.", raw: "internet wifi secure" },
+{ title: "Neural Interface", url: "#", content: "Advanced connectivity modules for biological synchronization.", raw: "brain link bio" },
+{ title: "Encryption Keys", url: "#", content: "Manage your 256-bit security layers and access tokens.", raw: "password security lock" },
+{ title: "Cloud Storage", url: "#", content: "Distributed database for high-availability file management.", raw: "files backup server" }
+];
 const searchInput = document.getElementById('ui-search');
 const resDiv = document.getElementById('results');
 const suggDiv = document.getElementById('suggestion');
 const suggWord = document.getElementById('suggest-word');
-const loadData = async () => {
-try {
-const response = await fetch('./data.json');
-db = await response.json();
-} catch (err) {
-console.error("Search index unavailable.");
-}
-};
 const renderResults = (matches) => {
 resDiv.innerHTML = matches.map(m => `
 <div class="result-item">
@@ -128,14 +127,14 @@ suggDiv.style.display = 'none';
 if (val.length < 2) return;
 const matches = db.filter(i => 
 i.title.toLowerCase().includes(val) || 
-(i.raw && i.raw.toLowerCase().includes(val))
+(i.raw && i.raw.toLowerCase().includes(val)) ||
+i.content.toLowerCase().includes(val)
 );
 if (matches.length > 0) {
 renderResults(matches);
 } else {
 const suggestion = db.find(i => 
-i.title.toLowerCase().startsWith(val.slice(0, 2)) ||
-i.content.toLowerCase().includes(val)
+i.title.toLowerCase().startsWith(val.slice(0, 1))
 );
 if (suggestion) {
 suggDiv.style.display = 'block';
@@ -147,7 +146,6 @@ searchInput.dispatchEvent(new Event('input'));
 }
 }
 });
-loadData();
 </script>
 </body>
 </html>
