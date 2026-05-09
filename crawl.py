@@ -7,6 +7,7 @@ import asyncio
 import json
 import os
 from urllib.parse import urljoin, urlparse
+from typing import Any, Dict, List, Set, Tuple
 
 import httpx
 from bs4 import BeautifulSoup
@@ -97,7 +98,7 @@ SEEDS = [
     "https://allrecipes.com", "https://foodnetwork.com", "https://bonappetit.com",
     "https://goodhousekeeping.com", "https://realsimple.com", "https://apartmenttherapy.com",
     "https://dwell.com"
-] 
+]
 
 # ----------------------------------------------------------------------
 # 2️⃣ Common directory patterns we want to actively explore
@@ -132,6 +133,7 @@ ROBOTS_PATH = "/robots.txt"
 LIMITS = httpx.Limits(max_connections=20, max_keepalive_connections=10)
 MAX_DEPTH = 80   # 0 = only seeds, 1 = seeds + direct children, 2 = grandchildren …
 
+
 def fetch_robots(scheme: str, host: str) -> str:
     robots_url = f"{scheme}://{host}{ROBOTS_PATH}"
     try:
@@ -151,10 +153,23 @@ def is_allowed_by_robots(url: str, robots_txt: str) -> bool:
         return True
 
     parsed = urlparse(url)
-    path = parsed.path.rstrip("/") + "/"
+    path = parsed.path or "/"
 
     for line in robots_txt.splitlines():
-        return True
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        if line.lower().startswith("disallow:"):
+            _, dis = line.split(":", 1)
+            dis = dis.strip()
+            # An empty Disallow means allow everything
+            if not dis:
+                continue
+            # Ensure dis starts with a slash for comparison
+            if not dis.startswith("/"):
+                dis = "/" + dis
+            if path.startswith(dis):
+                return False
     return True
 
 
@@ -289,15 +304,19 @@ async def crawl_url(
 
     for a in anchors:
         href = a["href"]
-        link = urljoin(resp.url, href)
+        # Ensure we pass strings to urljoin – httpx.URL isn't a plain str
+        link = urljoin(str(resp.url), href)
         parsed_link = urlparse(link)
 
         # Keep only URLs that share the same host (internal links only)
         if parsed_link.netloc != parsed.netloc:
             continue
 
-        # Normalise (drop query string & fragment)
-        canonical = parsed_link._replace(fragment="", query="").geturl().rstrip("/")
+        # Normalise (drop query string & fragment) safely
+        canonical = parsed_link._replace(
+            fragment=parsed_link.fragment or "",
+            query=parsed_link.query or "",
+        ).geturl().rstrip("/")
         if canonical not in visited:
             child_urls.add(canonical)
 
@@ -312,11 +331,13 @@ async def crawl_url(
         cand_parsed = urlparse(cand_canon)
         if (
             cand_parsed.netloc == parsed.netloc
-            and cand_canon not in visited            and cand_canon.startswith(f"{parsed.scheme}://{parsed.netloc}/")
+            and cand_canon not in visited
+            and cand_canon.startswith(f"{parsed.scheme}://{parsed.netloc}/")
         ):
             child_urls.add(cand_canon)
 
-    # Schedule the newly discovered URLs recursively    if child_urls:
+    # Schedule the newly discovered URLs recursively
+    if child_urls:
         await asyncio.gather(
             *[
                 crawl_url(
@@ -327,7 +348,8 @@ async def crawl_url(
                     all_jobs=all_jobs,
                     robots_cache=robots_cache,
                 )
-                for u in child_urls            ]
+                for u in child_urls
+            ]
         )
 
 
