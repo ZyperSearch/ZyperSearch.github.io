@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Example Domain",
+    "url": "https://example.com/index.html",
+    "content": "No summary available.",
+    "raw": "Example DomainExample DomainThis domain is for use in documentation examples without needing permission. Avoid use in operations.Learn more"
+  },
+  {
+    "title": "Example Domains",
+    "url": "https://iana.org/domains/example.html",
+    "content": "No summary available.",
+    "raw": "Example Domains Domains Protocols Numbers About Example Domains As described in RFC 2606 and RFC 6761, a number of domains such as example.com and example.org are maintained for documentation purposes"
+  }
+]
