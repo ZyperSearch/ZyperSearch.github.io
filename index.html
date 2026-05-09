@@ -1,61 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>ZyperSearch</title>
-    <style>
-        body { font-family: arial, sans-serif; display: flex; flex-direction: column; align-items: center; padding-top: 10vh; }
-        .logo { font-size: 72px; font-weight: bold; margin-bottom: 30px; }
-        .logo span:nth-child(1), .logo span:nth-child(4) { color: #4285f4; }
-        .logo span:nth-child(2) { color: #ea4335; }
-        .logo span:nth-child(3) { color: #fbbc05; }
-        .logo span:nth-child(5) { color: #34a853; }
-        .search-box { width: 580px; padding: 12px 20px; border: 1px solid #dfe1e5; border-radius: 24px; font-size: 16px; outline: none; }
-        .search-box:focus { box-shadow: 0 1px 6px rgba(32,33,36,0.28); }
-        #results { width: 580px; margin-top: 20px; }
-        .result-item { margin-bottom: 25px; }
-        .result-item a { color: #1a0dab; font-size: 20px; text-decoration: none; }
-        .result-item p { color: #4d5156; font-size: 14px; margin: 5px 0; }
-        #suggestion { color: #70757a; font-size: 14px; margin-top: 10px; width: 580px; display: none; }
-        .suggest-link { color: #1a0dab; cursor: pointer; text-decoration: underline; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZyperSearch</title>
+<style>
+:root {
+--bg-color: #050505;
+--accent-color: #58f01b;
+--text-main: #e0e0e0;
+--text-dim: #a0a0a0;
+--border-color: #333;
+}
+body {
+background-color: var(--bg-color);
+color: var(--text-main);
+font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0;
+padding-top: 15vh;
+}
+.logo {
+font-size: 84px;
+font-weight: 800;
+margin-bottom: 40px;
+letter-spacing: -2px;
+color: var(--accent-color);
+text-shadow: 0 0 20px rgba(88, 240, 27, 0.2);
+}
+.search-container {
+width: 90%;
+max-width: 650px;
+display: flex;
+flex-direction: column;
+}
+.search-box {
+width: 100%;
+padding: 14px 24px;
+background: #111;
+border: 1px solid var(--border-color);
+border-radius: 30px;
+font-size: 18px;
+color: white;
+outline: none;
+transition: border-color 0.2s, box-shadow 0.2s;
+box-sizing: border-box;
+}
+.search-box:focus {
+border-color: var(--accent-color);
+box-shadow: 0 0 12px rgba(88, 240, 27, 0.15);
+}
+#results {
+margin-top: 30px;
+}
+.result-item {
+margin-bottom: 32px;
+animation: fadeIn 0.3s ease-out;
+}
+@keyframes fadeIn {
+from { opacity: 0; transform: translateY(10px); }
+to { opacity: 1; transform: translateY(0); }
+}
+.result-item a {
+color: var(--accent-color);
+font-size: 22px;
+text-decoration: none;
+display: block;
+margin-bottom: 4px;
+}
+.result-item a:hover {
+text-decoration: underline;
+}
+.result-item p {
+color: var(--text-dim);
+font-size: 15px;
+line-height: 1.5;
+margin: 0;
+}
+#suggestion {
+color: var(--text-dim);
+font-size: 14px;
+margin: 15px 0 0 20px;
+display: none;
+}
+.suggest-link {
+color: var(--accent-color);
+cursor: pointer;
+font-weight: bold;
+}
+</style>
 </head>
 <body>
-    <div class="logo"><span>Z</span><span>y</span><span>p</span><span>e</span><span>r</span></div>
-    <input type="text" id="ui-search" class="search-box" placeholder="Search the web..." autofocus>
-    <div id="suggestion">Did you mean: <span class="suggest-link" id="suggest-word"></span>?</div>
-    <div id="results"></div>
-
-    <script>
-        let db = [];
-        const searchInput = document.getElementById('ui-search');
-        const resDiv = document.getElementById('results');
-        const suggDiv = document.getElementById('suggestion');
-        const suggWord = document.getElementById('suggest-word');
-
-        fetch('./data.json').then(r => r.json()).then(data => db = data).catch(() => console.error("Index not ready."));
-
-        searchInput.oninput = (e) => {
-            const val = e.target.value.toLowerCase();
-            resDiv.innerHTML = '';
-            suggDiv.style.display = 'none';
-            if (val.length < 2) return;
-
-            const matches = db.filter(i => i.title.toLowerCase().includes(val) || i.raw.toLowerCase().includes(val));
-            
-            if (matches.length > 0) {
-                matches.forEach(m => {
-                    resDiv.innerHTML += `<div class="result-item"><a href="${m.url}">${m.title}</a><p>${m.content}</p></div>`;
-                });
-            } else {
-                const suggestion = db.find(i => i.content.toLowerCase().includes(val) || i.title.toLowerCase().startsWith(val.slice(0,2)));
-                if (suggestion) {
-                    suggDiv.style.display = 'block';
-                    suggWord.innerText = suggestion.title;
-                    suggWord.onclick = () => { searchInput.value = suggestion.title; searchInput.dispatchEvent(new Event('input')); };
-                }
-            }
-        };
-    </script>
+<div class="logo">Zyper</div>
+<div class="search-container">
+<input type="text" id="ui-search" class="search-box" placeholder="Explore the system..." autofocus autocomplete="off">
+<div id="suggestion">Did you mean: <span class="suggest-link" id="suggest-word"></span>?</div>
+<div id="results"></div>
+</div>
+<script>
+let db = [];
+const searchInput = document.getElementById('ui-search');
+const resDiv = document.getElementById('results');
+const suggDiv = document.getElementById('suggestion');
+const suggWord = document.getElementById('suggest-word');
+const loadData = async () => {
+try {
+const response = await fetch('./data.json');
+db = await response.json();
+} catch (err) {
+console.error("Search index unavailable.");
+}
+};
+const renderResults = (matches) => {
+resDiv.innerHTML = matches.map(m => `
+<div class="result-item">
+<a href="${m.url}">${m.title}</a>
+<p>${m.content}</p>
+</div>
+`).join('');
+};
+searchInput.addEventListener('input', (e) => {
+const val = e.target.value.toLowerCase().trim();
+resDiv.innerHTML = '';
+suggDiv.style.display = 'none';
+if (val.length < 2) return;
+const matches = db.filter(i => 
+i.title.toLowerCase().includes(val) || 
+(i.raw && i.raw.toLowerCase().includes(val))
+);
+if (matches.length > 0) {
+renderResults(matches);
+} else {
+const suggestion = db.find(i => 
+i.title.toLowerCase().startsWith(val.slice(0, 2)) ||
+i.content.toLowerCase().includes(val)
+);
+if (suggestion) {
+suggDiv.style.display = 'block';
+suggWord.innerText = suggestion.title;
+suggWord.onclick = () => {
+searchInput.value = suggestion.title;
+searchInput.dispatchEvent(new Event('input'));
+};
+}
+}
+});
+loadData();
+</script>
 </body>
 </html>
