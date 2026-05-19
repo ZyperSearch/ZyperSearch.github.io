@@ -12,12 +12,6 @@
     "snippet": "Internet Archive: Digital Library of Free & Borrowable Texts, Movies, Music & Wayback Machine Javascript is required for this site. Consider enabling Javascript or upgrading to a modern browser."
   },
   {
-    "title": "",
-    "url": "https://www.amazon.com/",
-    "summary": "Insufficient text for a meaningful summary.",
-    "snippet": ""
-  },
-  {
     "title": "Discord - Group Chat That’s All Fun & Games",
     "url": "https://discord.com",
     "summary": "API error (404)",
@@ -28,24 +22,6 @@
     "url": "https://x.com",
     "summary": "API error (404)",
     "snippet": "X. It’s what’s happening / X Happening nowJoin today.Sign up with AppleORCreate accountBy signing up, you agree to the Terms of Service and Privacy Policy, including Cookie Use.Already have an account?Sign inGet the app"
-  },
-  {
-    "title": "PyPI · The Python Package Index",
-    "url": "https://pypi.org",
-    "summary": "API error (404)",
-    "snippet": "PyPI · The Python Package Index Skip to main content Switch to mobile version Warning Some features may not work without JavaScript. Please try enabling it if you encounter problems. Find, install and publish Python packages with the Python Package Index Search PyPI Search Or browse projects 810,986"
-  },
-  {
-    "title": "Twitch",
-    "url": "https://www.twitch.tv/",
-    "summary": "Insufficient text for a meaningful summary.",
-    "snippet": "Twitch"
-  },
-  {
-    "title": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
-    "url": "https://github.com",
-    "summary": "API error (404)",
-    "snippet": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your sess"
   },
   {
     "title": "Vimeo - All-in-One Video Platform",
@@ -60,28 +36,16 @@
     "snippet": "Stream and listen to music online for free with SoundCloud SoundCloud JavaScript is disabled You need to enable JavaScript to use SoundCloud Show me how to enable it Your current browser isn't compatible with SoundCloud. Please download one of our supported browsers. Need help? Chrome | Firefox | Sa"
   },
   {
-    "title": "Blog Tool, Publishing Platform, and CMS – WordPress.org",
-    "url": "https://wordpress.org",
-    "summary": "API error (404)",
-    "snippet": "Blog Tool, Publishing Platform, and CMS – WordPress.org Skip to content WordCamp Europe 2026 is almost here. Discover what’s happening in Kraków this June. ↗ Meet WordPress The open source publishing platform of choice for millions of websites worldwide—from creators and small businesses to enterpri"
+    "title": "Twitch",
+    "url": "https://www.twitch.tv/",
+    "summary": "Insufficient text for a meaningful summary.",
+    "snippet": "Twitch"
   },
   {
-    "title": "Cloud Computing Services - Amazon Web Services (AWS)",
-    "url": "https://aws.amazon.com",
+    "title": "PyPI · The Python Package Index",
+    "url": "https://pypi.org",
     "summary": "API error (404)",
-    "snippet": "Cloud Computing Services - Amazon Web Services (AWS) Skip to main content Meet your unique security requirements AWS is designed for security, protecting even the most sensitive workloads—including government, financial services, and healthcare Start free with AWS What's new Catch up on the most tal"
-  },
-  {
-    "title": "Bitbucket | Git solution for teams using Jira",
-    "url": "https://bitbucket.org",
-    "summary": "API error (404)",
-    "snippet": "Bitbucket | Git solution for teams using Jira Code and CI/CD, powered by AI and the Atlassian platform Accelerate software delivery from idea to code to production, with a seamless connection to Jira and AI beyond code creation Try it now Watch demo AI throughout the SDLC Reduce cycle times across t"
-  },
-  {
-    "title": "Compare B2B Software, Download, & Develop Open Source & Business Software - SourceForge",
-    "url": "https://sourceforge.net",
-    "summary": "API error (404)",
-    "snippet": "Compare B2B Software, Download, & Develop Open Source & Business Software - SourceForge Join/Login Business Software Open Source Software For Vendors Blog About More Articles Create SourceForge Podcast Site Documentation Subscribe to our Newsletter Support Request Compare & Review Business Software "
+    "snippet": "PyPI · The Python Package Index Skip to main content Switch to mobile version Warning Some features may not work without JavaScript. Please try enabling it if you encounter problems. Find, install and publish Python packages with the Python Package Index Search PyPI Search Or browse projects 811,772"
   },
   {
     "title": "Dribbble - Discover the World’s Top Designers & Creative Professionals",
@@ -90,22 +54,34 @@
     "snippet": "Dribbble - Discover the World’s Top Designers & Creative Professionals Get 20% (up to $100) off your first payment for design and development services on Dribbble! Use code WELCOME20 🎉 Get Started Shots Shots Designers Services Sign up Log in Discover the World’s Top Designers Explore work from the "
   },
   {
-    "title": "AI and Cloud Computing Services | Google Cloud",
-    "url": "https://cloud.google.com",
+    "title": "Compare B2B Software, Download, & Develop Open Source & Business Software - SourceForge",
+    "url": "https://sourceforge.net",
     "summary": "API error (404)",
-    "snippet": "AI and Cloud Computing Services | Google CloudThe new way to cloudBuild with AI. Deploy and scale apps fast. Analyze and secure your data.Get started for freeContact salesGet $300 in free credits and free usage of 20+ productsSecurityRedefining security for the AI era with Google Cloud and WizBlogRe"
+    "snippet": "Compare B2B Software, Download, & Develop Open Source & Business Software - SourceForge Join/Login Business Software Open Source Software For Vendors Blog About More Articles Create SourceForge Podcast Site Documentation Subscribe to our Newsletter Support Request Compare & Review Business Software "
+  },
+  {
+    "title": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
+    "url": "https://github.com",
+    "summary": "API error (404)",
+    "snippet": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your sess"
   },
   {
     "title": "Yandex — fast Internet search",
     "url": "https://yandex.com",
     "summary": "API error (404)",
-    "snippet": "Yandex — fast Internet searchSearch with Yandex AISearch{\"static\":\"2026-05-15-1127\",\"content\":\"big\",\"domain\":\"com\",\"nodeVersion\":false}1779077015481912-7684641033729107186-balancer-l7leveler-kubr-yp-klg-76-BAL"
+    "snippet": "Yandex — fast Internet searchSearch with Yandex AISearch{\"static\":\"2026-05-18-1128\",\"content\":\"big\",\"domain\":\"com\",\"nodeVersion\":false}1779163031633760-939407842712794691-balancer-l7leveler-kubr-yp-klg-126-BAL"
   },
   {
-    "title": "Centers for Disease Control and Prevention | CDC",
-    "url": "https://cdc.gov",
+    "title": "Cloud Computing Services - Amazon Web Services (AWS)",
+    "url": "https://aws.amazon.com",
     "summary": "API error (404)",
-    "snippet": "Centers for Disease Control and Prevention | CDC Skip to site content Skip to search Ebola Outbreak Learn More Hantavirus Outbreak Learn More CDC is leading the response for both the Hantavirus and Ebola Outbreaks Learn More Ebola Outbreak Next Slide Hantavirus Outbreak Next Slide CDC is leading the"
+    "snippet": "Cloud Computing Services - Amazon Web Services (AWS) Skip to main content Meet your unique security requirements AWS is designed for security, protecting even the most sensitive workloads—including government, financial services, and healthcare Start free with AWS What's new Catch up on the most tal"
+  },
+  {
+    "title": "AI and Cloud Computing Services | Google Cloud",
+    "url": "https://cloud.google.com",
+    "summary": "API error (404)",
+    "snippet": "AI and Cloud Computing Services | Google CloudThe new way to cloudBuild with AI. Deploy and scale apps fast. Analyze and secure your data.Get started for freeContact salesGet $300 in free credits and free usage of 20+ productsSecurityRedefining security for the AI era with Google Cloud and WizBlogRe"
   },
   {
     "title": "Vercel: Build and deploy the best web experiences with the AI Cloud",
@@ -114,22 +90,28 @@
     "snippet": "Vercel: Build and deploy the best web experiences with the AI CloudSkip to contentEventsShip 26 is coming to 5 citiesGet your ticketBuild and deploy on the AI Cloud.Vercel provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more personalized web.DeployStart De"
   },
   {
+    "title": "Bitbucket | Git solution for teams using Jira",
+    "url": "https://bitbucket.org",
+    "summary": "API error (404)",
+    "snippet": "Bitbucket | Git solution for teams using Jira Code and CI/CD, powered by AI and the Atlassian platform Accelerate software delivery from idea to code to production, with a seamless connection to Jira and AI beyond code creation Try it now Watch demo AI throughout the SDLC Reduce cycle times across t"
+  },
+  {
+    "title": "Blog Tool, Publishing Platform, and CMS – WordPress.org",
+    "url": "https://wordpress.org",
+    "summary": "API error (404)",
+    "snippet": "Blog Tool, Publishing Platform, and CMS – WordPress.org Skip to content WordCamp Europe 2026 is almost here. Discover what’s happening in Kraków this June. ↗ Meet WordPress The open source publishing platform of choice for millions of websites worldwide—from creators and small businesses to enterpri"
+  },
+  {
     "title": "National and Local Weather Radar, Daily Forecast and News from The Weather Channel",
     "url": "https://weather.com",
     "summary": "API error (404)",
-    "snippet": "National and Local Weather Radar, Daily Forecast and News from The Weather ChannelSearch for a locationTop StoriesEl NiñoHome & GardenAllergiesSpaceProduct GuidesAnimalsTravelBikeSeasonalAdvertisementSevere Weather Outbreak, Including Possible Tornadoes, Continues In The PlainsWhile severe weather h"
+    "snippet": "National and Local Weather Radar, Daily Forecast and News from The Weather ChannelSearch for a locationTop StoriesEl NiñoHome & GardenAllergiesSpaceProduct GuidesAnimalsTravelBikeSeasonalAdvertisementSevere Weather Outbreak Continues Tuesday, Storms Possible From Texas to MaineFollowing damaging tor"
   },
   {
-    "title": "Bleacher Report | Sports. Highlights. News. Now.",
-    "url": "https://bleacherreport.com",
+    "title": "Centers for Disease Control and Prevention | CDC",
+    "url": "https://cdc.gov",
     "summary": "API error (404)",
-    "snippet": "Bleacher Report | Sports. Highlights. News. Now.Featured VideoNBATomorrow07:30pm2SAS(0-0)O/U: 219.51OKC(0-0)-6.5NHLTomorrow06:30pmMTL(3-3)+106BUF(3-3)-128MLBTomorrow06:05pmTOR(21-25)+168NYY(28-19)-200Tomorrow08:40pmLAD(29-18)-156SD(28-18)+132SoccerTomorrow02:00pmARSBUR01:00🚨 Mitchell Headed to 1st C"
-  },
-  {
-    "title": "Budget Tracker & Planner | Free Online Money Management | Mint",
-    "url": "https://mint.intuit.com",
-    "summary": "API error (404)",
-    "snippet": "Budget Tracker & Planner | Free Online Money Management | Mint Skip To Main Content Mint has been reimagined on Credit Karma. Mint has been reimagined on Credit Karma. Reviewing transactions, monitoring your spending and tracking your net worth now have a new home. Check it out Popular Mint features"
+    "snippet": "Centers for Disease Control and Prevention | CDC Skip to site content Skip to search Ebola Outbreak Learn More Hantavirus Outbreak Learn More CDC leads responses to Ebola and Hantavirus Learn More Ebola Outbreak Next Slide Hantavirus Outbreak Next Slide CDC leads responses to Ebola and Hantavirus Ne"
   },
   {
     "title": "Location Intelligence Platform | Foursquare",
@@ -138,100 +120,16 @@
     "snippet": "Location Intelligence Platform | Foursquare Skip to content Connect real-world behavior to business outcomesFoursquare is the industry-leading location intelligence platform, from turnkey measurement solutions for marketers to scalable building blocks for developers and beyond.Speak to salesTry for "
   },
   {
-    "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
-    "url": "https://stripe.com",
+    "title": "Budget Tracker & Planner | Free Online Money Management | Mint",
+    "url": "https://mint.intuit.com",
     "summary": "API error (404)",
-    "snippet": "Stripe | Financial Infrastructure to Grow Your RevenueGlobal GDP running on Stripe: Financial infrastructure to grow your revenue. Accept payments, offer financial services, and implement custom revenue models—from your first transaction to your billionth.Financial infrastructure to grow your revenu"
+    "snippet": "Budget Tracker & Planner | Free Online Money Management | Mint Skip To Main Content Mint has been reimagined on Credit Karma. Mint has been reimagined on Credit Karma. Reviewing transactions, monitoring your spending and tracking your net worth now have a new home. Check it out Popular Mint features"
   },
   {
-    "title": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & Audio",
-    "url": "https://www.bbc.com/",
-    "summary": "Network error: ",
-    "snippet": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & AudioSkip to contentHomeNewsUS & CanadaUKUK PoliticsEnglandN. IrelandN. Ireland PoliticsScotlandScotland PoliticsWalesWales PoliticsAfricaAsiaChinaIndiaAustraliaEuropeLatin AmericaMiddle Ea"
-  },
-  {
-    "title": "Unity: Develop, Deploy, and Grow | The World's Leading Game Engine",
-    "url": "https://unity.com",
+    "title": "Bleacher Report | Sports. Highlights. News. Now.",
+    "url": "https://bleacherreport.com",
     "summary": "API error (404)",
-    "snippet": "Unity: Develop, Deploy, and Grow | The World's Leading Game EngineUnity AI Beta is here: Trained on Unity. Designed for game development.Read moreBuild greatUnity® is the world’s leading game engine, supported by the most successful game development community in history and powered by a system that "
-  },
-  {
-    "title": "Wikipedia",
-    "url": "https://www.wikipedia.org/",
-    "summary": "Network error: ",
-    "snippet": "Wikipedia Wikipedia The Free Encyclopedia Search Wikipedia Afrikaans Shqip العربية Asturianu Azərbaycanca Български 閩南語 / Bân-lâm-gú বাংলা Беларуская Català Čeština Cymraeg Dansk Deutsch Eesti Ελληνικά English Español Esperanto Euskara فارسی Français Galego 한국어 Հայերեն हिन्दी Hrvatski Bahasa Indones"
-  },
-  {
-    "title": "Walmart | Save Money. Live better.",
-    "url": "https://www.walmart.com/",
-    "summary": "Network error: ",
-    "snippet": "Walmart | Save Money. Live better.Pickup or delivery? Walmart | Save Money. Live better. Nintendo Switch™ 2 as fast as 1 hour*Shop nowShop nowUp to 45% offShop nowShop nowResold at Walmart: fave brands for lessShop nowShop now"
-  },
-  {
-    "title": "9to5Mac - Apple News & Mac Rumors Breaking All Day",
-    "url": "https://9to5mac.com",
-    "summary": "API error (404)",
-    "snippet": "9to5Mac - Apple News & Mac Rumors Breaking All Day Skip to main content 9to5Mac iOS Apple Pay Apple Wallet Five Apple Wallet features that helped replace my physical wallet [Video] Fernando Silva May 14 2026 Featured Five Apple Wallet features that helped replace my physical wallet [Video] Fernando "
-  },
-  {
-    "title": "Best Note Taking App - Organize Your Notes with Evernote",
-    "url": "https://evernote.com",
-    "summary": "API error (404)",
-    "snippet": "Best Note Taking App - Organize Your Notes with EvernoteYour second brainRemember everything and tackle any project with your notes, tasks, and schedule all in one place.Get Evernote freeAlready have an account? Log inMake the most of your ideas—and your timeCapture everything that is, was, or could"
-  },
-  {
-    "title": "TechCrunch | Startup and Technology News",
-    "url": "https://techcrunch.com",
-    "summary": "API error (404)",
-    "snippet": "TechCrunch | Startup and Technology News Venture For Eclipse, the $2.5B Cerebras win is just the start of realizing its physical-world thesis Marina Temkin 13 hours ago AI If you’re giving a commencement speech in 2026, maybe don’t mention AI Anthony Ha 11 hours ago Transportation TechCrunch Mobilit"
-  },
-  {
-    "title": "Mashable",
-    "url": "https://mashable.com",
-    "summary": "API error (404)",
-    "snippet": "Mashable in my bag Kelsey Impicciche needs a PC built to handle 'The Sims,' plus more creator essentials \"Memes on his phone!\" Sam Altman's testimony at Elon Musk's OpenAI trial takes odd turn so you've watched everything... What's new to streaming this week? voting now open The Mashable 101 Fan Fav"
-  },
-  {
-    "title": "Ars Technica - Serving the Technologist since 1998. News, reviews, and analysis.",
-    "url": "https://arstechnica.com",
-    "summary": "API error (404)",
-    "snippet": "Ars Technica - Serving the Technologist since 1998. News, reviews, and analysis. Skip to content Ars Technica homepage Grid Classic Grid List Neutron Star grid settings Featured A smooth ride The perfect commuter bike? Velotric’s Discover M makes its case. A customized mid-motor and Shimano’s new Cu"
-  },
-  {
-    "title": "Manage your team’s work, projects, & tasks online • Asana",
-    "url": "https://asana.com",
-    "summary": "API error (404)",
-    "snippet": "Manage your team’s work, projects, & tasks online • AsanaSupercharge your teams with AI that gets work doneGive your teams AI that understands their work, keeps projects moving, and gets better the more your teams use it.Get started View demo85% of Fortune 100 companies choose Asana¹The platform for"
-  },
-  {
-    "title": "The AI Work Platform for People & Agents | monday.com",
-    "url": "https://monday.com",
-    "summary": "API error (404)",
-    "snippet": "The AI Work Platform for People & Agents | monday.com AI platformONE PLATFORM FOR ANY USE CASEBuilt for teams and agents working togetherPMOProjects & deliveryMarketingCampaigns & creativeOperationsProcesses & efficiencyITTickets & supportHRHiring & onboardingProductRoadmaps & releasesR&DSprints & d"
-  },
-  {
-    "title": "arXiv.org e-Print archive",
-    "url": "https://arxiv.org",
-    "summary": "API error (404)",
-    "snippet": "arXiv.org e-Print archive arXiv is a free distribution service and an open-access archive for nearly 2.4 million scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economi"
-  },
-  {
-    "title": "Google Scholar",
-    "url": "https://scholar.google.com",
-    "summary": "API error (404)",
-    "snippet": "Google ScholarLoading...The system can't perform the operation now. Try again later.Advanced searchFind articleswith all of the wordswith the exact phrasewith at least one of the wordswithout the wordswhere my words occuranywhere in the articlein the title of the articleReturn articles authored bye."
-  },
-  {
-    "title": "Free Online Appointment Scheduling Software | Calendly",
-    "url": "https://calendly.com",
-    "summary": "API error (404)",
-    "snippet": "Free Online Appointment Scheduling Software | CalendlyTrusted by more than 100,000 of the world’s leading organizationsCalendly makes scheduling simpleCalendly’s easy enough for individual users, and powerful enough to meet the needs of enterprise organizations — including 86% of the Fortune 500 com"
-  },
-  {
-    "title": "Slack | AI Work Platform & Productivity Tools",
-    "url": "https://slack.com",
-    "summary": "API error (404)",
-    "snippet": "Slack | AI Work Platform & Productivity ToolsSkip to main contentAll your people and AI agents working together.Slack connects your team. Slackbot multiplies what they can do.Get startedFind your planTrusted by top teamsAsk SlackbotPlan launchesRun projectsChat with clientsAutomate tasksAsk Slackbot"
+    "snippet": "Bleacher Report | Sports. Highlights. News. Now.Featured VideoNBATomorrow05:00pm4CLE(0-0)O/U: 217.53NYK(0-0)-7.5MLBTomorrow04:05pmTOR(21-26)+120NYY(29-19)-142Tomorrow06:40pmLAD(29-18)-156SD(28-18)+132SoccerTomorrow11:30amBOU+360MCI-155Tomorrow12:15pmCFC-115TOT+300WNBATomorrow07:00pmTOR(2-2)O/U: 171."
   },
   {
     "title": "Capture, organize, and tackle your to-dos from anywhere | Trello",
@@ -240,202 +138,28 @@
     "snippet": "Capture, organize, and tackle your to-dos from anywhere | Trello Skip to main contentAccelerate your teams' work with AI features 🤖 now available for all Premium and Enterprise! Learn more.Capture, organize, and tackle your to-dos from anywhere.Escape the clutter and chaos—unleash your productivity "
   },
   {
-    "title": "Finally, AI for the entire software lifecycle.",
-    "url": "https://about.gitlab.com/",
-    "summary": "Network error: ",
-    "snippet": "Finally, AI for the entire software lifecycle.CloseTo search repositories and projects, login to gitlab.com. SuggestionsGitLab Duo Agent PlatformCode Suggestions (AI)CI/CDGitLab on AWSGitLab on Google CloudWhy GitLab?Finally, AI for the entire software lifecycle.Your intelligent orchestration platfo"
-  },
-  {
-    "title": "Pinterest",
-    "url": "https://www.pinterest.com/",
-    "summary": "Network error: ",
-    "snippet": "PinterestOh no! Pinterest doesn't work unless you turn on JavaScript."
-  },
-  {
-    "title": "Facebook",
-    "url": "https://www.facebook.com/",
-    "summary": "Network error: ",
-    "snippet": "Facebook Explore the things you love.Log into FacebookEmail or mobile numberPasswordLog inForgot password?Create new account English (US)EspañolFrançais (France)中文(简体)العربيةPortuguês (Brasil)ItalianoMore languages…Sign UpLog InMessengerFacebook LiteVideoMeta PayMeta StoreMeta QuestRay-Ban MetaMeta "
-  },
-  {
-    "title": "Electronics, Cars, Fashion, Collectibles & More | eBay",
-    "url": "https://www.ebay.com/",
-    "summary": "Network error: ",
-    "snippet": "Electronics, Cars, Fashion, Collectibles & More | eBayElectronics, Cars, Fashion, Collectibles & More | eBay eBay LiveSavedMotorsExpand: MotorsElectronicsExpand: ElectronicsCollectiblesExpand: CollectiblesHome and gardenExpand: Home and gardenClothing, shoes and accessoriesExpand: Clothing, shoes an"
-  },
-  {
-    "title": "Search Projects :: Photos, videos, logos, illustrations and branding :: Behance",
-    "url": "https://www.behance.net/",
-    "summary": "Network error: ",
-    "snippet": "Search Projects :: Photos, videos, logos, illustrations and branding :: Behance The World’sBest CreatorsAre On BehanceA comprehensive platform to help hirers and creators navigate the creative world from discovering inspiration, to connecting with one anotherHire a FreelancerTry Behance ProFilterPro"
-  },
-  {
-    "title": "Cloudflare: Build for the agent era",
-    "url": "https://www.cloudflare.com/",
-    "summary": "Network error: ",
-    "snippet": "Cloudflare: Build for the agent era Hero video off in Low preview — use High mode and refresh for full motion. Agents Week is happening now April 13 - April 17! Check out the announcements here Everything we learned from powering 20% of the Internet—yours by default One platform for your apps, agent"
-  },
-  {
-    "title": "AI-Native Cloud | DigitalOcean",
-    "url": "https://www.digitalocean.com/",
-    "summary": "Network error: ",
-    "snippet": "AI-Native Cloud | DigitalOceanAI-Native CloudOne platform, fully integrated from silicon to agent, with economics that improve as you scale.Get StartedExplore products255010020030040050060070080090010001100120013001400From real-time agents to trillion-token workloads, leaders in AI run on DigitalOce"
-  },
-  {
-    "title": "Netflix - Watch TV Shows Online, Watch Movies Online",
-    "url": "https://www.netflix.com/",
-    "summary": "Network error: ",
-    "snippet": "Netflix - Watch TV Shows Online, Watch Movies OnlineUnlimited movies, TV shows, and moreStarts at $8.99. Cancel anytime.Ready to watch? Enter your email to create or restart your membership.Email addressGet StartedThe Netflix you love for just $8.99.Get our most affordable, ad-supported plan.Learn M"
-  },
-  {
-    "title": "Breaking News, World News and Video from Al Jazeera",
-    "url": "https://www.aljazeera.com/",
-    "summary": "Network error: ",
-    "snippet": "Breaking News, World News and Video from Al Jazeera Featured ContentThis video may contain light patterns or images that could trigger seizures or cause discomfort for people with visual sensitivities.BREAKINGBREAKING, Trump warns Iran ‘clock ticking’ on deal; Saudi, UAE report drone attacksLive upd"
-  },
-  {
-    "title": "Alibaba.com: Manufacturers, Suppliers, Exporters & Importers from the world's largest online B2B marketplace",
-    "url": "https://www.alibaba.com/",
-    "summary": "Network error: ",
-    "snippet": "Alibaba.com: Manufacturers, Suppliers, Exporters & Importers from the world's largest online B2B marketplace All categoriesFeatured selectionsOrder protectionsBuyer CentralHelp CenterApp & extensionSell on Alibaba.comWhat are you looking for? Welcome to Alibaba.comCategories for youApparel & Accesso"
-  },
-  {
-    "title": "Cloud Computing Services | Microsoft Azure",
-    "url": "https://azure.microsoft.com/en-us",
-    "summary": "Network error: ",
-    "snippet": "Cloud Computing Services | Microsoft Azure This is the Trace Id: 51234c42874113778e67c88b144c2ac7 Skip to main content AZURE. YOUR INTELLIGENT CLOUD. Now shipping: Microsoft Build 2026 Be part of Microsoft Build and learn how tech leaders train and fine-tune models, design agent architectures, orche"
-  },
-  {
-    "title": "Push your ideas to the web | Netlify",
-    "url": "https://www.netlify.com/",
-    "summary": "Network error: ",
-    "snippet": "Push your ideas to the web | Netlify Push your ideas to the web Create with AI or code, deploy instantly on production infrastructure. One platform to build and ship. Start building Talk to sales How it works Build your way.Ship on one platform. Every path runs on the same workflow and production in"
-  },
-  {
-    "title": "Instagram",
-    "url": "https://www.instagram.com/",
-    "summary": "Network error: ",
-    "snippet": "Instagram See everyday moments from your close friends.Get the full experience with the tablet appOpen InstagramLog inorSign up"
-  },
-  {
-    "title": "Heroku: The Cloud Application Platform | Build. Deploy. Scale.",
-    "url": "https://www.heroku.com/",
-    "summary": "Network error: ",
-    "snippet": "Heroku: The Cloud Application Platform | Build. Deploy. Scale. Search overlay panel for performing site-wide searches Search For: Close The Cloud Application Platform For Building, Deploying, and Scaling AppsHeroku is your fastest path from idea to production. Our fully managed app platform tackles "
-  },
-  {
-    "title": "NASA",
-    "url": "https://www.nasa.gov/",
-    "summary": "Network error: ",
-    "snippet": "NASA Search Suggested Searches Climate Change Artemis Expedition 64 Mars perseverance SpaceX Crew-2 International Space Station View All Topics A-Z HomeMissionsHumans in SpaceEarthThe Solar SystemThe UniverseScienceAeronauticsTechnologyLearning ResourcesAbout NASAEspañol News & Events Multimedia NAS"
-  },
-  {
-    "title": "TIME | Current & Breaking News | National & World Updates",
-    "url": "https://time.com",
+    "title": "Unity: Develop, Deploy, and Grow | The World's Leading Game Engine",
+    "url": "https://unity.com",
     "summary": "API error (404)",
-    "snippet": "TIME | Current & Breaking News | National & World UpdatesJospin Mwisha—AFP via Getty ImagesWHO Declares Global Emergency Over Ebola Strain With No VaccineThe rare Bundibugyo strain, with no approved vaccine or treatment, has killed nearly 90 people.by Nandika ChatterjeeDepartment of JusticeThe Iran-"
+    "snippet": "Unity: Develop, Deploy, and Grow | The World's Leading Game EngineUnity AI Beta is here: Trained on Unity. Designed for game development.Read moreBuild greatUnity® is the world’s leading game engine, supported by the most successful game development community in history and powered by a system that "
   },
   {
-    "title": "Website Builder – Easily Create Your Own Website — Squarespace",
-    "url": "https://www.squarespace.com/",
-    "summary": "Network error: ",
-    "snippet": "Website Builder – Easily Create Your Own Website — Squarespace A website makes it realGet StartedStart for free. No credit card required.PreviousNextJoin millions of entrepreneurs who run their business on Squarespace.123456789M+14M+14M+Entrepreneurs Served$01234567890123456789B+$36B+$36B+Earned by "
-  },
-  {
-    "title": "Best Buy | Official Online Store | Shop Now & Save",
-    "url": "https://www.bestbuy.com/",
-    "summary": "Network error: ",
-    "snippet": "Best Buy | Official Online Store | Shop Now & Save Appliances Memorial Day SaleFree delivery. Ends 6/3. Terms apply.Shop now$(csi.user.businessName)Main Content..............................."
-  },
-  {
-    "title": "The White House",
-    "url": "https://www.whitehouse.gov/",
-    "summary": "Network error: ",
-    "snippet": "The White House Under President Donald Trump’s second administration, the United States has surged into a new era of prosperity, marked by record-setting economic growth and trillions in new private-sector investments fueled by tax reforms, deregulation, and a renewed focus on American innovation. T"
-  },
-  {
-    "title": "Welcome to GOV.UK",
-    "url": "https://www.gov.uk/",
-    "summary": "Network error: ",
-    "snippet": "Welcome to GOV.UK Cookies on GOV.UK We use some essential cookies to make this website work.We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services.We also use cookies set by other sites to help us deliver content from their servic"
-  },
-  {
-    "title": "National Geographic | National Geographic",
-    "url": "https://www.nationalgeographic.com/",
-    "summary": "Network error: ",
-    "snippet": "National Geographic | National Geographic Subscribe for full access to read stories from National Geographic.Latest StoriesLooking for whales—and awe—through Baja CaliforniaTravelLooking for whales—and awe—through Baja CaliforniaWhy California is gaining three new parksTravelWhy California is gainin"
-  },
-  {
-    "title": "Slate Magazine - Politics, Business, Technology, and the Arts",
-    "url": "https://slate.com",
+    "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+    "url": "https://stripe.com",
     "summary": "API error (404)",
-    "snippet": "Slate Magazine - Politics, Business, Technology, and the Arts Advertisement Advertisement There Was One Widespread Rumor About the SNL Finale. It’s Time for It to Come True. Scaachi Koul I Tried Out Those Weird Mushroom and Dandelion “Coffees” That Are All Over Social Media. What a Trip. Nadira Goff"
+    "snippet": "Stripe | Financial Infrastructure to Grow Your RevenueGlobal GDP running on Stripe: Financial infrastructure to grow your revenue. Accept payments, offer financial services, and implement custom revenue models—from your first transaction to your billionth.Financial infrastructure to grow your revenu"
   },
   {
-    "title": "Search - Microsoft Bing",
-    "url": "https://www.bing.com/?toWww=1&redig=D278DD16BA654D3AA3350151C80B2DE1",
+    "title": "TechCrunch | Startup and Technology News",
+    "url": "https://techcrunch.com",
     "summary": "API error (404)",
-    "snippet": "Search - Microsoft BingSign in"
+    "snippet": "TechCrunch | Startup and Technology News Space OSHA probing worker death at SpaceX’s Starbase site Sean O'Kane 6 hours ago AI SandboxAQ brings its drug discovery models to Claude — no PhD in computing required Lucas Ropek 6 hours ago AI Elon Musk has lost his lawsuit against Sam Altman and OpenAI Ti"
   },
   {
-    "title": "California State Portal | CA.gov",
-    "url": "https://www.ca.gov/",
-    "summary": "Network error: ",
-    "snippet": "California State Portal | CA.gov Find government services and information Search for a service Submit Get disaster help Get what you need to recover, like food, shelter, cash assistance, replacement documents, and rebuilding help. Popular services Real ID/license Birth certificates Check your refund"
-  },
-  {
-    "title": "Local Weather Forecast, News and Conditions | Weather Underground",
-    "url": "https://www.wunderground.com/",
-    "summary": "Network error: ",
-    "snippet": "Local Weather Forecast, News and Conditions | Weather Underground Skip to Main Content _ Searchclosegps_fixedgps_fixedFind Nearest Station Manage Favorite CitiesLog InGo Ad Freeaccount_box Log in Go Ad Freesettings Settings Sensor NetworkMaps & RadarSevere WeatherNews & BlogsMobile AppsHistorical We"
-  },
-  {
-    "title": "【楽天市場】Shopping is Entertainment! ： インターネット最大級の通信販売、通販オンラインショッピングコミュニティ",
-    "url": "https://www.rakuten.co.jp/",
-    "summary": "Network error: ",
-    "snippet": "【楽天市場】Shopping is Entertainment! ： インターネット最大級の通信販売、通販オンラインショッピングコミュニティ モバイル ランキング スーパーDEAL Fashion トラベル カード 証券 銀行 ブックス 電子書籍 ラクマ リーベイツ 楽天24 楽天24エクスプレス 楽天ビック ネットスーパー ROOM サービス一覧 お買い物 ふるさと納税 スーパーDEAL ランキング ギフト 定期購入 ショッピングチャンネル 楽天ブックス 楽天Koboストア 楽天24 楽天24エクスプレス 楽天ビック Rakuten Fashion 楽券 ラクマ 楽天全国スーパー 楽天リーベ"
-  },
-  {
-    "title": "National Institutes of Health (NIH) |",
-    "url": "https://www.nih.gov/",
-    "summary": "Network error: ",
-    "snippet": "National Institutes of Health (NIH) | Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock () or https:// means you’ve safely connected to the .gov website. Share sensitive informatio"
-  },
-  {
-    "title": "Website Builder - Create a Free Website In Minutes | Wix.com",
-    "url": "https://www.wix.com/",
-    "summary": "Network error: ",
-    "snippet": "Website Builder - Create a Free Website In Minutes | Wix.com top of pageThe new way to create a websiteGo from words to a business-ready site that’s entirely yours to shape, on the first hybrid website builder.Get Started Get Started Start for free. No credit card required. Flow between instant gene"
-  },
-  {
-    "title": "百度一下，你就知道",
-    "url": "https://www.baidu.com/",
-    "summary": "Network error: ",
-    "snippet": "百度一下，你就知道 <style data-for=\"result\" type=\"text/css\" >html{font-size:100px}html body{font-size:.14rem;font-size:14px}body{color:#333;background:#fff;padding:6px 0 0;margin:0;position:relative}body,th,td,.p1,.p2{font-family:arial}p,form,ol,ul,li,dl,dt,dd,h3{margin:0;padding:0;list-style:none}input{padd"
-  },
-  {
-    "title": "Google",
-    "url": "https://www.google.com/",
+    "title": "Slack | AI Work Platform & Productivity Tools",
+    "url": "https://slack.com",
     "summary": "API error (404)",
-    "snippet": "GoogleGmailImagesSign in Advanced searchAdvertisingBusiness SolutionsAbout Google© 2026 - Privacy - TermsGoogle apps"
-  },
-  {
-    "title": "Breaking News, Latest News and Videos | CNN",
-    "url": "https://www.cnn.com/",
-    "summary": "Network error: ",
-    "snippet": "Breaking News, Latest News and Videos | CNN Alex Wong/Getty Images ‘Won’t be anything left’: Trump issues warning to Iran The president has grown increasingly impatient with Tehran's handling of negotiations • For Subscribers For Subscribers Iran eyes a new source of power deep beneath the Strait of"
-  },
-  {
-    "title": "Forbes",
-    "url": "https://www.forbes.com/",
-    "summary": "Network error: ",
-    "snippet": "ForbesBillionairesMoneyInnovationLifestyleBusinessLeadershipNewslettersGamesVettedListsTrendingU.S. Edition BriefEbola Outbreak Kills At Least 80—Strain Without Vaccine Has High Death RateNorthern Lights Saturday Alert: These States Could See Aurora Borealis TonightTax Breaks: The Taxes And Playing "
-  },
-  {
-    "title": "The New York Times - Breaking News, US News, World News and Videos",
-    "url": "https://www.nytimes.com/",
-    "summary": "Network error: ",
-    "snippet": "The New York Times - Breaking News, US News, World News and Videos Skip to contentSkip to site indexNew York Times - Top StoriesMahmud Hams/Agence France-Presse — Getty ImagesThe War in Iran Is Crippling One of the World’s Wealthiest NationsIranian attacks and the halt of seaborne transit have paral"
+    "snippet": "Slack | AI Work Platform & Productivity ToolsSkip to main contentAll your people and AI agents working together.Slack connects your team. Slackbot multiplies what they can do.Get startedTrusted by top teamsAsk SlackbotPlan launchesRun projectsChat with clientsAutomate tasksAsk SlackbotPlan launchesR"
   },
   {
     "title": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
@@ -450,10 +174,40 @@
     "snippet": "The Home Depot Specials & Offers Appliances Bath Blinds & Window Treatments Building Materials Lumber & Composites Cleaning Home Décor Lighting Doors & Windows Electrical Flooring Hardware Heating, Venting & Cooling Kitchen Garden Center Outdoors Paint Plumbing Holiday Decorations Smart Home Storage"
   },
   {
-    "title": "LinkedIn: Log In or Sign Up",
-    "url": "https://www.linkedin.com/",
+    "title": "Hej! Welcome to IKEA Global",
+    "url": "https://www.ikea.com/",
     "summary": "Network error: ",
-    "snippet": "LinkedIn: Log In or Sign Up Skip to main content Agree & Join LinkedIn By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy. Welcome to your professional community Sign in with email By clicking Continue to join or sign in, you agree to L"
+    "snippet": "Hej! Welcome to IKEA Global Welcome to IKEA Global! Pause video For the love of design IKEA PS 2026 is here! The GULDSPETT series of paper flowers Forever in bloom The delicious outdoors Let's eat out! A family-friendly hallway Get ready, get set, go! Market spotlight Let's visit IKEA Germany! IKEA "
+  },
+  {
+    "title": "Pinterest",
+    "url": "https://www.pinterest.com/",
+    "summary": "Network error: ",
+    "snippet": "PinterestOh no! Pinterest doesn't work unless you turn on JavaScript."
+  },
+  {
+    "title": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+    "url": "https://www.ebay.com/",
+    "summary": "Network error: ",
+    "snippet": "Electronics, Cars, Fashion, Collectibles & More | eBayElectronics, Cars, Fashion, Collectibles & More | eBay eBay LiveSavedMotorsExpand: MotorsElectronicsExpand: ElectronicsCollectiblesExpand: CollectiblesHome and gardenExpand: Home and gardenClothing, shoes and accessoriesExpand: Clothing, shoes an"
+  },
+  {
+    "title": "Manage your team’s work, projects, & tasks online • Asana",
+    "url": "https://asana.com",
+    "summary": "API error (404)",
+    "snippet": "Manage your team’s work, projects, & tasks online • AsanaSupercharge your teams with AI that gets work doneGive your teams AI that understands their work, keeps projects moving, and gets better the more your teams use it.Get started View demo85% of Fortune 100 companies choose Asana¹The platform for"
+  },
+  {
+    "title": "Snapchat - Say It In A Snap",
+    "url": "https://www.snapchat.com/",
+    "summary": "Network error: ",
+    "snippet": "Snapchat - Say It In A Snap© Snap Inc. 2026Snapchat"
+  },
+  {
+    "title": "Apple",
+    "url": "https://www.apple.com/",
+    "summary": "Network error: ",
+    "snippet": "Apple Apple iPhone Meet the latest iPhone lineup. Learn more Shop iPhone MacBook Neo Amazing Mac. Surprising price. Learn more Buy Apple Card Special new Apple Card and AirPods Pro 3 offer. Limitations and spend requirements apply.1 Learn more WWDC 26 Apple Worldwide Developers Conference. Join us o"
   },
   {
     "title": "Target : Expect More. Pay Less.",
@@ -468,1101 +222,321 @@
     "snippet": "TikTok - Make Your Day"
   },
   {
-    "title": "Hej! Welcome to IKEA Global",
-    "url": "https://www.ikea.com/",
-    "summary": "API error (404)",
-    "snippet": "Hej! Welcome to IKEA Global Welcome to IKEA Global! Pause video For the love of design IKEA PS 2026 is here! The GULDSPETT series of paper flowers Forever in bloom The delicious outdoors Let's eat out! A family-friendly hallway Get ready, get set, go! Market spotlight Let's visit IKEA Germany! IKEA "
-  },
-  {
-    "title": "Apple",
-    "url": "https://www.apple.com/",
-    "summary": "API error (404)",
-    "snippet": "Apple Apple iPhone Meet the latest iPhone lineup. Learn more Shop iPhone MacBook Air Now supercharged by M5. Learn more Buy iPad Air Now supercharged by M4. Learn more Buy Apple for College Mac and iPad. Major in any field. Learn more Apple Watch Series 11 The ultimate way to watch your health. Lear"
-  },
-  {
-    "title": "Snapchat - Say It In A Snap",
-    "url": "https://www.snapchat.com/",
-    "summary": "API error (404)",
-    "snippet": "Snapchat - Say It In A Snap© Snap Inc. 2026Snapchat"
+    "title": "LinkedIn: Log In or Sign Up",
+    "url": "https://www.linkedin.com/",
+    "summary": "Network error: ",
+    "snippet": "LinkedIn: Log In or Sign Up Skip to main content Agree & Join LinkedIn By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy. Welcome to your professional community Sign in with email By clicking Continue to join or sign in, you agree to L"
   },
   {
     "title": "YouTube",
     "url": "https://www.youtube.com/",
-    "summary": "API error (404)",
+    "summary": "Network error: ",
     "snippet": "YouTubeAboutPressCopyrightContact usCreatorsAdvertiseDevelopersTermsPrivacyPolicy & SafetyHow YouTube worksTest new featuresNFL Sunday Ticket© 2026 Google LLC"
   },
   {
-    "title": "TIME | Newsletters",
-    "url": "https://time.com/newsletters/?source=TD_Footer_Link&utm_source_pg=web&utm_medium_pg=footer&utm_campaign_pg=footer&utm_content_pg=footer-inside-time",
-    "summary": "API error (404)",
-    "snippet": "TIME | NewslettersGet the best of TIME in your in‑box.Sign up to get TIME's best journalism, commentary and exclusives delivered to your inbox.Need to KnowSELECT ALLTwice a weekInside TIMEGet the exclusive story behind TIME's new cover and a weekly roundup of our most compelling stories.See SampleDa"
-  },
-  {
-    "title": "Everest’s worst disaster has never ended. Jon Krakauer is still living it.",
-    "url": "https://slate.com/culture/2026/05/mount-everest-into-thin-air-jon-krakauer-book.html",
-    "summary": "API error (404)",
-    "snippet": "Everest’s worst disaster has never ended. Jon Krakauer is still living it. Advertisement Advertisement Photo illustration by Slate. Photos by Gary Gershoff/WireImage for Getty Images and Amazon. Copy Link Share Share Comment Copy Link Share Share Comment Thirty years ago this month, two teams of cli"
-  },
-  {
-    "title": "News and Politics | Slate",
-    "url": "https://slate.com/news-and-politics",
-    "summary": "API error (404)",
-    "snippet": "News and Politics | Slate Advertisement Advertisement He Spends His Days Tracking America’s Wildest Conspiracy Theorists. What He’s Seeing Lately Is Eye-Popping. Luke Winkie Will Sommer has watched our politics descend into darkness. We're not ready for what's coming next. Trump Thought He Could Win"
-  },
-  {
-    "title": "Television | Slate",
-    "url": "https://slate.com/culture/television",
-    "summary": "API error (404)",
-    "snippet": "Television | Slate Advertisement Advertisement Advertisement Recently in Television Showing 1–20 of 2,701 There Was One Widespread Rumor About the SNL Finale. It’s Time for It to Come True. Scaachi Koul May 17, 2026 6:18 AM How Do the Sex Scenes in Off Campus Stack Up to Heated Rivalry? Let’s Evalua"
-  },
-  {
-    "title": "Podcast FAQs.",
-    "url": "https://slate.com/podcastfaqs",
-    "summary": "API error (404)",
-    "snippet": "Podcast FAQs. Jump to information about Slate Plus podcast benefits. How to Listen to Our Podcasts From your mobile device: You can listen and subscribe to Slate podcasts by searching for “Slate” in your favorite podcast app. If you’re reading this from an iPhone or iPad, you can tap this link to fi"
-  },
-  {
-    "title": "Work | Slate",
-    "url": "https://slate.com/life/work",
-    "summary": "API error (404)",
-    "snippet": "Work | Slate Advertisement Advertisement Advertisement Recently in Work Showing 1–20 of 328 Email Signatures Are Supposed to Be Forgettable and Mundane. These People Refuse to Abide. Alison Green April 27, 2026 10:00 AM There’s Only One Way to Get More Money at Work. Some People Absolutely Refuse to"
-  },
-  {
-    "title": "The Slatest | Slate",
-    "url": "https://slate.com/news-and-politics/the-slatest",
-    "summary": "API error (404)",
-    "snippet": "The Slatest | Slate Advertisement Advertisement It's More Fun Via Email (Promise) Sign up for Slate’s evening newsletter Thanks for signing up! You can manage your newsletter subscriptions at any time. You're already subscribed to the The Slatest newsletter. You can manage your newsletter subscripti"
-  },
-  {
-    "title": "Life | Slate",
-    "url": "https://slate.com/life/life",
-    "summary": "API error (404)",
-    "snippet": "Life | Slate Advertisement Advertisement Advertisement Recently in Life Showing 1–20 of 1,077 In Britain, a New Law Targeting a Beloved Vice Would Shock Americans. I Surprised Myself With My Reaction. Imogen West-Knights May 11, 2026 10:00 AM It’s Controversial, Expensive, and Relatively Unstudied. "
-  },
-  {
-    "title": "Slate about us.",
-    "url": "https://slate.com/about",
-    "summary": "API error (404)",
-    "snippet": "Slate about us. Slate is a daily magazine on the web and podcast network. Founded in 1996, we are a general-interest publication offering analysis and commentary about politics, news, business, technology, and culture. Slate’s strong editorial voice and witty take on current events have been recogni"
-  },
-  {
-    "title": "Users",
-    "url": "https://slate.com/technology/users",
-    "summary": "API error (404)",
-    "snippet": "Users Advertisement Advertisement Advertisement Recently in Users Showing 1–20 of 663 It’s the Most Sickening Part of the Internet. You Wouldn’t Want Your Kids on It—but It Might Already Be Too Late. Sabrina Jones May 12, 2026 5:40 AM I Tried a Weekslong Experiment to Become a Better Mom. I Was Shoc"
-  },
-  {
-    "title": "Slate Games",
-    "url": "https://slate.com/tag/slate-games",
-    "summary": "API error (404)",
-    "snippet": "Slate Games Advertisement Advertisement Weekday midi and Sunday full-size puzzles at 6AM ET. Play Archive Tackle a 5x5 puzzle Sunday through Friday at 6AM ET. Play Archive New quiz every day at 6AM ET, weekly News Quiz on Fridays. Play Archive Our juiciest word game. New Pears every day at 12PM ET. "
-  },
-  {
-    "title": "Slate’s RSS feeds.",
-    "url": "https://slate.com/rss",
-    "summary": "API error (404)",
-    "snippet": "Slate’s RSS feeds. Add any of our RSS feeds to your RSS reader to keep up to date with Slate throughout the day. • All of our stories• News & Politics• Culture• Technology• Business• Human Interest"
-  },
-  {
-    "title": "Adrian Wooldridge's The Revolutionary Center explores how liberalism faces threats and why reviving its principles is essential.",
-    "url": "https://slate.com/podcasts/gabfestreads/2026/05/adrian-wooldridges-the-revolutionary-center-explores-how-liberalism-faces-threats-and-why-reviving-its-principles-is-essential",
-    "summary": "API error (404)",
-    "snippet": "Adrian Wooldridge's The Revolutionary Center explores how liberalism faces threats and why reviving its principles is essential. Advertisement Advertisement Gabfest Reads May 16, 20265:00 AM Why Liberalism Needs to Reclaim the Center Adrian Wooldridge discusses how a 250-year-old liberal tradition i"
-  },
-  {
-    "title": "The Industry | Slate",
-    "url": "https://slate.com/technology/the-industry",
-    "summary": "API error (404)",
-    "snippet": "The Industry | Slate Advertisement Advertisement Advertisement Recently in The Industry Showing 1–20 of 924 Your TV Is Not Safe Nitish Pahwa May 03, 2026 5:40 AM Elon Musk Says He’s Suing OpenAI Because They Abandoned Their Mission. I Think His Real Reason Is Much More Embarrassing. Tony Ho Tran Apr"
-  },
-  {
-    "title": "How the A.I. bubble is being ballooned by Donald Trump and Elon Musk.",
-    "url": "https://slate.com/business/2026/05/ai-trump-musk-stock-bubble-ipo.html",
-    "summary": "API error (404)",
-    "snippet": "How the A.I. bubble is being ballooned by Donald Trump and Elon Musk. Advertisement Advertisement Photo illustration by Slate. Photos by Charly Triballeau/AFP via Getty Images and Timothy A. Clary/AFP via Getty Images. Copy Link Share Share Comment Copy Link Share Share Comment Sign up for the Slate"
-  },
-  {
-    "title": "Commenting on Slate: frequently asked questions.",
-    "url": "https://slate.com/commenting",
-    "summary": "API error (404)",
-    "snippet": "Commenting on Slate: frequently asked questions. Last updated Oct. 6, 2022 What are the rules for commenting on Slate? You can find the complete rules in our Terms of Service and Privacy Policy, but here’s a quick summary, starting with some definite no-nos: • No hate speech, slurs, or offensive lan"
-  },
-  {
-    "title": "Crossword: Slate mini for May 16, 2026.",
-    "url": "https://slate.com/life/2026/05/crossword-slate-mini-daily-puzzle-may-16-2026.html",
-    "summary": "API error (404)",
-    "snippet": "Crossword: Slate mini for May 16, 2026. Advertisement Advertisement Please enable Javascript to view Slate interactives. More Games From Slate Slate Pears Game 276: May 17, 2026 Slate Mini Crossword for May 17, 2026 Slate Crossword: Natural Habitat for Boas? (Eight Letters) Slate Pears Game 275: May"
-  },
-  {
-    "title": "Colleges and universities are closing. It’s nothing to worry about.",
-    "url": "https://slate.com/life/2026/05/college-university-hampshire-school-closure.html",
-    "summary": "API error (404)",
-    "snippet": "Colleges and universities are closing. It’s nothing to worry about. Advertisement Advertisement Photo illustration by Slate. Photo by PeskyMonkey/Getty Images Plus. Copy Link Share Share Comment Copy Link Share Share Comment Sign up for the Slatest to get the most insightful analysis, criticism, and"
-  },
-  {
-    "title": "Choose your Slate newsletter subscriptions.",
-    "url": "https://slate.com/newsletters",
-    "summary": "API error (404)",
-    "snippet": "Choose your Slate newsletter subscriptions. Create an account or sign in for a better experience. Email Newsletters Choose the newsletters you want to read Select All The Slatest Slate’s best posts—smartly written updates on the most urgent, surprising, and unusual news, delivered to your inbox dail"
-  },
-  {
-    "title": "Jurisprudence | Slate",
-    "url": "https://slate.com/news-and-politics/jurisprudence",
-    "summary": "API error (404)",
-    "snippet": "Jurisprudence | Slate Advertisement Advertisement Advertisement Recently in Jurisprudence Showing 1–20 of 6,670 The DOJ Just Made a Shocking Confession About One of Trump’s Worst Early Executive Orders Alexis Romero May 15, 2026 3:06 PM Todd Blanche’s Latest Audition to Be Trump’s Attorney General M"
-  },
-  {
-    "title": "I need to sell the house my sister lives in. She's so upset.",
-    "url": "https://slate.com/advice/2026/05/money-advice-sister-house-sell.html",
-    "summary": "API error (404)",
-    "snippet": "I need to sell the house my sister lives in. She's so upset. Advertisement Advertisement Photo illustration by Slate. Photo by BrianAJackson/iStock/Getty Images Plus. Copy Link Share Share Comment Copy Link Share Share Comment Our advice columnists have heard it all over the years—so we’re diving in"
-  },
-  {
-    "title": "Drink | Slate",
-    "url": "https://slate.com/life/drink",
-    "summary": "API error (404)",
-    "snippet": "Drink | Slate Advertisement Advertisement Advertisement Recently in Drink Showing 1–20 of 208 I Tried Out Those Weird Mushroom and Dandelion “Coffees” That Are All Over Social Media. What a Trip. Nadira Goffe May 17, 2026 5:45 AM It’s a Plague on Bars Across the Country. And Without a Serious Interv"
-  },
-  {
-    "title": "Sex advice: I got home from work and caught my wife betraying me. I can use this to my advantage.",
-    "url": "https://slate.com/advice/2026/05/sex-advice-wife-threesome-cheating.html",
-    "summary": "API error (404)",
-    "snippet": "Sex advice: I got home from work and caught my wife betraying me. I can use this to my advantage. Advertisement Advertisement Photo illustration by Slate. Photo by Getty Images Plus. Copy Link Share Share Comment Copy Link Share Share Comment How to Do It is Slate’s sex advice column. Have a questio"
-  },
-  {
-    "title": "Can you make a difference on climate change?",
-    "url": "https://slate.com/news-and-politics/2026/05/climate-change-individuals-carbon-footprint.html",
-    "summary": "API error (404)",
-    "snippet": "Can you make a difference on climate change? Advertisement Advertisement Photo illustration by Slate. Photo by azgek/iStock/Getty Images Plus. Copy Link Share Share Comment Copy Link Share Share Comment Sign up for the Slatest to get the most insightful analysis, criticism, and advice out there, del"
-  },
-  {
-    "title": "Science | Slate",
-    "url": "https://slate.com/technology/science",
-    "summary": "API error (404)",
-    "snippet": "Science | Slate Advertisement Advertisement Advertisement Recently in Science Showing 1–20 of 1,880 Orangutan Moms Are the Tradwives of the Animal Kingdom. Their Job Is Easier for a Key Reason. Elizabeth Preston May 10, 2026 5:45 AM There Are Benefits to Blood Donation That You Might Not Expect Abdu"
-  },
-  {
-    "title": "QAnon, election denial, and Jan. 6: The Bulwark's Will Sommer has seen it all.",
-    "url": "https://slate.com/news-and-politics/2026/05/qanon-election-denial-jan-6-will-sommer.html",
-    "summary": "API error (404)",
-    "snippet": "QAnon, election denial, and Jan. 6: The Bulwark's Will Sommer has seen it all. Advertisement Advertisement Photo illustration by Slate. Photos by Michael M. Santiago/Getty Images, Jason Davis/Getty Images, Tracy Glantz/The State/Tribune News Service via Getty Images and Joe Raedle/Getty Images. Copy"
-  },
-  {
-    "title": "Is Roblox as risky for kids as they say?",
-    "url": "https://slate.com/podcasts/what-next-tbd/2026/05/is-roblox-as-risky-for-kids-as-they-say",
-    "summary": "API error (404)",
-    "snippet": "Is Roblox as risky for kids as they say? Advertisement Advertisement What Next: TBD May 17, 20265:20 AM TBD Tries…Roblox Is it actually dangerous for kids, or a scapegoat for a larger problem? Copy Link Share Share View Transcript Advertisement Listen & Subscribe Choose your preferred player: Apple "
-  },
-  {
-    "title": "Right-Wing Creators Are In Decline",
-    "url": "https://slate.com/podcasts/icymi/2026/05/right-wing-creators-are-in-decline",
-    "summary": "API error (404)",
-    "snippet": "Right-Wing Creators Are In Decline Advertisement Advertisement ICYMI May 16, 20263:00 AM Right-Wing Creators Are In Their Flop Era The once-powerful media ecosystem is starting to crumble. Copy Link Share Share View Transcript Advertisement Listen & Subscribe Choose your preferred player: Apple Podc"
-  },
-  {
-    "title": "Crossword: Slate’s daily puzzle for May 17, 2026.",
-    "url": "https://slate.com/life/2026/05/crossword-slate-daily-puzzle-may-17-2026.html",
-    "summary": "API error (404)",
-    "snippet": "Crossword: Slate’s daily puzzle for May 17, 2026. Advertisement Advertisement Please enable Javascript to view Slate interactives. More Games From Slate Slate Pears Game 276: May 17, 2026 Slate Mini Crossword for May 17, 2026 Slate Pears Game 275: May 16, 2026 Slate Mini Crossword for May 16, 2026 C"
-  },
-  {
-    "title": "Why Ben Shapiro and the Daily Wire are floundering",
-    "url": "https://slate.com/podcasts/what-next/2026/05/why-ben-shapiro-and-the-daily-wire-are-floundering",
-    "summary": "API error (404)",
-    "snippet": "Why Ben Shapiro and the Daily Wire are floundering Advertisement Advertisement What Next May 15, 20261:00 PM SchadenFriday: Ben Shapiro’s Short—as in Abrupt—Decline You can picture his voice so clearly—but it’s probably been a while since you actually heard it. Copy Link Share Share View Transcript "
-  },
-  {
-    "title": "Faith-based",
-    "url": "https://slate.com/life/faith-based",
-    "summary": "API error (404)",
-    "snippet": "Faith-based Advertisement Advertisement Advertisement Recently in Faith-based Showing 1–20 of 411 The LDS Church Is Suing One of Its Most Vocal Critics for a Seemingly Silly Reason. It Could Change What We Know About Mormonism. Haley Swenson May 04, 2026 2:53 PM A FEMA Official Said He Got Teleporte"
-  },
-  {
-    "title": "What Trump and Xi are summiting about.",
-    "url": "https://slate.com/podcasts/what-next-tbd/2026/05/what-trump-and-xi-are-summiting-about",
-    "summary": "API error (404)",
-    "snippet": "What Trump and Xi are summiting about. Advertisement Advertisement What Next: TBD May 15, 20265:20 AM Trump Visits the First World The president dozes off to China to pass on the global hegemon torch. Copy Link Share Share View Transcript Advertisement Listen & Subscribe Choose your preferred player"
-  },
-  {
-    "title": "Food",
-    "url": "https://slate.com/life/food",
-    "summary": "API error (404)",
-    "snippet": "Food Advertisement Advertisement Advertisement Recently in Food Showing 1–20 of 596 There’s Something Unsavory Happening on Foodie TikTok. I’m Afraid It’s Coming for Us All. Maggie Hennessy May 09, 2026 5:50 AM Red Lobster’s Endless Shrimp Is Back. Employees Are Horrified. That Probably Explains the"
-  },
-  {
-    "title": "The problem with believing in astrology, even when you know it's not \"real.\"",
-    "url": "https://slate.com/technology/2026/05/astrology-science-problem-linda-goodman.html",
-    "summary": "API error (404)",
-    "snippet": "The problem with believing in astrology, even when you know it's not \"real.\" Advertisement Advertisement Illustration by Fangyu Ma Copy Link Share Share Comment Copy Link Share Share Comment Sign up for the Slatest to get the most insightful analysis, criticism, and advice out there, delivered to yo"
-  },
-  {
-    "title": "Coffee alternatives from mushrooms and herbs are everywhere. Are they any good?",
-    "url": "https://slate.com/life/2026/05/coffee-alternatives-caffeine-acid-reflux-rasa-ryze-teeccino.html",
-    "summary": "API error (404)",
-    "snippet": "Coffee alternatives from mushrooms and herbs are everywhere. Are they any good? Advertisement Advertisement Photo illustration by Slate. Photos via Teeccino, Rasa, and RYZE Superfoods. Copy Link Share Share Comment Copy Link Share Share Comment Sign up for the Slatest to get the most insightful anal"
-  },
-  {
-    "title": "Is God Is, 2026’s great Black horror movie, is here. Will it leave you scarred?",
-    "url": "https://slate.com/culture/2026/05/is-god-is-movie-sterling-k-brown-horror-scary.html",
-    "summary": "API error (404)",
-    "snippet": "Is God Is, 2026’s great Black horror movie, is here. Will it leave you scarred? Advertisement Advertisement Photo illustration by Slate. Photos by Amazon and Getty Images Plus. Copy Link Share Share Comment Copy Link Share Share Comment For die-hards, no horror movie can be too scary. But for you, a"
-  },
-  {
-    "title": "Mifepristone ruling: What Thomas and Alito's abortion pill case dissents reveal",
-    "url": "https://slate.com/podcasts/amicus/2026/05/mifepristone-ruling-what-thomas-and-alitos-abortion-pill-case-dissents-reveal",
-    "summary": "API error (404)",
-    "snippet": "Mifepristone ruling: What Thomas and Alito's abortion pill case dissents reveal Advertisement Advertisement Amicus May 16, 20265:00 AM Return of the Abortion Pill Wars Mifepristone is back at the Supreme Court. Democrats need to make the stakes clear. Copy Link Share Share View Transcript Advertisem"
-  },
-  {
-    "title": "Crossword",
-    "url": "https://slate.com/tag/crossword",
-    "summary": "API error (404)",
-    "snippet": "Crossword Advertisement Advertisement Advertisement Recently in Crossword Showing 1–20 of 449 Slate Crossword: Natural Habitat for Boas? (Eight Letters) Ryan Mathiason May 17, 2026 5:50 AM Slate Crossword: Part of a Beaver’s Diet (Four Letters) Quiara Vasquez May 15, 2026 5:50 AM Slate Crossword: Is"
-  },
-  {
-    "title": "Word game: Slate Pears 276 for May 17, 2026.",
-    "url": "https://slate.com/life/2026/05/word-game-slate-pears-276-for-may-17-2026.html",
-    "summary": "API error (404)",
-    "snippet": "Word game: Slate Pears 276 for May 17, 2026. Advertisement Advertisement Please enable JavaScript to view this. New Pears every day at noon! This is Pears Game 276. The longest word in Game 275 was SUSURRUS. The complete Pears archive is now open! Slate Plus members can play 200+ games of Pears anyt"
-  },
-  {
-    "title": "Metropolis | Slate",
-    "url": "https://slate.com/business/metropolis",
-    "summary": "API error (404)",
-    "snippet": "Metropolis | Slate Advertisement Advertisement Advertisement Recently in Metropolis Showing 1–20 of 593 It Was on Your Table Every Morning Growing Up. It’s Dying Before Our Eyes. No One Wants to Face It. Alexander Sammon April 20, 2026 5:40 AM At the Airport at 2:30 a.m., It Had Already Begun. I Wat"
-  },
-  {
-    "title": "War Stories | Slate",
-    "url": "https://slate.com/news-and-politics/war-stories",
-    "summary": "API error (404)",
-    "snippet": "War Stories | Slate Advertisement Advertisement Advertisement Recently in War Stories Showing 1–20 of 1,882 Trump Thought He Could Wing It at His Summit With China’s President. Not Exactly! Fred Kaplan May 16, 2026 5:50 AM Trump Is Right About Something for Once Fred Kaplan May 11, 2026 3:50 PM The "
-  },
-  {
-    "title": "Quizzes",
-    "url": "https://slate.com/tag/quizzes",
-    "summary": "API error (404)",
-    "snippet": "Quizzes Advertisement Advertisement Advertisement Recently in Quizzes Showing 1–20 of 1,369 Think You’re Smarter Than Slate’s Copy Chief? Find Out With This Week’s News Quiz. Ray Hamel May 15, 2026 5:55 AM Which Part of the Human Brain Is Often Referred to as Gray Matter? Ray Hamel May 14, 2026 5:55"
-  },
-  {
-    "title": "Husband injury sex advice: My libido is usually sky-high. Then he got injured and, uh, wow.",
-    "url": "https://slate.com/advice/2026/05/husband-injury-sex-advice-my-libido-normal.html",
-    "summary": "API error (404)",
-    "snippet": "Husband injury sex advice: My libido is usually sky-high. Then he got injured and, uh, wow. Advertisement Advertisement Photo illustration by Slate. Photo by Rawpixel/iStock/Getty Images Plus. Copy Link Share Share Comment Copy Link Share Share Comment How to Do It is Slate’s sex advice column. Have"
-  },
-  {
-    "title": "My wife likes it when I share my opinions. But she won't keep them to herself.",
-    "url": "https://slate.com/advice/2026/05/parenting-advice-wife-secret-spiller.html",
-    "summary": "API error (404)",
-    "snippet": "My wife likes it when I share my opinions. But she won't keep them to herself. Advertisement Advertisement Photo illustration by Slate. Photo by Getty Images Plus. Copy Link Share Share Comment Copy Link Share Share Comment Care and Feeding is Slate’s parenting advice column. Have a question for Car"
-  },
-  {
-    "title": "How to give a baby medicine: This inexpensive device makes it easy.",
-    "url": "https://slate.com/technology/2026/05/baby-shower-medicine-frida.html",
-    "summary": "API error (404)",
-    "snippet": "How to give a baby medicine: This inexpensive device makes it easy. Advertisement Advertisement Photo illustration by Slate. Photo by ideabug/iStock/Getty Images Plus. Copy Link Share Share Comment Copy Link Share Share Comment This is One Thing, a column with tips on how to live. At first, trying t"
-  },
-  {
-    "title": "Why liberalism is worth fighting for.",
-    "url": "https://slate.com/news-and-politics/2026/05/why-liberalism-is-worth-fighting-for.html",
-    "summary": "API error (404)",
-    "snippet": "Why liberalism is worth fighting for. Advertisement Advertisement Courtesy of Simon and Schuster Copy Link Share Share Comment Listen to Gabfest Reads: Apple Podcasts Spotify Copy Link Share Share Comment Sign up for the Slatest to get the most insightful analysis, criticism, and advice out there, d"
-  },
-  {
-    "title": "Slate contact us.",
-    "url": "https://slate.com/contact",
-    "summary": "API error (404)",
-    "snippet": "Slate contact us. Slate’s New York office is located at 15 MetroTech Center, 8th Floor, Brooklyn, N.Y., 11201. Slate’s Washington, D.C., office is located at 1133 Connecticut Ave. NW, Suite 1210, Washington, D.C., 20036. To comment on editorial content, or for general inquiries, please email feedbac"
-  },
-  {
-    "title": "The Media",
-    "url": "https://slate.com/business/the-media",
-    "summary": "API error (404)",
-    "snippet": "The Media Advertisement Advertisement Advertisement Recently in The Media Showing 1–20 of 152 Trump Is Going After Jimmy Kimmel Again. What’s Likely to Happen Next Isn’t Pretty. Nitish Pahwa April 29, 2026 5:03 PM It Was a Bold, Multimillion-Dollar Experiment. They Wanted to Change Cable News Foreve"
-  },
-  {
-    "title": "Hantavirus: Should you cancel that cruise vacation?",
-    "url": "https://slate.com/technology/2026/05/hantavirus-norovirus-cruise-infection-risk.html",
-    "summary": "API error (404)",
-    "snippet": "Hantavirus: Should you cancel that cruise vacation? Advertisement Advertisement Jorge Guerrero/AFP via Getty Images Copy Link Share Share Comment Copy Link Share Share Comment Sign up for the Slatest to get the most insightful analysis, criticism, and advice out there, delivered to your inbox daily."
-  },
-  {
-    "title": "Moneybox | Slate",
-    "url": "https://slate.com/business/moneybox",
-    "summary": "API error (404)",
-    "snippet": "Moneybox | Slate Advertisement Advertisement Advertisement Recently in Moneybox Showing 1–20 of 10,617 It’s an Industry Almost Everyone Hates. Wall Street Loves It. It Could Demolish the Entire Economy. Nitish Pahwa May 15, 2026 4:17 PM Airlines (and Trump) Found a Way to Make Flying Even More Miser"
-  },
-  {
-    "title": "Pitch Slate magazine: how to write for us, with editor emails.",
-    "url": "https://slate.com/pitch",
-    "summary": "API error (404)",
-    "snippet": "Pitch Slate magazine: how to write for us, with editor emails. So you’d like to write for Slate—that’s great! If you haven’t worked with us before, here are a few pointers on how to craft a pitch and capture our attention. The best editors to contact for each section are listed at the bottom of this"
-  },
-  {
-    "title": "Advice | Slate",
-    "url": "https://slate.com/advice",
-    "summary": "API error (404)",
-    "snippet": "Advice | Slate Advertisement Advertisement Ilyce Glink We Thought Our Friends of 30 Years Were in the Same Financial Boat We Were. We Couldn’t Have Been More Wrong. 💬 Comment(s) Jenée Desmond-Harris I Was Happy to Give My Best Friend a Plus-One to My Wedding. But I Might Have to Draw the Line at Thi"
-  },
-  {
-    "title": "Crossword: Slate mini for May 17, 2026.",
-    "url": "https://slate.com/life/2026/05/crossword-slate-mini-daily-puzzle-may-17-2026.html",
-    "summary": "API error (404)",
-    "snippet": "Crossword: Slate mini for May 17, 2026. Advertisement Advertisement Please enable Javascript to view Slate interactives. More Games From Slate Slate Pears Game 276: May 17, 2026 Slate Crossword: Natural Habitat for Boas? (Eight Letters) Slate Pears Game 275: May 16, 2026 Slate Mini Crossword for May"
-  },
-  {
-    "title": "Culture | Slate",
-    "url": "https://slate.com/culture",
-    "summary": "API error (404)",
-    "snippet": "Culture | Slate Advertisement Advertisement Jon Krakauer Wishes He Never Climbed Mount Everest—and Never Wrote Into Thin Air Laura Miller He wrote a controversial book about a deadly disaster. It became a massive hit. Now he wishes it all would go away. There Was One Widespread Rumor About the SNL F"
-  },
-  {
-    "title": "Slate SoundBites for May 15, 2026",
-    "url": "https://slate.com/life/2026/05/slate-soundbites-for-may-15-2026.html",
-    "summary": "API error (404)",
-    "snippet": "Slate SoundBites for May 15, 2026 Advertisement Advertisement Please enable JavaScript to view this. Feedback on pronunciation and/or cluing welcome! Let us know at soundbites@slate.com. More Games From Slate Slate Pears Game 276: May 17, 2026 Slate Mini Crossword for May 17, 2026 Slate Crossword: N"
-  },
-  {
-    "title": "Slate's terms of service.",
-    "url": "https://slate.com/terms",
-    "summary": "API error (404)",
-    "snippet": "Slate's terms of service. 1. This is a Legal Agreement This Terms of Service (“Terms”) is a legal agreement between you and the Slate Group LLC (“Slate”, “we” or “us”) governing your access to and use of the websites and online services that Slate operates and that link to these Terms, including, wi"
-  },
-  {
-    "title": "Trump just gave China's president exactly what he wanted.",
-    "url": "https://slate.com/news-and-politics/2026/05/trump-china-xi-jinping-summit-taiwan-what-happened.html",
-    "summary": "API error (404)",
-    "snippet": "Trump just gave China's president exactly what he wanted. Advertisement Advertisement Evan Vucci/Pool/AFP via Getty Images Copy Link Share Share Comment Copy Link Share Share Comment Sign up for the Slatest to get the most insightful analysis, criticism, and advice out there, delivered to your inbox"
-  },
-  {
-    "title": "Slate’s privacy policy.",
-    "url": "https://slate.com/privacy",
-    "summary": "API error (404)",
-    "snippet": "Slate’s privacy policy. Last updated: July 8, 2024 The Slate Group LLC (“Slate,” “we,” or “us”) is committed to bringing you information tailored to your individual needs. This Privacy Policy describes how we collect, use, and disclose information through the websites, mobile applications, and other"
-  },
-  {
-    "title": "Books | Slate",
-    "url": "https://slate.com/culture/books",
-    "summary": "API error (404)",
-    "snippet": "Books | Slate Advertisement Advertisement Advertisement Recently in Books Showing 1–20 of 2,115 Alex Murdaugh’s Murder Convictions Were Just Overturned. The Reason Why Is Wild. Laura Miller May 14, 2026 3:03 PM The Latest Overblown Literary Outrage Is Here, and It’s a Real Doozy Laura Miller May 14,"
-  },
-  {
-    "title": "Support Slate's Journalism. Subscribe to Slate Plus.",
-    "url": "https://slate.com/plus?via=ad_blocker_modal&tpcc=slate-ui--ad_blocker_modal",
-    "summary": "API error (404)",
-    "snippet": "Support Slate's Journalism. Subscribe to Slate Plus. There seems to be an issue. Please email plus@slate.com for help. Please enable Javascript in your browser to continue. Sorry! What's Included More Ways to Support Give a Subscription Unlimited access for the Slate fan in your life. Gift subscript"
-  },
-  {
-    "title": "Business: Kevin Warsh takes over as Fed Chair.",
-    "url": "https://slate.com/podcasts/slate-money/2026/05/business-kevin-warsh-donald-trump-fed-chair-china-xi-chips-artificial-intelligence",
-    "summary": "API error (404)",
-    "snippet": "Business: Kevin Warsh takes over as Fed Chair. Advertisement Advertisement Slate Money May 16, 20268:00 AM We Need to Talk About Kevin (Warsh) Kevin Warsh is confirmed as Fed Chair, Trump talks tech with Xi, and the chip market rides the AI boom. Copy Link Share Share View Transcript Advertisement L"
-  },
-  {
-    "title": "How to disable your ad blocker on Slate.",
-    "url": "https://slate.com/news-and-politics/2017/04/how-to-disable-your-ad-blocker-on-slate.html",
-    "summary": "API error (404)",
-    "snippet": "How to disable your ad blocker on Slate. Advertisement Advertisement Photo illustration by Slate. Photo by Devin Pickell/Unsplash. Copy Link Share Share Comment Copy Link Share Share Comment We value our Slate readers and know that you value the work we produce. Ad blocking hurts Slate’s ability to "
-  },
-  {
-    "title": "Wide Angle | Slate",
-    "url": "https://slate.com/culture/wide-angle",
-    "summary": "API error (404)",
-    "snippet": "Wide Angle | Slate Advertisement Advertisement Advertisement Recently in Wide Angle Showing 1–20 of 488 I Was Wrong About Lena Dunham Sonia Saraiya April 25, 2026 5:50 AM Why So Many Older Black Fans Will Never Give Michael Jackson Up Nadira Goffe April 24, 2026 2:29 PM A Bombshell Claim Just Upende"
-  },
-  {
-    "title": "Pears",
-    "url": "https://slate.com/tag/pears",
-    "summary": "API error (404)",
-    "snippet": "Pears Advertisement Advertisement Advertisement Recently in Pears Showing 1–20 of 274 Slate Pears Game 276: May 17, 2026 May 17, 2026 12:00 PM Slate Pears Game 275: May 16, 2026 May 16, 2026 12:00 PM Slate Pears Game 274: May 15, 2026 May 15, 2026 12:00 PM Slate Pears Game 273: May 14, 2026 May 14, "
-  },
-  {
-    "title": "The World | Slate",
-    "url": "https://slate.com/news-and-politics/the-world",
-    "summary": "API error (404)",
-    "snippet": "The World | Slate Advertisement Advertisement Advertisement Recently in The World Showing 1–20 of 1,413 Why Iran’s New Supreme Leader Is So Dangerous Mary Harris March 11, 2026 12:08 PM One of the Worst Humanitarian Crises in History Is Happening Right Now. Hardly Anyone Is Watching. Mary Harris Nov"
-  },
-  {
-    "title": "The DOJ makes a shocking confession about a terrible Trump executive order.",
-    "url": "https://slate.com/news-and-politics/2026/05/doj-confession-terrible-trump-executive-order.html",
-    "summary": "API error (404)",
-    "snippet": "The DOJ makes a shocking confession about a terrible Trump executive order. Advertisement Advertisement Jim Watson/AFP via Getty Images Copy Link Share Share Comment Copy Link Share Share Comment Sign up for Executive Dysfunction, a newsletter that highlights one under-the-radar story each week abou"
-  },
-  {
-    "title": "Technology | Slate",
-    "url": "https://slate.com/technology",
-    "summary": "API error (404)",
-    "snippet": "Technology | Slate Advertisement Advertisement It’s a Common Pastime That’s Often Considered Harmless Fun. One Woman’s Story Should Serve as a Warning. Carlos Orsi Maybe it's time to stop dabbling in astrology. TBD Tries…Roblox What Next: TBD I Know Way Too Much About Infectious Diseases. Here’s Why"
-  },
-  {
-    "title": "Sports | Slate",
-    "url": "https://slate.com/culture/sports",
-    "summary": "API error (404)",
-    "snippet": "Sports | Slate Advertisement Advertisement Advertisement Recently in Sports Showing 1–20 of 1,399 One of the Biggest Boondoggles in Sports History Is All but Dead. The Damage Is Real. Alex Kirshner May 01, 2026 2:29 PM They’ve Made It to 27 Consecutive NCAA Tournaments. They’ve Lost Every Time. This"
-  },
-  {
-    "title": "Empower Your Students With Unlimited Access to Slate’s Award-Winning Journalism",
-    "url": "https://slate.com/academic-group-subscriptions",
-    "summary": "API error (404)",
-    "snippet": "Empower Your Students With Unlimited Access to Slate’s Award-Winning Journalism Unlimited Access. Unparalleled Insights. Every day, you provide your students with a world-class education through expert professors, rich resources, and a dynamic learning environment. Now, you can enhance their academi"
-  },
-  {
-    "title": "Britain just issued a ban that would shock Americans. I'm surprised by my reaction.",
-    "url": "https://slate.com/life/2026/05/britain-united-kingdom-smoking-cigarette-law-banned.html",
-    "summary": "API error (404)",
-    "snippet": "Britain just issued a ban that would shock Americans. I'm surprised by my reaction. Advertisement Advertisement Justin Tallis/Getty Images Copy Link Share Share Comment Copy Link Share Share Comment Sign up for the Slatest to get the most insightful analysis, criticism, and advice out there, deliver"
-  },
-  {
-    "title": "Send Slate your news tips via email, mail, or SecureDrop.",
-    "url": "https://slate.com/tips",
-    "summary": "API error (404)",
-    "snippet": "Send Slate your news tips via email, mail, or SecureDrop. Have a tip for Slate? We have several ways to get in touch with Slate reporters and editors, depending on your level of need for encryption and anonymity. News tips do not include press releases, pitches, or feedback, such as responses to art"
-  },
-  {
-    "title": "Your Slate Account",
-    "url": "https://slate.com/account",
-    "summary": "API error (404)",
-    "snippet": "Your Slate Account There seems to be an issue. Please email plus@slate.com for help. Please enable Javascript in your browser to continue. Sorry!"
-  },
-  {
-    "title": "Business | Slate",
-    "url": "https://slate.com/business",
-    "summary": "API error (404)",
-    "snippet": "Business | Slate Advertisement Advertisement It’s a Common Pastime That’s Often Considered Harmless Fun. One Woman’s Story Should Serve as a Warning. Carlos Orsi Maybe it's time to stop dabbling in astrology. TBD Tries…Roblox What Next: TBD I Know Way Too Much About Infectious Diseases. Here’s Why I"
-  },
-  {
-    "title": "Slate Magazine - Full Slate",
-    "url": "https://slate.com/full-slate",
-    "summary": "API error (404)",
-    "snippet": "Slate Magazine - Full Slate Advertisement Advertisement Advertisement Recently in Slate Showing 1–20 of 242,908 Slate Pears Game 276: May 17, 2026 May 17, 2026 12:00 PM I Normally Have a Much Higher Sex Drive Than My Husband. Then He Got Injured, and, Uh, Wow. Rich Juzwiak May 17, 2026 12:00 PM It C"
-  },
-  {
-    "title": "Music | Slate",
-    "url": "https://slate.com/culture/music",
-    "summary": "API error (404)",
-    "snippet": "Music | Slate Advertisement Advertisement Advertisement Recently in Music Showing 1–20 of 1,028 One of Music’s Biggest Stars Delivered a Divisive Coachella Performance. Critics Are Missing the Point. Nadira Goffe April 13, 2026 4:41 PM Kanye’s Latest Controversy May Look Simple, but There’s Somethin"
-  },
-  {
-    "title": "Trump news: Todd Blanche's latest audition for AG may be his most desperate yet.",
-    "url": "https://slate.com/news-and-politics/2026/05/trump-news-todd-blanches-audition-attorney-general.html",
-    "summary": "API error (404)",
-    "snippet": "Trump news: Todd Blanche's latest audition for AG may be his most desperate yet. Advertisement Advertisement Photo illustration by Slate. Photos by Anna Moneymaker/Getty Images and Andrew Harnik/Getty Images. Copy Link Share Share Comment Copy Link Share Share Comment Sign up for Executive Dysfuncti"
-  },
-  {
-    "title": "With Trump’s IRS slush fund, the president hits new heights of grifting.",
-    "url": "https://slate.com/news-and-politics/2026/05/trump-irs-lawsuit-settlement-slush-fund.html",
-    "summary": "API error (404)",
-    "snippet": "With Trump’s IRS slush fund, the president hits new heights of grifting. Copy Link Share Share Comment Photo illustration by Slate. Photo by Alex Wong/Getty Images. Sign up for the Surge, the newsletter that covers the most important political nonsense of the week, delivered to your inbox every Satu"
-  },
-  {
-    "title": "Sign In to Slate",
-    "url": "https://slate.com/sign-in",
-    "summary": "API error (404)",
-    "snippet": "Sign In to Slate There seems to be an issue. Please email plus@slate.com for help. Please enable Javascript in your browser to continue. Sorry!"
-  },
-  {
-    "title": "My friends are really generous with their home and money. But they never let me pay them back.",
-    "url": "https://slate.com/advice/2026/05/money-advice-friend-pay-back.html",
-    "summary": "API error (404)",
-    "snippet": "My friends are really generous with their home and money. But they never let me pay them back. Advertisement Advertisement Photo illustration by Slate. Photo by Getty Images Plus. Copy Link Share Share Comment Copy Link Share Share Comment Pay Dirt is Slate’s money advice column. Have a question? Se"
-  },
-  {
-    "title": "Life | Slate",
-    "url": "https://slate.com/life",
-    "summary": "API error (404)",
-    "snippet": "Life | Slate Advertisement Advertisement Yes, a Beloved College Is Closing. But It’s Not As Bad As It Seems. Ethan Ris I study higher education for a living. The data doesn’t lie. Slate Pears Game 276: May 17, 2026 Slate Mini Crossword for May 17, 2026 K. Austin Collins Slate Crossword: Natural Habi"
-  },
-  {
-    "title": "Do Not Sell My Personal Inforamtion",
-    "url": "https://slate.com/do-not-sell",
-    "summary": "API error (404)",
-    "snippet": "Do Not Sell My Personal Inforamtion Use the button below to opt out of the sale of your personal information to third parties. Please note that you do not have the right to opt out of our sharing your personal information with service providers, who are parties we engage to perform a function on our"
-  },
-  {
-    "title": "Mini Crossword",
-    "url": "https://slate.com/tag/mini-crossword",
-    "summary": "API error (404)",
-    "snippet": "Mini Crossword Advertisement Advertisement Advertisement Recently in Mini Crossword Showing 1–20 of 558 Slate Mini Crossword for May 17, 2026 K. Austin Collins May 17, 2026 5:51 AM Slate Mini Crossword for May 16, 2026 Nijah Morris May 16, 2026 5:51 AM Slate Mini Crossword for May 15, 2026 Kiran Pan"
-  },
-  {
-    "title": "Work advice: Someone reported my boss. She found out, and she's holding it against me.",
-    "url": "https://slate.com/advice/2026/05/work-advice-boss-reported-retaliation.html",
-    "summary": "API error (404)",
-    "snippet": "Work advice: Someone reported my boss. She found out, and she's holding it against me. Advertisement Advertisement Photo illustration by Slate. Photos by Jacob Wackerhausen/iStock/Getty Images Plus and Deagreez/iStock/Getty Images Plus. Copy Link Share Share Comment Copy Link Share Share Comment Goo"
-  },
-  {
-    "title": "Podcasts Latest Episodes | Slate",
-    "url": "https://slate.com/podcasts",
-    "summary": "API error (404)",
-    "snippet": "Podcasts Latest Episodes | Slate Advertisement Advertisement Amicus Return of the Abortion Pill Wars Mifepristone is back at the Supreme Court. Democrats need to make the stakes clear. Apple Podcasts Spotify Death, Sex & Money Death, SNAKES & Money ICYMI Right-Wing Creators Are In Their Flop Era Gab"
-  },
-  {
-    "title": "Frequently Asked Questions about Slate Plus.",
-    "url": "https://slate.com/plus/faq",
-    "summary": "API error (404)",
-    "snippet": "Frequently Asked Questions about Slate Plus. Here are the most common questions we receive about Slate Plus, Slate’s membership program. You can find more detailed answers in our support center. If you need additional help, please email plus@slate.com. I want to sign up for Slate Plus I’m having tro"
-  },
-  {
-    "title": "My son's name change has my husband acting ridiculously.",
-    "url": "https://slate.com/advice/2026/05/parenting-advice-name-change-upset.html",
-    "summary": "API error (404)",
-    "snippet": "My son's name change has my husband acting ridiculously. Advertisement Advertisement Photo illustration by Slate. Photo by AaronAmat/iStock/Getty Images Plus. Copy Link Share Share Comment Copy Link Share Share Comment Care and Feeding is Slate’s parenting advice column. Have a question for Care and"
-  },
-  {
-    "title": "Word game: Slate Pears 275 for May 16, 2026.",
-    "url": "https://slate.com/life/2026/05/word-game-slate-pears-275-for-may-16-2026.html",
-    "summary": "API error (404)",
-    "snippet": "Word game: Slate Pears 275 for May 16, 2026. Advertisement Advertisement Please enable JavaScript to view this. New Pears every day at noon! This is Pears Game 275. The longest word in Game 274 was THIRTIETH. The complete Pears archive is now open! Slate Plus members can play 200+ games of Pears any"
-  },
-  {
-    "title": "Sign Out of Slate",
-    "url": "https://slate.com/sign-out",
-    "summary": "API error (404)",
-    "snippet": "Sign Out of Slate"
-  },
-  {
-    "title": "Penis enlargement is controversial and costly. A new kind is exploding.",
-    "url": "https://slate.com/life/2026/05/penis-size-filler-injections-hyaluronic-acid.html",
-    "summary": "API error (404)",
-    "snippet": "Penis enlargement is controversial and costly. A new kind is exploding. Illustration by Kelly Malka Copy Link Share Share Comment Sign up for the Slatest to get the most insightful analysis, criticism, and advice out there, delivered to your inbox daily. “We’ll be right with you, my man.” I’d never "
-  },
-  {
-    "title": "Alex Murdaugh’s murder convictions were overturned. The reason why is wild.",
-    "url": "https://slate.com/culture/2026/05/alex-murdaugh-murders-trial-conviction-overturned-becky-hill.html",
-    "summary": "API error (404)",
-    "snippet": "Alex Murdaugh’s murder convictions were overturned. The reason why is wild. Advertisement Advertisement Tracy Glantz/The State/TNS/ABACA via Reuters Connect Copy Link Share Share Comment Copy Link Share Share Comment The announcement on Wednesday that South Carolina’s state Supreme Court has overtur"
-  },
-  {
-    "title": "Movies | Slate",
-    "url": "https://slate.com/culture/movies",
-    "summary": "API error (404)",
-    "snippet": "Movies | Slate Advertisement Advertisement Advertisement Recently in Movies Showing 1–20 of 3,213 What’s Fact and What’s Fiction in The Wizard of the Kremlin Ellin Stein May 15, 2026 5:36 PM The First Great Thriller of 2026 Is Here. Will It Leave You Scarred? Nadira Goffe May 15, 2026 10:00 AM He’s "
-  },
-  {
-    "title": "School | Slate",
-    "url": "https://slate.com/life/school",
-    "summary": "API error (404)",
-    "snippet": "School | Slate Advertisement Advertisement Advertisement Recently in School Showing 1–20 of 210 Yes, a Beloved College Is Closing. But It’s Not As Bad As It Seems. Ethan Ris May 06, 2026 11:48 AM She Was a MAGA Darling. She’s About to Be Unemployed. Her New Book Isn’t Helping. Rebecca Onion April 15"
-  },
-  {
-    "title": "Dear Prudence: I Allowed My Mother-in-Law to Live in Our House. She Just Violated My Privacy in the Wildest Way.",
-    "url": "https://slate.com/advice/2026/05/dear-prudence-mil-violation-spring-cleaning.html",
-    "summary": "API error (404)",
-    "snippet": "Dear Prudence: I Allowed My Mother-in-Law to Live in Our House. She Just Violated My Privacy in the Wildest Way. Advertisement Advertisement Photo illustration by Slate. Photos by Alice Unicorn/iStock/Getty Images Plus and man_kukuku/Getty Images Plus. Copy Link Share Share Comment Copy Link Share S"
-  },
-  {
-    "title": "The Wizard of the Kremlin dramatizes Putin’s rise to power. But how much is true?",
-    "url": "https://slate.com/culture/2026/05/vladimir-putin-jude-law-movie-2026-true-story.html",
-    "summary": "API error (404)",
-    "snippet": "The Wizard of the Kremlin dramatizes Putin’s rise to power. But how much is true? Advertisement Advertisement Photo illustration by Slate. Photos by Ramil Sitdikov/Pool/AFP via Getty Images and Carole Bethuel/Vertical. Copy Link Share Share Comment Copy Link Share Share Comment The Wizard of the Kre"
-  },
-  {
-    "title": "Marriage advice: My husband's family treats his ex-wife like she's royalty. After what she did, she doesn't deserve it.",
-    "url": "https://slate.com/advice/2026/05/marriage-advice-husbands-family-ex-wife.html",
-    "summary": "API error (404)",
-    "snippet": "Marriage advice: My husband's family treats his ex-wife like she's royalty. After what she did, she doesn't deserve it. Advertisement Advertisement Photo illustration by Slate. Photos by Getty Images Plus. Copy Link Share Share Comment Copy Link Share Share Comment Dear Prudence is Slate’s advice co"
-  },
-  {
-    "title": "Family | Slate",
-    "url": "https://slate.com/life/family",
-    "summary": "API error (404)",
-    "snippet": "Family | Slate Advertisement Advertisement Advertisement Recently in Family Showing 1–20 of 690 My Dad Couldn’t Afford His Nursing Home, So My Family Did Something Drastic. We’re Not Alone. Anna De La Cruz May 15, 2026 5:40 AM My Father’s Hidden Life Was in a Box in His Office. By the Time I Found I"
-  },
-  {
-    "title": "Hantavirus: Why are cruise passengers quarantining in Omaha, Nebraska?",
-    "url": "https://slate.com/technology/2026/05/nebraska-hantavirus-quarantine-reason.html",
-    "summary": "API error (404)",
-    "snippet": "Hantavirus: Why are cruise passengers quarantining in Omaha, Nebraska? Advertisement Advertisement Photo illustration by Slate. Photos by fotoguy22/Getty Images Plus, CDC/Cynthia Goldsmith, Luanne Elliott, and Toby Shepheard/AFP via Getty Images. Copy Link Share Share Comment Copy Link Share Share C"
-  },
-  {
-    "title": "Medical Examiner | Slate",
-    "url": "https://slate.com/technology/medical-examiner",
-    "summary": "API error (404)",
-    "snippet": "Medical Examiner | Slate Advertisement Advertisement Advertisement Recently in Medical Examiner Showing 1–20 of 1,770 It Costs $10. Parents Have No Idea They’ll Need It. Shannon Palus May 17, 2026 9:00 AM I Know Way Too Much About Infectious Diseases. Here’s Why I’m Considering Taking a Cruise With "
-  },
-  {
-    "title": "Search | Slate",
-    "url": "https://slate.com/search",
-    "summary": "API error (404)",
-    "snippet": "Search | Slate Please enable JavaScript to view this. Advertisement Advertisement We need to talk about your adblocker Slate relies on advertising to support our journalism. If you value our work, please disable your ad blocker. If you want to block ads but still support Slate, consider subscribing."
-  },
-  {
-    "title": "SoundBites",
-    "url": "https://slate.com/tag/soundbites",
-    "summary": "API error (404)",
-    "snippet": "SoundBites Advertisement Advertisement Advertisement Recently in SoundBites Showing 1–20 of 46 Slate SoundBites for May 15, 2026 Jenny Fey May 15, 2026 6:00 AM Slate SoundBites for May 14, 2026 Jenny Fey May 14, 2026 6:00 AM Slate SoundBites for May 13, 2026 Jenny Fey May 13, 2026 3:00 AM Slate Soun"
-  },
-  {
-    "title": "Corrections",
-    "url": "https://slate.com/briefing/corrections",
-    "summary": "API error (404)",
-    "snippet": "Corrections Advertisement Advertisement Slate strives to correct all errors of fact. If you’ve seen an error in our pages, let us know at corrections@slate.com. All concerns will be considered by our corrections team in consultation with the editor(s) involved. When an error is found, we aim to corr"
-  },
-  {
-    "title": "I Have Something to Say",
-    "url": "https://slate.com/life/i-have-something-to-say",
-    "summary": "API error (404)",
-    "snippet": "I Have Something to Say Advertisement Advertisement Advertisement Recently in I Have Something to Say Showing 1–20 of 53 Have You Ever Taken a Selfie With a Celebrity? I’ve Got Bad News for You. Logan Sachon March 16, 2026 1:03 PM Most People Hate January. But Once I Discovered the Month’s Magic Tri"
-  },
-  {
-    "title": "Slate News Quiz: Pete Hegseth, Marty Makary, American Idol.",
-    "url": "https://slate.com/news-and-politics/2026/05/slate-news-quiz-pete-hegseth-marty-makary-american-idol.html",
-    "summary": "API error (404)",
-    "snippet": "Slate News Quiz: Pete Hegseth, Marty Makary, American Idol. Advertisement Advertisement Please enable JavaScript to view this. We're sorry but News Quiz doesn't work properly without JavaScript enabled. Please enable it to continue. More Games From Slate Slate Pears Game 276: May 17, 2026 Slate Mini"
-  },
-  {
-    "title": "Why Connecting with Nature Makes Us Feel Better About Ourselves",
-    "url": "https://time.com/article/2026/05/14/nature-connection-positive-body-image/",
-    "summary": "API error (404)",
-    "snippet": "Why Connecting with Nature Makes Us Feel Better About OurselvesClimatehealthWhy Connecting with Nature Makes Us Feel Better About OurselvesADD TIME ON GOOGLEby Kyla MandelMandel is a senior editor at TIME. May 14, 2026 9:03 PM CUTA person sits in the shade on a bench and looks out over a lake.A pers"
-  },
-  {
-    "title": "SNL Finale: Lorne Michaels hasn't retired yet. When is it Tina Fey's turn?",
-    "url": "https://slate.com/culture/2026/05/snl-finale-tina-fey-lorne-michaels-retire.html",
-    "summary": "API error (404)",
-    "snippet": "SNL Finale: Lorne Michaels hasn't retired yet. When is it Tina Fey's turn? Advertisement Advertisement Photo illustration by Slate. Photo by Dia Dipasupil/Getty Images, Dominik Bindl/Getty Images and Angela Weiss/AFP via Getty Images. Copy Link Share Share Comment Copy Link Share Share Comment Of al"
-  },
-  {
-    "title": "How Nicki Minaj Went MAGA",
-    "url": "https://time.com/article/2026/05/14/nicki-minaj-trump/",
-    "summary": "API error (404)",
-    "snippet": "PoliticsDonald TrumpHow Nicki Minaj Went MAGAADD TIME ON GOOGLE May 13, 2026 10:11 PM CUTPhoto-Illustration by Nate Kitch for TIMEby Eric Cortellessa/Palm Beach, Fla.Senior Correspondent May 13, 2026 10:11 PM CUTInside the gilded clubhouse of Mar-a-Lago, there is a scatter of Donald Trump iconograph"
-  },
-  {
-    "title": "Science | TIME",
-    "url": "https://time.com/section/science/",
-    "summary": "API error (404)",
-    "snippet": "Science | TIMEScienceMay 14, 2026The Brain Processes Language Under Anesthesiaby Veronique GreenwoodMay 11, 2026Inside America’s Only Federal Quarantine Unit for Hantavirus Cruise Passengersby Philip WangMay 11, 2026The Pentagon Just Released Its UFO Files. Here's What's Insideby Jeffrey KlugerMay 1"
-  },
-  {
-    "title": "How Billy Idol turned punk into pop in the MTV era—with a rebel yell.",
-    "url": "https://slate.com/podcasts/hit-parade/2026/05/billy-idol-turned-punk-into-pop-in-the-mtv-era",
-    "summary": "API error (404)",
-    "snippet": "How Billy Idol turned punk into pop in the MTV era—with a rebel yell. Advertisement Advertisement Hit Parade May 15, 20263:12 PM Dancing With Himself Edition Billy Idol reinvented punk for the MTV era, then clawed his way to the top of the charts by trying on multiple genres. Copy Link Share Share V"
-  },
-  {
-    "title": "6 Questions to Ask Your Doctor Before Starting a Mental-Health Drug",
-    "url": "https://time.com/article/2026/05/04/questions-to-ask-your-doctor-before-starting-mental-health-drug/",
-    "summary": "API error (404)",
-    "snippet": "6 Questions to Ask Your Doctor Before Starting a Mental-Health DrugHealthMental Health/Psychology6 Questions to Ask Your Doctor Before Starting a Mental-Health DrugADD TIME ON GOOGLEby Stacey ColinoColino is a contributor for TIME. May 5, 2026 7:25 PM CUTPhoto-Illustration by TIME (Source Image: MoM"
-  },
-  {
-    "title": "'John Lennon: The Last Interview' Undercuts Insights With AI Frills",
-    "url": "https://time.com/article/2026/05/16/john-lennon-the-last-interview-review-cannes/",
-    "summary": "API error (404)",
-    "snippet": "'John Lennon: The Last Interview' Undercuts Insights With AI FrillsEntertainmentmoviesJohn Lennon: The Last Interview Undercuts Its Insights With Pointless AI GimmicksADD TIME ON GOOGLEby Stephanie ZacharekFilm Critic May 16, 2026 6:55 PM CUTLennon in John Lennon: The Last InterviewLennon in John Le"
-  },
-  {
-    "title": "Politics | Slate",
-    "url": "https://slate.com/news-and-politics/politics",
-    "summary": "API error (404)",
-    "snippet": "Politics | Slate Advertisement Advertisement Advertisement Recently in Politics Showing 1–20 of 9,623 Trump’s New Grift Is His Most Brazen … Ever? Jim Newell May 16, 2026 5:45 AM We Do a Lot of Sneering at “Virtue Signaling.” It May Be Time to Rethink Our Approach. Michael Brownstein and Alex Madva "
-  },
-  {
-    "title": "The Danger of Screens Taking Over Our Lives",
-    "url": "https://time.com/article/2026/05/14/the-danger-of-screens-taking-over-our-lives/",
-    "summary": "API error (404)",
-    "snippet": "The Danger of Screens Taking Over Our LivesTime ideasIdeasTechThe Danger of Screens Taking Over Our LivesADD TIME ON GOOGLEby Jean Case May 14, 2026 10:00 AM CUTA person uses their cell phone in bed.A person uses their cell phone in bed.Basak Gurbuz Derman—Getty Imagesby Jean Case May 14, 2026 10:00"
-  },
-  {
-    "title": "TIME100 Philanthropy: Inside Susan Dell and Michael Dell's $6.25 Billion Effort to Help American Kids",
-    "url": "https://time.com/collection/time100-philanthropy/2026/michael-dell-susan-dell/",
-    "summary": "API error (404)",
-    "snippet": "TIME100 Philanthropy: Inside Susan Dell and Michael Dell's $6.25 Billion Effort to Help American KidsMay 14, 2026Inside Susan Dell and Michael Dell's $6.25 Billion Effort to Help American Kidsby Belinda LuscombeEditor at LargeJingyu Lin for TIMECrowded as a bazaar and cluttered with screens, the tra"
-  },
-  {
-    "title": "About Us - TIME",
-    "url": "https://time.com/about-time/",
-    "summary": "API error (404)",
-    "snippet": "About Us - TIMEAbout TIMEADD TIME ON GOOGLE Mar 26, 2023 6:17 AM CUT Mar 26, 2023 6:17 AM CUTTIME is a global media brand built on 100 years of unparalleled trust and authority, with an audience of more than 100 million people worldwide across our platforms. Created in 1923, TIME began as the first "
-  },
-  {
-    "title": "U.S. | TIME",
-    "url": "https://time.com/section/us/",
-    "summary": "API error (404)",
-    "snippet": "U.S. | TIMEU.S.May 17, 2026Trump's Flip on China Angers MAGA Supportersby Nandika ChatterjeeMay 17, 2026Trump May Drop IRS Suit in Return for $1.7 Billion ‘Weaponization’ Fundby Rebecca SchneidMay 16, 2026The Iran-Backed Militia Behind a Terror Plot Against American Jewsby Rebecca SchneidMay 16, 202"
-  },
-  {
-    "title": "Leadership Report | TIME",
-    "url": "https://time.com/tag/co2-leadership-report/",
-    "summary": "API error (404)",
-    "snippet": "Leadership Report | TIMELeadership ReportMay 15, 2026The U.S. Still Doesn't Have an Answer to China's EV Dominanceby Justin WorlandMay 8, 2026GE Vernova’s Boom Isn’t Just About Gas Turbinesby Justin WorlandMay 1, 2026It’s Sinking In That Fossil Fuel Demand Won’t Grow Foreverby Justin WorlandApr 24, "
-  },
-  {
-    "title": "Politics | TIME",
-    "url": "https://time.com/section/politics/",
-    "summary": "API error (404)",
-    "snippet": "Politics | TIMEPoliticsMay 17, 2026Embattled Louisiana Sen. Bill Cassidy Loses Primaryby Chantelle LeeMay 17, 2026Trump May Drop IRS Suit in Return for $1.7 Billion ‘Weaponization’ Fundby Rebecca SchneidMay 15, 2026Trump Defends Giant Golden Statue of Himself Amid Much Debateby Tiago VenturaMay 14, "
-  },
-  {
-    "title": "Trump’s China Trip Underscores How Power Has Shifted East",
-    "url": "https://time.com/article/2026/05/15/trump-xi-us-china-summit-analysis/",
-    "summary": "API error (404)",
-    "snippet": "Trump’s China Trip Underscores How Power Has Shifted EastWorldChinaTrump’s China Trip Underscores How Power Has Shifted EastADD TIME ON GOOGLE May 15, 2026 9:35 AM CUTby Charlie CampbellEditor at Large May 15, 2026 9:35 AM CUTHe may have descended Air Force One late Wednesday to the cheers of school"
-  },
-  {
-    "title": "Entertainment | TIME",
-    "url": "https://time.com/section/entertainment/",
-    "summary": "API error (404)",
-    "snippet": "Entertainment | TIMEEntertainmentMay 16, 2026Review: 'John Lennon: The Last Interview'by Stephanie ZacharekMay 15, 2026Breaking Down the Ending of 'Berlin and the Lady with an Ermine'by Isabella WandermuremMay 15, 2026Breaking Down the Wild Ending of 'The Wonderfools'by Kayti BurtMay 15, 2026'All of"
-  },
-  {
-    "title": "The TIME100 Most Influential People in Philanthropy 2026",
-    "url": "https://time.com/collection/time100-philanthropy/2026/",
-    "summary": "API error (404)",
-    "snippet": "TIME100 Philanthropy 2026These are the 100 most influential people shaping the future of giving at a pivotal moment.See how we chose the listAllLEADERSTITANSTRAILBLAZERSINNOVATORSLeadersIdris Elba and Sabrina Dhowre Elba Have a Vision for a Brighter FuturebyAyesha Javed / LondonMiguel A. SantanaResp"
-  },
-  {
-    "title": "Breaking Down the Ending of 'Berlin and the Lady with an Ermine'",
-    "url": "https://time.com/article/2026/05/15/berlin-and-the-lady-with-an-ermine-ending/",
-    "summary": "API error (404)",
-    "snippet": "Breaking Down the Ending of 'Berlin and the Lady with an Ermine'EntertainmentTelevisionBreaking Down the Ending of Heist Series Berlin and the Lady with an ErmineADD TIME ON GOOGLEby Isabella Wandermurem May 15, 2026 9:09 PM CUTBerlinBerlinCourtesy of Netflixby Isabella Wandermurem May 15, 2026 9:09"
-  },
-  {
-    "title": "Curry Barker on Obsession's Horrifying Twist",
-    "url": "https://time.com/article/2026/05/13/obsession-curry-barker-interview/",
-    "summary": "API error (404)",
-    "snippet": "Curry Barker on Obsession's Horrifying TwistEntertainmentmoviesObsession Filmmaker Curry Barker on the Inspiration Behind the Film's Horrifying TwistADD TIME ON GOOGLEby Megan McCluskeyStaff Writer May 15, 2026 7:11 PM CUT(L-R): Inde Navarrette as Nikki and Michael Johnston as Bear in Obsession.(L-R"
-  },
-  {
-    "title": "Climate | TIME",
-    "url": "https://time.com/section/climate/",
-    "summary": "API error (404)",
-    "snippet": "Climate | TIMEClimateMay 15, 2026The U.S. Still Doesn't Have an Answer to China's EV Dominanceby Justin WorlandMay 14, 2026Why Connecting with Nature Makes Us Feel Better About Ourselvesby Kyla MandelMay 14, 2026Why Is New York Breaking Its Climate Promises?by Vanessa Fajans-Turner and Ayana Elizabe"
-  },
-  {
-    "title": "Business | TIME",
-    "url": "https://time.com/section/business/",
-    "summary": "API error (404)",
-    "snippet": "Business | TIMEBusinessCourtesy NetflixNetflix’s Greg Peters on Why It Walked Away from the Warner Bros. Discovery Dealby Avery StoneBrendan Smialowski / AFP—Getty ImagesThe U.S. Still Doesn't Have an Answer to China's EV Dominanceby Justin WorlandGetty ImagesThe Small Businesses Already Replacing W"
-  },
-  {
-    "title": "Shutting Down USAID Led to a Rise in Global Violence, Study Says",
-    "url": "https://time.com/article/2026/05/15/usaid-shutdown-rise-global-violence/",
-    "summary": "API error (404)",
-    "snippet": "Shutting Down USAID Led to a Rise in Global Violence, Study SaysHealthglobal healthShutting Down USAID Led to a Rise in Global Violence, Study SaysADD TIME ON GOOGLEby Jeffrey KlugerEditor at Large May 15, 2026 11:40 AM CUTJ. David Akeby Jeffrey KlugerEditor at Large May 15, 2026 11:40 AM CUTLast ye"
-  },
-  {
-    "title": "TIME Video: Insightful and Powerful Stories About Our World",
-    "url": "https://time.com/collections/time-video/",
-    "summary": "API error (404)",
-    "snippet": "TIME VideoInsightful, informative, powerful stories about our world.A Trip Upside Down Memory LanebyTIME StaffTIME with Demi-Leigh & Tim TebowbyTIME StaffInside Lindsey Vonn's Unprecedented Attempt at an Olympic ComebackbyTIME StaffComputer Chips Could Be the Future of MedicinebyTIME StaffRobots Doi"
-  },
-  {
-    "title": "The War in Iran is Causing an Energy Crisis Nobody Can Opt Out Of",
-    "url": "https://time.com/article/2026/05/14/iran-war-energy-crisis-clean-transition/",
-    "summary": "API error (404)",
-    "snippet": "The War in Iran is Causing an Energy Crisis Nobody Can Opt Out OfIdeasenergyThe War in Iran is Causing an Energy Crisis Nobody Can Opt Out OfADD TIME ON GOOGLEby Shyla Raghav May 14, 2026 5:00 PM CUTSmoke plumes rise from an ongoing fire following an overnight airstrike on the Shahran oil refinery i"
-  },
-  {
-    "title": "The Harrowing True Story Behind 'The Crash'",
-    "url": "https://time.com/article/2026/05/15/the-crash-true-story/",
-    "summary": "API error (404)",
-    "snippet": "The Harrowing True Story Behind 'The Crash'EntertainmentstreamingThe Harrowing True Story Behind The CrashADD TIME ON GOOGLEby Jake King-SchreifelsKing-Schreifels is a contributor for TIME. May 15, 2026 8:43 PM CUTby Jake King-SchreifelsKing-Schreifels is a contributor for TIME. May 15, 2026 8:43 PM"
-  },
-  {
-    "title": "8 Things Doctors Want You to Know Before Your Colonoscopy",
-    "url": "https://time.com/article/2026/05/06/what-doctors-want-you-to-know-about-your-colonoscopy/",
-    "summary": "API error (404)",
-    "snippet": "HealthCancer8 Things Doctors Want You to Know Before Your ColonoscopyADD TIME ON GOOGLEby Holly Burns May 6, 2026 2:07 PM CUTPhoto-Illustration by TIME (Source Image: Eugene Nekrasov—Getty Images)by Holly Burns May 6, 2026 2:07 PM CUTWhile no medical procedure is fun, exactly, some can feel more int"
-  },
-  {
-    "title": "New Ebola Outbreak in Democratic Republic of Congo Kills 65",
-    "url": "https://time.com/article/2026/05/15/new-ebola-outbreak-democratic-republic-of-congo/",
-    "summary": "API error (404)",
-    "snippet": "New Ebola Outbreak in Democratic Republic of Congo Kills 65HealthebolaA New Ebola Outbreak in Democratic Republic of Congo Kills 65 and Sickens HundredsADD TIME ON GOOGLEby Veronique Greenwood May 15, 2026 6:40 PM CUTEbola virus particles, computer illustrationEbola virus particles, computer illustr"
-  },
-  {
-    "title": "movies | TIME",
-    "url": "https://time.com/tag/movies/",
-    "summary": "API error (404)",
-    "snippet": "movies | TIMEmoviesMay 16, 2026Review: 'John Lennon: The Last Interview'by Stephanie ZacharekMay 15, 2026'All of a Sudden' Is a Wondrous Work About Caring for One Anotherby Stephanie ZacharekMay 15, 2026Filmmaker Curry Barker on Obsession's Horrifying Twistby Megan McCluskeyMay 15, 2026'Is God Is' T"
-  },
-  {
-    "title": "Books | TIME",
-    "url": "https://time.com/tag/books/",
-    "summary": "API error (404)",
-    "snippet": "Books | TIMEBooksApr 29, 2026What a New Biography Reveals About Pope Leoby Belinda LuscombeApr 28, 2026How Elizabeth Strout Gets Inside People's Mindsby Belinda LuscombeApr 4, 2026The 12 New Books You Should Read in Aprilby Hamilton CainMar 3, 202610 New Books You Should Read in Marchby Hamilton Cai"
-  },
-  {
-    "title": "Ideas | TIME",
-    "url": "https://time.com/section/ideas/",
-    "summary": "API error (404)",
-    "snippet": "Ideas | TIMETIME Ideas hosts the world's leading voices, providing commentary on events in news, society, and culture. We welcome outside contributions. Opinions expressed do not necessarily reflect the views of TIME editors.IdeasMay 16, 2026The Luna Moth that Saved Meby Kai CogginMay 14, 2026Why Is"
-  },
-  {
-    "title": "Elon Musk and Sam Altman Head to Court",
-    "url": "https://time.com/article/2026/04/28/elon-musk-and-sam-altman-head-to-court/",
-    "summary": "API error (404)",
-    "snippet": "Elon Musk and Sam Altman Head to CourtBusinessAIElon Musk and Sam Altman Head to CourtADD TIME ON GOOGLEby Billy PerrigoCorrespondent Apr 28, 2026 9:31 PM CUTAnna Moneymaker—Getty Images; Brendan Smialowski—AFP/Getty Imagesby Billy PerrigoCorrespondent Apr 28, 2026 9:31 PM CUTWelcome back to In the "
-  },
-  {
-    "title": "Modern Slavery Statement",
-    "url": "https://time.com/modern-slavery-statement/",
-    "summary": "API error (404)",
-    "snippet": "Modern Slavery StatementADD TIME ON GOOGLE Aug 11, 2023 5:37 AM CUT Aug 11, 2023 5:37 AM CUTUpdated 08/04/20231. Introduction1.1 This statement is made pursuant to section 54(1) of the Modern Slavery Act 2015 and sets out the steps which TIME, LLC, the parent company of TIME USA, LLC, TIME GP, LLC, "
-  },
-  {
-    "title": "Health | TIME",
-    "url": "https://time.com/section/health/",
-    "summary": "API error (404)",
-    "snippet": "Health | TIMEHealthHealthPoliticsJospin Mwisha—AFP via Getty ImagesWHO Declares Global Emergency Over Ebola Strain With No Vaccineby Nandika ChatterjeeKateryna Kon/Science Photo Library—Getty ImagesA New Ebola Outbreak Kills 65by Veronique GreenwoodPhoto-Illustration by TIME (Source Images: Anastasi"
-  },
-  {
-    "title": "Why Is New York Breaking Its Climate Promises?",
-    "url": "https://time.com/article/2026/05/14/new-york-climate-law-rollback/",
-    "summary": "API error (404)",
-    "snippet": "IdeasenergyClean Energy Is Affordable Energy. So Why Is New York Breaking Its Climate Promises?ADD TIME ON GOOGLEby Vanessa Fajans-Turner and Ayana Elizabeth Johnson May 14, 2026 7:46 PM CUTParticipants seen holding a banner at a protest against Governor Hochul's attempt to weaken the state's Climat"
-  },
-  {
-    "title": "Breaking Down the Wild Ending of 'The Wonderfools'",
-    "url": "https://time.com/article/2026/05/15/the-wonderfools-ending/",
-    "summary": "API error (404)",
-    "snippet": "Breaking Down the Wild Ending of 'The Wonderfools'EntertainmentTelevisionBreaking Down the Wild Ending of The WonderfoolsADD TIME ON GOOGLEby Kayti BurtBurt is a contributor for TIME. May 15, 2026 9:00 PM CUTThe WonderfoolsThe WonderfoolsCourtesy of Netflixby Kayti BurtBurt is a contributor for TIME"
-  },
-  {
-    "title": "This Is Where Inflation Is Biting the Hardest for Americans",
-    "url": "https://time.com/article/2026/05/13/inflation-gas-prices-food-tariffs-trump/",
-    "summary": "API error (404)",
-    "snippet": "This Is Where Inflation Is Biting the Hardest for AmericansU.S.consumer spendingThis Is Where Inflation Is Biting the Hardest for AmericansADD TIME ON GOOGLEby Rebecca SchneidReporter May 13, 2026 6:50 PM CUTA customer shops for produce in an H-E-B grocery store on May 11, 2026 in Austin, Texas. The"
-  },
-  {
-    "title": "TIME100 Philanthropy: Kate Capshaw & Steven Spielberg",
-    "url": "https://time.com/collection/time100-philanthropy/2026/kate-capshaw-steven-spielberg/",
-    "summary": "API error (404)",
-    "snippet": "TIME100 Philanthropy: Kate Capshaw & Steven SpielbergMay 14, 2026Kate Capshaw & Steven SpielbergHarnessing creativityby Ayesha JavedJaved is a senior editor at TIME, based in the London bureau.Courtesy Steven Spielberg and Kate CapshawSteven Spielberg has spent his career turning imagination into sp"
-  },
-  {
-    "title": "Television | TIME",
-    "url": "https://time.com/tag/television/",
-    "summary": "API error (404)",
-    "snippet": "Television | TIMETelevisionMay 15, 2026Breaking Down the Ending of 'Berlin and the Lady with an Ermine'by Isabella WandermuremMay 15, 2026Breaking Down the Wild Ending of 'The Wonderfools'by Kayti BurtMay 7, 2026Breaking Down the Twisty Ending of 'The Chestnut Man: Hide and Seek'by Barry LevittMay 6"
-  },
-  {
-    "title": "Agency in the Age of AI",
-    "url": "https://time.com/article/2026/04/14/agency-in-the-age-of-ai/",
-    "summary": "API error (404)",
-    "snippet": "Agency in the Age of AITime ideasIdeasAIAgency in the Age of AIADD TIME ON GOOGLEby John PalfreyJohn Palfrey is president of the John D. and Catherine T. MacArthur Foundation. Apr 14, 2026 7:32 PM CUTAndriy Onufriyenko—Getty Imagesby John PalfreyJohn Palfrey is president of the John D. and Catherine"
-  },
-  {
-    "title": "Trump's Reversal on China Buying U.S. Farmland Angers MAGA Supporters",
-    "url": "https://time.com/article/2026/05/17/Chinese-farmland-trump-students/",
-    "summary": "API error (404)",
-    "snippet": "Trump's Reversal on China Buying U.S. Farmland Angers MAGA SupportersU.S.ChinaTrump's Reversal on China Buying U.S. Farmland Angers MAGA SupportersADD TIME ON GOOGLEby Nandika Chatterjee May 17, 2026 4:04 PM CUTSen. Roger Marshall, R-Kan., left, and White House trade advisor Peter Navarro holds a si"
-  },
-  {
-    "title": "The Iran-Backed Militia Behind a Terror Plot Against American Jews",
-    "url": "https://time.com/article/2026/05/16/kataib-hezbollah-terror-plot-synagogue/",
-    "summary": "API error (404)",
-    "snippet": "The Iran-Backed Militia Behind a Terror Plot Against American JewsU.S.IranThe Iran-Backed Militia Behind a Terror Plot Against American JewsADD TIME ON GOOGLEby Rebecca SchneidReporter May 16, 2026 11:49 PM CUTMohammad Al-Saadi, (right) who was charged by federal prosecutors on Friday, is accused of"
-  },
-  {
-    "title": "10 Walking Mistakes You’re Probably Making—and How to Fix Them",
-    "url": "https://time.com/article/2026/05/05/walking-mistakes-how-to-fix/",
-    "summary": "API error (404)",
-    "snippet": "10 Walking Mistakes You’re Probably Making—and How to Fix ThemHealthExercise & Fitness10 Walking Mistakes You Don't Even Realize You're MakingADD TIME ON GOOGLEby Angela Haupt May 5, 2026 5:22 PM CUTPhoto-Illustration by TIME (Source Images: Tara Moore—Getty Images (3), We Are/Getty Images)by Angela"
-  },
-  {
-    "title": "Leaders Need to Stop Pretending They Can Predict the Future",
-    "url": "https://time.com/article/2026/05/12/leaders-need-to-stop-pretending-they-can-predict-the-future/",
-    "summary": "API error (404)",
-    "snippet": "Leaders Need to Stop Pretending They Can Predict the FutureTime ideasIdeasLeadershipLeaders Need to Stop Pretending They Can Predict the FutureADD TIME ON GOOGLEby Simone StolzoffSimone Stolzoff is the author of \"How to Not Know.\" May 12, 2026 10:00 AM CUTMedesulda—Getty Imagesby Simone StolzoffSimo"
-  },
-  {
-    "title": "World | TIME",
-    "url": "https://time.com/section/world/",
-    "summary": "API error (404)",
-    "snippet": "World | TIMEWorldHealthEntertainmentJospin Mwisha—AFP via Getty ImagesWHO Declares Global Emergency Over Ebola Strain With No Vaccineby Nandika ChatterjeeAndré Ballin—picture-alliance/dpa/Associated PressZelensky Hails Ukraine's Growing Drone Capability After Massive Moscow Strikeby Nandika Chatterj"
-  },
-  {
-    "title": "5 Ways to End Arguments Faster",
-    "url": "https://time.com/article/2026/05/13/empathy-exercises-therapists-recommend-conflict/",
-    "summary": "API error (404)",
-    "snippet": "5 Ways to End Arguments FasterHealthrelationshipsThe Secret to Ending Arguments FasterADD TIME ON GOOGLEby Angela Haupt May 13, 2026 1:53 PM CUTPhoto-illustration by TIME (Source Image: Delia Pindaru via Canva)by Angela Haupt May 13, 2026 1:53 PM CUTWhen your best friend or partner or kid snaps at y"
-  },
-  {
-    "title": "TIME100 Philanthropy: Idris Elba and Sabrina Dhowre Elba Have a Vision for a Brighter Future",
-    "url": "https://time.com/collection/time100-philanthropy/2026/idris-elba-sabrina-dhowre-elba/",
-    "summary": "API error (404)",
-    "snippet": "May 14, 2026Idris Elba and Sabrina Dhowre Elba Have a Vision for a Brighter Futureby Ayesha Javed / LondonJaved is a senior editor at TIME, based in the London bureau.Kendall Bessent for TIMEIdris Elba’s body doesn’t know when he’s acting. After summoning tears or rage, incarnating the trauma of cha"
-  },
-  {
-    "title": "The U.S. Still Doesn't Have an Answer to China's EV Dominance",
-    "url": "https://time.com/article/2026/05/15/us-china-evs-trump/",
-    "summary": "API error (404)",
-    "snippet": "The U.S. Still Doesn't Have an Answer to China's EV DominanceClimateLeadership ReportThe U.S. Still Doesn't Have an Answer to China's EV DominanceADD TIME ON GOOGLEby Justin WorlandSenior Correspondent May 15, 2026 8:18 PM CUTU.S. President Donald Trump takes part in a welcome ceremony with China's "
-  },
-  {
-    "title": "The TIME Vault",
-    "url": "https://time.com/vault/",
-    "summary": "API error (404)",
-    "snippet": "Explore HistoryMar. 13, 2023BROWSE THE ISSUEIN THIS ISSUEThe U.S. Economy Is Doing Too Well. Why That’s Bad for People Who Aren’t RichBusinessMar. 13, 2023Mar. 09, 1998Mar. 03, 1923Go to coverAdvertisementInside TIME’s 2026 Women of the YearWomen of the YearThis annual project offers needed perspect"
-  },
-  {
-    "title": "Running Clubs Are a Horrible Place to Date",
-    "url": "https://time.com/article/2026/05/10/running-clubs-are-a-horrible-place-to-date/",
-    "summary": "API error (404)",
-    "snippet": "Running Clubs Are a Horrible Place to DateTime ideasIdeasCultureRunning Clubs Are a Horrible Place to DateADD TIME ON GOOGLEby Meehika BaruaMeehika Barua is a freelance journalist who is currently working on her memoir on friendships and love. May 11, 2026 2:08 PM CUTElena Popova—Getty Imagesby Meeh"
-  },
-  {
-    "title": "Embattled Louisiana Sen. Bill Cassidy Loses Primary",
-    "url": "https://time.com/article/2026/05/15/cassidy-louisiana-senate-republican-primary-trump-letlow-fleming/",
-    "summary": "API error (404)",
-    "snippet": "Embattled Louisiana Sen. Bill Cassidy Loses PrimaryPoliticselectionsEmbattled Louisiana Sen. Cassidy Loses Primary as Trump-Backed Challenger and State Treasurer Head to a RunoffADD TIME ON GOOGLEby Chantelle LeeReporter May 17, 2026 3:48 AM CUTSenator Bill Cassidy, Republican of Louisiana, attends "
-  },
-  {
-    "title": "At TIME100 Summit, Executives Confront AI’s Threat to Entry-Level Jobs",
-    "url": "https://time.com/collection/time100-summit-gala/2026/leadership-in-the-age-of-ai/",
-    "summary": "API error (404)",
-    "snippet": "Apr 23, 2026At TIME100 Summit, Executives Confront AI’s Threat to Entry-Level Jobsby Tharin PillayPillay is an editorial fellow at TIME.Rapid AI progress is enabling the automation of increasingly more entry-level work. How should leaders respond? The question framed a panel discussion at the TIME10"
-  },
-  {
-    "title": "The Iran War Is Driving a Global Surge of Interest in Electric Vehicles",
-    "url": "https://time.com/article/2026/04/08/how-the-iran-war-is-pushing-more-people-to-buy-evs/",
-    "summary": "API error (404)",
-    "snippet": "Climateelectric vehiclesThe Iran War Is Driving a Global Surge of Interest in Electric VehiclesADD TIME ON GOOGLEby Simmone ShahReporter Apr 9, 2026 8:50 PM CUTBrand new unregistered BYD electric cars are displayed for sale outside a BYD dealership, on February 25, 2026 in Southampton, England.Brand"
-  },
-  {
-    "title": "Hailey Bieber Is Writing Her Own Story with Rhode: 2026 TIME100 Most Influential Companies",
-    "url": "https://time.com/collection/time100-most-influential-companies/2026/rhode/",
-    "summary": "API error (404)",
-    "snippet": "Hailey Bieber Is Writing Her Own Story with Rhode: 2026 TIME100 Most Influential CompaniesMay 06, 2026Hailey Bieber Is Writing Her Own Story with Rhodeby Lucy Feldman/Los AngelesEditorial DirectorAt OBB Studios in Hollywood, there is a parking spot inside the office—like literally right next to the "
-  },
-  {
-    "title": "Time.com - Game Hub",
-    "url": "https://time.com/games/",
-    "summary": "API error (404)",
-    "snippet": "Time.com - Game HubMonday, May 18, 2026Featured Puzzles, Refreshed DailyFantasy Prediction MarketsMarket MoversThink you know the wisdom of the crowd? Choose the outcome the market thinks is more likely, beat the clock, and climb the leaderboard.Play NowPLAY ON WORDSLinkedIn this addictive word-asso"
-  },
-  {
-    "title": "12 Things Orthopedic Surgeons Do to Maintain Speed, Balance, and Longevity",
-    "url": "https://time.com/article/2026/05/15/orthopedic-surgeons-healthy-aging-habits/",
-    "summary": "API error (404)",
-    "snippet": "12 Things Orthopedic Surgeons Do to Maintain Speed, Balance, and LongevityHealthWellness12 Things Orthopedic Surgeons Do to Maintain Speed, Balance, and LongevityADD TIME ON GOOGLEby Angela Haupt May 15, 2026 2:06 PM CUTPhoto-Illustration by TIME (Source Images: Anastasiia Krivenok—Getty Images, nic"
-  },
-  {
-    "title": "How AI Can Beat Cancer",
-    "url": "https://time.com/article/2026/04/15/how-ai-can-beat-cancer/",
-    "summary": "API error (404)",
-    "snippet": "How AI Can Beat CancerTime ideasIdeasAIHow AI Can Beat CancerADD TIME ON GOOGLEby Cyriac RoedingCyriac Roeding is the CEO of Earli, an early cancer treatment company and technology. Apr 20, 2026 8:05 PM CUTMalte Mueller—Getty Imagesby Cyriac RoedingCyriac Roeding is the CEO of Earli, an early cancer"
-  },
-  {
-    "title": "Zelensky Hails Ukraine's Growing Drone Capability After Massive Moscow Drone Strike",
-    "url": "https://time.com/article/2026/05/17/ukraine-drone-moscow-zelenksy/",
-    "summary": "API error (404)",
-    "snippet": "Zelensky Hails Ukraine's Growing Drone Capability After Massive Moscow Drone StrikeWorldUkraineZelensky Hails Ukraine's Growing Drone Capability After Massive Moscow StrikeADD TIME ON GOOGLEby Nandika Chatterjee May 17, 2026 7:01 PM CUTA major fire has broken out in eastern Moscow. Hours earlier, th"
-  },
-  {
-    "title": "The Small Businesses Already Replacing Workers With AI",
-    "url": "https://time.com/article/2026/05/14/ai-small-businesses-layoffs/",
-    "summary": "API error (404)",
-    "snippet": "The Small Businesses Already Replacing Workers With AIBusinessAIThe Small Businesses Already Replacing Workers With AIADD TIME ON GOOGLEby Nikita Ostrovsky May 14, 2026 5:45 PM CUTGetty Imagesby Nikita Ostrovsky May 14, 2026 5:45 PM CUTSpencer Handley’s online guitar school, Sonora—which claims prof"
-  },
-  {
-    "title": "WHO Declares Global Emergency Over Ebola Strain With No Vaccine. Here's What To Know",
-    "url": "https://time.com/article/2026/05/17/who-global-emergency-ebola-Bundibugyo/",
-    "summary": "API error (404)",
-    "snippet": "WHO Declares Global Emergency Over Ebola Strain With No Vaccine. Here's What To KnowWorldebolaWHO Declares Global Emergency Over Ebola Strain With No Vaccine. Here's What To KnowADD TIME ON GOOGLEby Nandika Chatterjee May 17, 2026 8:04 PM CUTA motorcycle taxi driver waits for clients in front of the"
-  },
-  {
-    "title": "Sports | TIME",
-    "url": "https://time.com/section/sports/",
-    "summary": "API error (404)",
-    "snippet": "Sports | TIMESportsMay 14, 2026U.S. Waives Visa Bonds for World Cup Ticketholders From Some Countriesby Miranda JeyaretnamMay 13, 2026Tributes Pour In for NBA’s First Openly Gay Player Jason Collinsby Chad de GuzmanMay 7, 2026Christian Pulisic Steps Onto the World Cup Stageby Sean GregoryMay 1, 2026"
-  },
-  {
-    "title": "A New AI Tool Could Transform How We Diagnose Genetic Diseases",
-    "url": "https://time.com/article/2026/04/14/ai-disease-genetic-mayo-clinic-goodfire/",
-    "summary": "API error (404)",
-    "snippet": "A New AI Tool Could Transform How We Diagnose Genetic DiseasesBusinessAIA New AI Tool Could Transform How We Diagnose Genetic DiseasesADD TIME ON GOOGLEby Nikita Ostrovsky Apr 14, 2026 7:08 PM CUTGetty Imagesby Nikita Ostrovsky Apr 14, 2026 7:08 PM CUTResearchers at the Mayo Clinic and Goodfire, a S"
-  },
-  {
-    "title": "'All of a Sudden' Is a Wondrous Work About Caring for One Another",
-    "url": "https://time.com/article/2026/05/15/cannes-review-all-of-a-sudden/",
-    "summary": "API error (404)",
-    "snippet": "'All of a Sudden' Is a Wondrous Work About Caring for One AnotherEntertainmentmoviesRyusuke Hamaguchi's All of a Sudden Is a Wondrous Work About Caring for One AnotherADD TIME ON GOOGLEby Stephanie ZacharekFilm Critic May 15, 2026 8:55 PM CUTAll of a SuddenAll of a SuddenCourtesy of Cannes Film Fest"
-  },
-  {
-    "title": "Technology | TIME",
-    "url": "https://time.com/tag/technology/",
-    "summary": "API error (404)",
-    "snippet": "Technology | TIMETechnologyApr 27, 2026Top U.S. EdTech Companies of 2026by Charlotte HuMar 10, 2026What to Know About Uber’s New ‘Women Preferences’ Featureby Chantelle LeeMar 7, 2026Why Cybersecurity Threats Are Growingby Don Aviv and Sabrina TanFeb 19, 2026In Talarico-Crockett Race, 2 TikTok Stars"
-  },
-  {
-    "title": "TIME Jobs: Latest Career Opportunities",
-    "url": "https://time.com/join-time/",
-    "summary": "API error (404)",
-    "snippet": "Press RoomPress RoomJoin TIMEADD TIME ON GOOGLEby TIME Jun 30, 2022 11:30 AM CUTby TIME Jun 30, 2022 11:30 AM CUTYour Future at TIME Starts HereCareers with Impact, Purpose, and a Global LegacyFor over a century, TIME has chronicled the people and ideas that shape the world. Today, we're doing more "
-  },
-  {
-    "title": "'Is God Is' Is a Fanciful and Brutal Revenge Tale",
-    "url": "https://time.com/article/2026/05/13/is-god-is-review/",
-    "summary": "API error (404)",
-    "snippet": "'Is God Is' Is a Fanciful and Brutal Revenge TaleEntertainmentmoviesIs God Is Tells a Brash and Darkly Funny Revenge TaleADD TIME ON GOOGLEby Stephanie ZacharekFilm Critic May 15, 2026 3:05 PM CUTMallori Johnson and Kara Young play twins out for revengeMallori Johnson and Kara Young play twins out f"
-  },
-  {
-    "title": "The Most Memorable Photos of Trump’s China Visit",
-    "url": "https://time.com/article/2026/05/14/trump-visit-china-taiwan-photos/",
-    "summary": "API error (404)",
-    "snippet": "The Most Memorable Photos of Trump’s China VisitWorldFrom a 21-Gun Salute to a Great Hall Banquet, the Most Memorable Photos of Trump’s China VisitADD TIME ON GOOGLEU.S. President Donald Trump and Chinese President Xi Jinping participate in a welcoming ceremony at the Great Hall of the People in Bei"
-  },
-  {
-    "title": "Is a Super El Niño Coming in 2026? Here’s What Scientists Are Saying",
-    "url": "https://time.com/article/2026/04/10/super-el-nino-2026-what-to-know/",
-    "summary": "API error (404)",
-    "snippet": "Is a Super El Niño Coming in 2026? Here’s What Scientists Are SayingClimateweatherIs a Super El Niño Coming in 2026? Here’s What Scientists Are SayingADD TIME ON GOOGLEby Simmone ShahReporter Apr 10, 2026 10:35 PM CUTA large wave breaks in the Pacific Ocean off the coast of La Jolla on Dec. 31, 2023"
-  },
-  {
-    "title": "Press Room | TIME",
-    "url": "https://time.com/section/press-room/",
-    "summary": "API error (404)",
-    "snippet": "Press Room | TIMEPress RoomMay 14, 2026TIME Reveals the 2026 TIME100 Most Influential Leaders in Philanthropyby TIME PRMay 12, 2026TIME Launches Daily Digital Gamesby TIME PRApr 30, 2026TIME Reveals the 2026 TIME100 Most Influential Companies in the Worldby TIME PRApr 24, 2026TIME to Bring ‘TIME100 "
-  },
-  {
-    "title": "TIME",
-    "url": "https://time.com/time-masthead/",
-    "summary": "API error (404)",
-    "snippet": "Press RoomMastheadADD TIME ON GOOGLE Nov 11, 2019 9:10 AM CUT Nov 11, 2019 9:10 AM CUTCHIEF EXECUTIVE OFFICER Jessica SibleyEDITOR-IN-CHIEF Sam JacobsEXECUTIVE CHAIRMAN Edward FelsenthalCREATIVE DIRECTOR D.W. PineHEAD OF CREATIVE, TIME STUDIOS & DEPUTY EDITOR, TIME Kelly ConniffCHIEF STRATEGY OFFICE"
-  },
-  {
-    "title": "electric vehicles | TIME",
-    "url": "https://time.com/tag/electric-vehicles/",
-    "summary": "API error (404)",
-    "snippet": "electric vehicles | TIMEelectric vehiclesApr 9, 2026The Iran War Is Driving More People To Consider EVsby Simmone ShahJan 7, 2020Carlos Ghosn, Now a Fugitive, Was an Electric-Car Visionaryby Elijah WolfsonOct 12, 2017Electric Vehicles Are Here. Now We Need to Figure Out How to Charge Themby Justin W"
-  },
-  {
-    "title": "Who Decides What Greatness Tastes Like?",
-    "url": "https://time.com/article/2026/05/07/who-decides-what-greatness-tastes-like/",
-    "summary": "API error (404)",
-    "snippet": "Who Decides What Greatness Tastes Like?Time ideasIdeasCultureWho Decides What Greatness Tastes Like?ADD TIME ON GOOGLEby Vikas KhannaVikas Khanna is a chef, restaurateur, cookbook writer, and filmmaker. May 13, 2026 10:00 AM CUTNazar Abbas Photography—Getty Imagesby Vikas KhannaVikas Khanna is a che"
-  },
-  {
-    "title": "Slate SoundBites for May 15, 2026",
-    "url": "https://slate.com/life/2026/05/slate-soundbites-for-may-15-2026.html",
-    "summary": "API error (404)",
-    "snippet": "Slate SoundBites for May 15, 2026 Advertisement Advertisement Please enable JavaScript to view this. Feedback on pronunciation and/or cluing welcome! Let us know at soundbites@slate.com. More Games From Slate Slate Pears Game 276: May 17, 2026 Slate Mini Crossword for May 17, 2026 Slate Crossword: N"
-  },
-  {
-    "title": "Slate SoundBites for April 24, 2026",
-    "url": "https://slate.com/life/2026/04/slate-soundbites-for-april-24-2026.html",
+    "title": "Amazon.com. Spend less. Smile more.",
+    "url": "https://www.amazon.com/",
     "summary": "Network error: ",
-    "snippet": "Slate SoundBites for April 24, 2026 Advertisement Advertisement Please enable JavaScript to view this. More Games From Slate Slate Pears Game 276: May 17, 2026 Slate Mini Crossword for May 17, 2026 Slate Crossword: Natural Habitat for Boas? (Eight Letters) Slate Pears Game 275: May 16, 2026 Copy Lin"
+    "snippet": "Amazon.com. Spend less. Smile more. Previous slide Next slide 15% off select designer brandsChanelLouis VuittonDiorFendiShop pre-loved luxury Discover luxury brandsMoon BootPerfect MomentAltuzarraDr. Barbara SturmShop designer brands Save on Amazon Devices20% offLimited time deal30% offLimited time "
   },
   {
-    "title": "Slate SoundBites for April 28, 2026",
-    "url": "https://slate.com/life/2026/04/slate-soundbites-for-april-28-2026.html",
+    "title": "Cloudflare: Build for the agent era",
+    "url": "https://www.cloudflare.com/",
     "summary": "Network error: ",
-    "snippet": "Slate SoundBites for April 28, 2026 Advertisement Advertisement Please enable JavaScript to view this. More Games From Slate Slate Pears Game 276: May 17, 2026 Slate Mini Crossword for May 17, 2026 Slate Crossword: Natural Habitat for Boas? (Eight Letters) Slate Pears Game 275: May 16, 2026 Copy Lin"
+    "snippet": "Cloudflare: Build for the agent era Hero video off in Low preview — use High mode and refresh for full motion. Agents Week is happening now April 13 - April 17! Check out the announcements here Everything we learned from powering 20% of the Internet—yours by default One platform for your apps, agent"
   },
   {
-    "title": "Slate SoundBites for April 21, 2026",
-    "url": "https://slate.com/life/2026/04/slate-soundbites-for-april-21-2026.html",
+    "title": "Alibaba.com: Manufacturers, Suppliers, Exporters & Importers from the world's largest online B2B marketplace",
+    "url": "https://www.alibaba.com/",
     "summary": "Network error: ",
-    "snippet": "Slate SoundBites for April 21, 2026 Advertisement Advertisement Please enable JavaScript to view this. More Games From Slate Slate Pears Game 276: May 17, 2026 Slate Mini Crossword for May 17, 2026 Slate Crossword: Natural Habitat for Boas? (Eight Letters) Slate Pears Game 275: May 16, 2026 Copy Lin"
+    "snippet": "Alibaba.com: Manufacturers, Suppliers, Exporters & Importers from the world's largest online B2B marketplace All categoriesFeatured selectionsOrder protectionsBuyer CentralHelp CenterApp & extensionSell on Alibaba.comWhat are you looking for? Welcome to Alibaba.comCategories for youApparel & Accesso"
   },
   {
-    "title": "Stop bringing water bottles to yoga class. They are disruptive.",
-    "url": "https://slate.com/life/2025/05/water-bottles-yoga-class-hydration-stanley.html",
+    "title": "Search Projects :: Photos, videos, logos, illustrations and branding :: Behance",
+    "url": "https://www.behance.net/",
     "summary": "Network error: ",
-    "snippet": "Stop bringing water bottles to yoga class. They are disruptive. Advertisement Advertisement Aleksandar Georgiev/E+ via Getty Images Copy Link Share Share Comment Copy Link Share Share Comment Sign up for the Slatest to get the most insightful analysis, criticism, and advice out there, delivered to y"
+    "snippet": "Search Projects :: Photos, videos, logos, illustrations and branding :: Behance The World’sBest CreatorsAre On BehanceA comprehensive platform to help hirers and creators navigate the creative world from discovering inspiration, to connecting with one anotherHire a FreelancerTry Behance ProFilterPro"
+  },
+  {
+    "title": "Facebook",
+    "url": "https://www.facebook.com/",
+    "summary": "Network error: ",
+    "snippet": "Facebook Explore the things you love.Log into FacebookEmail or mobile numberPasswordLog inForgot password?Create new account English (US)EspañolFrançais (France)中文(简体)العربيةPortuguês (Brasil)ItalianoMore languages…Sign UpLog InMessengerFacebook LiteVideoMeta PayMeta StoreMeta QuestRay-Ban MetaMeta "
+  },
+  {
+    "title": "Push your ideas to the web | Netlify",
+    "url": "https://www.netlify.com/",
+    "summary": "Network error: ",
+    "snippet": "Push your ideas to the web | Netlify Push your ideas to the web Create with AI or code, deploy instantly on production infrastructure. One platform to build and ship. Start building Talk to sales How it works Build your way.Ship on one platform. Every path runs on the same workflow and production in"
+  },
+  {
+    "title": "AI-Native Cloud | DigitalOcean",
+    "url": "https://www.digitalocean.com/",
+    "summary": "Network error: ",
+    "snippet": "AI-Native Cloud | DigitalOceanAI-Native CloudOne platform, fully integrated from silicon to agent, with economics that improve as you scale.Get StartedExplore products255010020030040050060070080090010001100120013001400From real-time agents to trillion-token workloads, leaders in AI run on DigitalOce"
+  },
+  {
+    "title": "Finally, AI for the entire software lifecycle.",
+    "url": "https://about.gitlab.com/",
+    "summary": "Network error: ",
+    "snippet": "Finally, AI for the entire software lifecycle.CloseTo search repositories and projects, login to gitlab.com. SuggestionsGitLab Duo Agent PlatformCode Suggestions (AI)CI/CDGitLab on AWSGitLab on Google CloudWhy GitLab?Finally, AI for the entire software lifecycle.Your intelligent orchestration platfo"
+  },
+  {
+    "title": "Netflix - Watch TV Shows Online, Watch Movies Online",
+    "url": "https://www.netflix.com/",
+    "summary": "Network error: ",
+    "snippet": "Netflix - Watch TV Shows Online, Watch Movies OnlineUnlimited movies, TV shows, and moreStarts at $8.99. Cancel anytime.Ready to watch? Enter your email to create or restart your membership.Email addressGet StartedThe Netflix you love for just $8.99.Get our most affordable, ad-supported plan.Learn M"
+  },
+  {
+    "title": "Breaking News, World News and Video from Al Jazeera",
+    "url": "https://www.aljazeera.com/",
+    "summary": "Network error: ",
+    "snippet": "Breaking News, World News and Video from Al Jazeera Featured ContentThis video may contain light patterns or images that could trigger seizures or cause discomfort for people with visual sensitivities.BREAKINGBREAKING, Trump says Iran attack on ‘hold’; Israel kills 3,000 in Lebanon since MarchLive u"
+  },
+  {
+    "title": "Heroku: The Cloud Application Platform | Build. Deploy. Scale.",
+    "url": "https://www.heroku.com/",
+    "summary": "Network error: ",
+    "snippet": "Heroku: The Cloud Application Platform | Build. Deploy. Scale. Search overlay panel for performing site-wide searches Search For: Close The Cloud Application Platform For Building, Deploying, and Scaling AppsHeroku is your fastest path from idea to production. Our fully managed app platform tackles "
+  },
+  {
+    "title": "Cloud Computing Services | Microsoft Azure",
+    "url": "https://azure.microsoft.com/en-us",
+    "summary": "Network error: ",
+    "snippet": "Cloud Computing Services | Microsoft Azure This is the Trace Id: 04e1f3178fb6e740709d452294805df9 Skip to main content AZURE. YOUR INTELLIGENT CLOUD. Now shipping: Microsoft Build 2026 Be part of Microsoft Build and learn how tech leaders train and fine-tune models, design agent architectures, orche"
+  },
+  {
+    "title": "Free Online Appointment Scheduling Software | Calendly",
+    "url": "https://calendly.com",
+    "summary": "Network error: ",
+    "snippet": "Free Online Appointment Scheduling Software | CalendlyTrusted by more than 100,000 of the world’s leading organizationsCalendly makes scheduling simpleCalendly’s easy enough for individual users, and powerful enough to meet the needs of enterprise organizations — including 86% of the Fortune 500 com"
+  },
+  {
+    "title": "Ars Technica - Serving the Technologist since 1998. News, reviews, and analysis.",
+    "url": "https://arstechnica.com",
+    "summary": "Network error: ",
+    "snippet": "Ars Technica - Serving the Technologist since 1998. News, reviews, and analysis. Skip to content Ars Technica homepage Grid Classic Grid List Neutron Star grid settings Featured All roads lead to Starship The US space enterprise is desperately waiting for Starship—will it finally deliver? “This is s"
+  },
+  {
+    "title": "The AI Work Platform for People & Agents | monday.com",
+    "url": "https://monday.com",
+    "summary": "Network error: ",
+    "snippet": "The AI Work Platform for People & Agents | monday.comOutpace everyone with the best AI work platformOutpace everyone with the best AI work platformExponential execution that scales your business impact and expands what your teams can deliver.Get StartedNo credit card needed ✦ Unlimited time on Free "
+  },
+  {
+    "title": "Local Weather Forecast, News and Conditions | Weather Underground",
+    "url": "https://www.wunderground.com/",
+    "summary": "Network error: ",
+    "snippet": "Local Weather Forecast, News and Conditions | Weather Underground Skip to Main Content _ Searchclosegps_fixedgps_fixedFind Nearest Station Manage Favorite CitiesLog InGo Ad Freeaccount_box Log in Go Ad Freesettings Settings Sensor NetworkMaps & RadarSevere WeatherNews & BlogsMobile AppsHistorical We"
+  },
+  {
+    "title": "Website Builder – Easily Create Your Own Website — Squarespace",
+    "url": "https://www.squarespace.com/",
+    "summary": "Network error: ",
+    "snippet": "Website Builder – Easily Create Your Own Website — Squarespace A website makes it realGet StartedStart for free. No credit card required.PreviousNextJoin millions of entrepreneurs who run their business on Squarespace.123456789M+14M+14M+Entrepreneurs Served$01234567890123456789B+$36B+$36B+Earned by "
+  },
+  {
+    "title": "【楽天市場】Shopping is Entertainment! ： インターネット最大級の通信販売、通販オンラインショッピングコミュニティ",
+    "url": "https://www.rakuten.co.jp/",
+    "summary": "Network error: ",
+    "snippet": "【楽天市場】Shopping is Entertainment! ： インターネット最大級の通信販売、通販オンラインショッピングコミュニティ モバイル ランキング スーパーDEAL Fashion トラベル カード 証券 銀行 ブックス 電子書籍 ラクマ リーベイツ 楽天24 楽天24エクスプレス 楽天ビック ネットスーパー ROOM サービス一覧 お買い物 ふるさと納税 スーパーDEAL ランキング ギフト 定期購入 ショッピングチャンネル 楽天ブックス 楽天Koboストア 楽天24 楽天24エクスプレス 楽天ビック Rakuten Fashion 楽券 ラクマ 楽天全国スーパー 楽天リーベ"
+  },
+  {
+    "title": "Instagram",
+    "url": "https://www.instagram.com/",
+    "summary": "Network error: ",
+    "snippet": "Instagram See everyday moments from your close friends.Log into InstagramMobile number, username or emailPasswordLog inForgot password?Log in with FacebookCreate new account"
+  },
+  {
+    "title": "Best Buy | Official Online Store | Shop Now & Save",
+    "url": "https://www.bestbuy.com/",
+    "summary": "Network error: ",
+    "snippet": "Best Buy | Official Online Store | Shop Now & Save Memorial Day SaleEnds 5/25. Limited quantities. No rainchecks.Shop now$(csi.user.businessName)Main Content........ MEMORIAL DAY SALE Bring on summer with big tech deals Ends 5/25 Limited quantities. No rainchecks. Shop now ..Shop deals by categorySh"
+  },
+  {
+    "title": "百度一下，你就知道",
+    "url": "https://www.baidu.com/",
+    "summary": "Network error: ",
+    "snippet": "百度一下，你就知道 <style data-for=\"result\" type=\"text/css\" >html{font-size:100px}html body{font-size:.14rem;font-size:14px}body{color:#333;background:#fff;padding:6px 0 0;margin:0;position:relative}body,th,td,.p1,.p2{font-family:arial}p,form,ol,ul,li,dl,dt,dd,h3{margin:0;padding:0;list-style:none}input{padd"
+  },
+  {
+    "title": "Website Builder - Create a Free Website In Minutes | Wix.com",
+    "url": "https://www.wix.com/",
+    "summary": "Network error: ",
+    "snippet": "Website Builder - Create a Free Website In Minutes | Wix.com top of pageThe new way to create a websiteGo from words to a business-ready site that’s entirely yours to shape, on the first hybrid website builder.Get Started Get Started Start for free. No credit card required. Flow between instant gene"
+  },
+  {
+    "title": "The White House",
+    "url": "https://www.whitehouse.gov/",
+    "summary": "Network error: ",
+    "snippet": "The White House Under President Donald Trump’s second administration, the United States has surged into a new era of prosperity, marked by record-setting economic growth and trillions in new private-sector investments fueled by tax reforms, deregulation, and a renewed focus on American innovation. T"
+  },
+  {
+    "title": "World Health Organization (WHO)",
+    "url": "https://www.who.int/",
+    "summary": "Network error: ",
+    "snippet": "World Health Organization (WHO) Skip to main content Seventy-ninth World Health Assembly Find out more WHO / Pierre Albouy © Credits Latest news All → 18 May 2026 News release World Health Assembly opens in Geneva, Switzerland 18 May 2026 News release Director-General presents Award for Global Healt"
+  },
+  {
+    "title": "Welcome to GOV.UK",
+    "url": "https://www.gov.uk/",
+    "summary": "Network error: ",
+    "snippet": "Welcome to GOV.UK Cookies on GOV.UK We use some essential cookies to make this website work.We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services.We also use cookies set by other sites to help us deliver content from their servic"
+  },
+  {
+    "title": "Discovery Channel Shows and Articles | Discovery",
+    "url": "https://www.discovery.com/",
+    "summary": "Network error: ",
+    "snippet": "Discovery Channel Shows and Articles | Discovery Discovery Homepage Naked and Afraid: Global Showdown Sundays at 8/7c Filthy Fortunes Sundays at 9/8c Contraband: Seized at the Airport Mondays at 8/7c Deadliest Catch Fridays at 8/7c schedule See Full Schedule 6 Seasons Moonshiners: Master Distiller B"
+  },
+  {
+    "title": "Slate Magazine - Politics, Business, Technology, and the Arts",
+    "url": "https://slate.com",
+    "summary": "Network error: ",
+    "snippet": "Slate Magazine - Politics, Business, Technology, and the Arts Advertisement Advertisement Republicans Are Trying to Kill the Abortion Pill. Unfortunately for Them, Abortion Providers Have Them Beat. Christina Cauterucci Trump’s Efforts to Intimidate Elon Musk’s Enemies Just Faced a Severe Setback Da"
+  },
+  {
+    "title": "NASA",
+    "url": "https://www.nasa.gov/",
+    "summary": "Network error: ",
+    "snippet": "NASA Search Suggested Searches Climate Change Artemis Expedition 64 Mars perseverance SpaceX Crew-2 International Space Station View All Topics A-Z HomeMissionsHumans in SpaceEarthThe Solar SystemThe UniverseScienceAeronauticsTechnologyLearning ResourcesAbout NASAEspañol News & Events Multimedia NAS"
+  },
+  {
+    "title": "California State Portal | CA.gov",
+    "url": "https://www.ca.gov/",
+    "summary": "Network error: ",
+    "snippet": "California State Portal | CA.gov Find government services and information Search for a service Submit Get disaster help Get what you need to recover, like food, shelter, cash assistance, replacement documents, and rebuilding help. Popular services Real ID/license Birth certificates Check your refund"
+  },
+  {
+    "title": "arXiv.org e-Print archive",
+    "url": "https://arxiv.org",
+    "summary": "Network error: ",
+    "snippet": "arXiv.org e-Print archive arXiv is a free distribution service and an open-access archive for nearly 2.4 million scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economi"
+  },
+  {
+    "title": "Google Scholar",
+    "url": "https://scholar.google.com",
+    "summary": "Network error: ",
+    "snippet": "Google ScholarLoading...The system can't perform the operation now. Try again later.Advanced searchFind articleswith all of the wordswith the exact phrasewith at least one of the wordswithout the wordswhere my words occuranywhere in the articlein the title of the articleReturn articles authored bye."
+  },
+  {
+    "title": "TIME | Current & Breaking News | National & World Updates",
+    "url": "https://time.com",
+    "summary": "Network error: ",
+    "snippet": "TIME | Current & Breaking News | National & World UpdatesTIME | Current & Breaking News | National & World UpdatesSandy Huffaker—Los Angeles Times/Getty ImagesWhat We Know About the Shooting at the Islamic Center of San DiegoThe shooting, which authorities are investigating as a possible hate crime,"
+  },
+  {
+    "title": "Best Note Taking App - Organize Your Notes with Evernote",
+    "url": "https://evernote.com",
+    "summary": "API error (404)",
+    "snippet": "Best Note Taking App - Organize Your Notes with EvernoteYour second brainRemember everything and tackle any project with your notes, tasks, and schedule all in one place.Get Evernote freeAlready have an account? Log inMake the most of your ideas—and your timeCapture everything that is, was, or could"
+  },
+  {
+    "title": "Wikipedia",
+    "url": "https://www.wikipedia.org/",
+    "summary": "Network error: ",
+    "snippet": "Wikipedia Wikipedia The Free Encyclopedia Search Wikipedia Afrikaans Shqip العربية Asturianu Azərbaycanca Български 閩南語 / Bân-lâm-gú বাংলা Беларуская Català Čeština Cymraeg Dansk Deutsch Eesti Ελληνικά English Español Esperanto Euskara فارسی Français Galego 한국어 Հայերեն हिन्दी Hrvatski Bahasa Indones"
+  },
+  {
+    "title": "Google",
+    "url": "https://www.google.com/",
+    "summary": "Network error: ",
+    "snippet": "GoogleGmailImagesSign in Advanced searchAdvertisingBusiness SolutionsAbout Google© 2026 - Privacy - TermsGoogle apps"
+  },
+  {
+    "title": "9to5Mac - Apple News & Mac Rumors Breaking All Day",
+    "url": "https://9to5mac.com",
+    "summary": "API error (404)",
+    "snippet": "9to5Mac - Apple News & Mac Rumors Breaking All Day Skip to main content 9to5Mac Siri Apple Intelligence iOS 27 Standalone Siri app to offer auto-deleting chat history, launch with beta label: report Michael Burkhardt May 17 2026 Featured Standalone Siri app to offer auto-deleting chat history, launc"
+  },
+  {
+    "title": "Mashable",
+    "url": "https://mashable.com",
+    "summary": "API error (404)",
+    "snippet": "Mashable new rules How schools introduce AI to young students employee action Samsung injunction partially blocks looming worker strike. But it's not over. tune in What to expect from Google I/O 2026: Gemini news, Android XR glasses voting now open The Mashable 101 Fan Fave: Help us pick the interne"
+  },
+  {
+    "title": "Search - Microsoft Bing",
+    "url": "https://www.bing.com/?toWww=1&redig=172B8EB2C8BF4E318FA34B189FD640A5",
+    "summary": "API error (404)",
+    "snippet": "Search - Microsoft BingSign in"
+  },
+  {
+    "title": "Forbes",
+    "url": "https://www.forbes.com/",
+    "summary": "API error (404)",
+    "snippet": "ForbesBillionairesMoneyInnovationLifestyleBusinessLeadershipNewslettersGamesVettedListsTrendingU.S. Edition BriefAmerican With Ebola Being Evacuated From CongoTrump Drops IRS Suit—As DOJ Announces New $1.776 Billion FundTrump On Anti-Massie Posting Spree Ahead Of Tuesday’s PrimaryThe Brief is genera"
+  },
+  {
+    "title": "Breaking News, Latest News and Videos | CNN",
+    "url": "https://www.cnn.com/",
+    "summary": "API error (404)",
+    "snippet": "Breaking News, Latest News and Videos | CNN • Live Updates KFMB • Live Updates Live Updates5 min ago Three killed in shooting at San Diego’s largest mosque Two suspects were also found dead. Hate speech was written on one of the guns, officials said. Trump administration Julia Demaree Nikhinson/AP T"
+  },
+  {
+    "title": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & Audio",
+    "url": "https://www.bbc.com/",
+    "summary": "API error (404)",
+    "snippet": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & AudioSkip to contentHomeNewsUS & CanadaUKUK PoliticsEnglandN. IrelandN. Ireland PoliticsScotlandScotland PoliticsWalesWales PoliticsAfricaAsiaChinaIndiaAustraliaEuropeLatin AmericaMiddle Ea"
+  },
+  {
+    "title": "Walmart | Save Money. Live better.",
+    "url": "https://www.walmart.com/",
+    "summary": "API error (404)",
+    "snippet": "Walmart | Save Money. Live better.All DepartmentsRollbacks & moreRollbacks & moreShop AllClearanceFlash DealsExtra SavingsGroceryElectronicsBeautyPetsSports & OutdoorsHousehold EssentialsPatio & GardenHome ImprovementAuto & TiresBabyHomeFashionToysHealth & WellnessMemorial DayMemorial DayMemorial Da"
+  },
+  {
+    "title": "The New York Times - Breaking News, US News, World News and Videos",
+    "url": "https://www.nytimes.com/",
+    "summary": "API error (404)",
+    "snippet": "The New York Times - Breaking News, US News, World News and Videos Skip to contentSkip to site indexNew York Times - Top StoriesLiveLIVETrump AdministrationMay 18, 2026, 11:51 p.m. ETLong Island Rail Road StrikeMay 18, 2026, 10:25 p.m. ETTop StoriesJack Taylor/ReutersTrump Threatens Iran and Then Pu"
+  },
+  {
+    "title": "Analytics Scheduling Software | Calendly",
+    "url": "https://calendly.com/features/analytics",
+    "summary": "Network error: ",
+    "snippet": "Analytics Scheduling Software | Calendly FeaturesAnalyticsAnalyticsUse scheduling analytics to drive business outcomesDiscover activity and trends — such as popular meeting times, top performers, and in-demand meeting types — so you can optimize scheduling to hit your goals.Sign up for freeGet a dem"
+  },
+  {
+    "title": "Google Suite Integration | Calendly",
+    "url": "https://calendly.com/integration/google",
+    "summary": "Network error: ",
+    "snippet": "Google Suite Integration | CalendlyIntegrationsConnect Google with Calendly to get more doneScheduling meetings with customers should be the easiest part of your day. Connect Calendly with the Google tools you use daily to save time and automate workflows.Sign up with GoogleGet a demoGet started wit"
+  },
+  {
+    "title": "Google Chrome Extension Integration | Calendly",
+    "url": "https://calendly.com/integration/calendly-for-chrome",
+    "summary": "Network error: ",
+    "snippet": "Google Chrome Extension Integration | CalendlyIntegrationsChrome extensionCalendly + Chrome extensionOne-click access to Calendly from wherever you’re working on Chrome.Sign up for freeAdd integrationOverviewEliminate the back-and-forth of scheduling. Manage your meetings, scheduling links, and cont"
+  },
+  {
+    "title": "Calendly Features - Workflows, Integrations, Embeds, Routing | Calendly",
+    "url": "https://calendly.com/features",
+    "summary": "Network error: ",
+    "snippet": "Calendly Features - Workflows, Integrations, Embeds, Routing | CalendlyBook meetings that work for youAutomate scheduling to solve any meeting scenario, improve meeting prep and follow-up, route calls to experts, connect all the tools you need, and stay secure.Sign up for freeGet a demoSchedule Meet"
+  },
+  {
+    "title": "Integrations | Calendly",
+    "url": "https://calendly.com/integration#api-and-connectors",
+    "summary": "Network error: ",
+    "snippet": "Integrations | CalendlyApps & IntegrationsIntegrate Calendly, boost productivitySmart scheduling automation will change the way you – and your tools – work.FeaturedClaudeLearn moreFeaturedStripeLearn moreFeaturedLinkedInLearn moreCategoriesAllPopularExtensions & AppsCalendarsSales & CRMVideo Confere"
+  },
+  {
+    "title": "Welcome back to Calendly. Log in to your account here. | Calendly",
+    "url": "https://calendly.com/login",
+    "summary": "Network error: ",
+    "snippet": "Welcome back to Calendly. Log in to your account here. | CalendlyLog in to your accountEmailContinueORContinue with GoogleContinue with MicrosoftDon’t have an account? Sign up for free"
+  },
+  {
+    "title": "Automated scheduling software | Calendly",
+    "url": "https://calendly.com/scheduling",
+    "summary": "Network error: ",
+    "snippet": "Automated scheduling software | CalendlySchedulingPowerful scheduling software made simpleSee how Calendly’s scheduling automation simplifies the process of booking appointments and meetings.Start for freeGet a demoConnect calendarsSync your work and personal calendars to only offer times you’re fre"
+  },
+  {
+    "title": "About Us | Calendly",
+    "url": "https://calendly.com/about",
+    "summary": "Network error: ",
+    "snippet": "About Us | CalendlyAbout CalendlySimplifying scheduling for 20+ millionCalendly’s intuitive, powerful scheduling automation platform helps you close deals, hire top talent, build strong relationships, and grow your business faster.Sign up for freeThe trusted scheduling solution for everyone, from sm"
   }
 ]
