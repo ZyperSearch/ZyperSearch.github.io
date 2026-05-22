@@ -130,7 +130,7 @@ HEADERS = {
 # ----------------------------------------------------------------------
 RESPECT_ROBOTS = False
 ROBOTS_PATH = "/robots.txt"
-LIMITS = httpx.Limits(max_connections=20, max_keepalive_connections=10)
+LIMITS = httpx.Limits(max_connections=4, max_keepalive_connections=1)
 MAX_DEPTH = 80   # 0 = only seeds, 1 = seeds + direct children, 2 = grandchildren …
 
 
