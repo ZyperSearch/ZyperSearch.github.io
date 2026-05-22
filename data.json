@@ -18,16 +18,22 @@
     "snippet": "Discord - Group Chat That’s All Fun & Games Group chat that’s all fun & gamesDiscord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.find your friends on discord.DownloadMAKE YOUR GROUP CHATS MORE FUNU"
   },
   {
+    "title": "X. It’s what’s happening / X",
+    "url": "https://x.com",
+    "summary": "Network error: [Errno -5] No address associated with hostname",
+    "snippet": "X. It’s what’s happening / X Happening nowJoin today.Sign up with AppleORCreate accountBy signing up, you agree to the Terms of Service and Privacy Policy, including Cookie Use.Already have an account?Sign inGet the app"
+  },
+  {
     "title": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
     "url": "https://github.com",
     "summary": "Network error: [Errno -5] No address associated with hostname",
     "snippet": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your sess"
   },
   {
-    "title": "Twitch",
-    "url": "https://www.twitch.tv/",
-    "summary": "Insufficient text for a meaningful summary.",
-    "snippet": "Twitch"
+    "title": "Compare B2B Software, Download, & Develop Open Source & Business Software - SourceForge",
+    "url": "https://sourceforge.net",
+    "summary": "Network error: [Errno -5] No address associated with hostname",
+    "snippet": "Compare B2B Software, Download, & Develop Open Source & Business Software - SourceForge Join/Login Business Software Open Source Software For Vendors Blog About More Articles Create SourceForge Podcast Site Documentation Subscribe to our Newsletter Support Request Compare & Review Business Software "
   },
   {
     "title": "Vimeo - All-in-One Video Platform",
@@ -36,10 +42,16 @@
     "snippet": "Vimeo - All-in-One Video PlatformYour complete video platformYour videos, your wayVimeo’s ad-free platform provides everything you need to host, manage, and share high-quality videos.See plansStart for freeSee why millions love VimeoPlayBest of the Year 2025 All of this year's top shorts, hand‑picke"
   },
   {
-    "title": "X. It’s what’s happening / X",
-    "url": "https://x.com",
+    "title": "Stream and listen to music online for free with SoundCloud",
+    "url": "https://soundcloud.com",
     "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "X. It’s what’s happening / X Happening nowJoin today.Sign up with AppleORCreate accountBy signing up, you agree to the Terms of Service and Privacy Policy, including Cookie Use.Already have an account?Sign inGet the app"
+    "snippet": "Stream and listen to music online for free with SoundCloud SoundCloud JavaScript is disabled You need to enable JavaScript to use SoundCloud Show me how to enable it Your current browser isn't compatible with SoundCloud. Please download one of our supported browsers. Need help? Chrome | Firefox | Sa"
+  },
+  {
+    "title": "Twitch",
+    "url": "https://www.twitch.tv/",
+    "summary": "Insufficient text for a meaningful summary.",
+    "snippet": "Twitch"
   },
   {
     "title": "Bitbucket | Git solution for teams using Jira",
@@ -48,10 +60,16 @@
     "snippet": "Bitbucket | Git solution for teams using Jira Code and CI/CD, powered by AI and the Atlassian platform Accelerate software delivery from idea to code to production, with a seamless connection to Jira and AI beyond code creation Try it now Watch demo AI throughout the SDLC Reduce cycle times across t"
   },
   {
+    "title": "Yandex — fast Internet search",
+    "url": "https://yandex.com",
+    "summary": "Network error: [Errno -5] No address associated with hostname",
+    "snippet": "Yandex — fast Internet searchSearch with Yandex AISearch{\"static\":\"2026-05-22-1133.1\",\"content\":\"big\",\"domain\":\"com\",\"nodeVersion\":false}1779485112792220-632372345585664146-balancer-l7leveler-kubr-yp-klg-142-BAL"
+  },
+  {
     "title": "PyPI · The Python Package Index",
     "url": "https://pypi.org",
     "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "PyPI · The Python Package Index Skip to main content Switch to mobile version Warning Some features may not work without JavaScript. Please try enabling it if you encounter problems. Find, install and publish Python packages with the Python Package Index Search PyPI Search Or browse projects 814,546"
+    "snippet": "PyPI · The Python Package Index Skip to main content Switch to mobile version Warning Some features may not work without JavaScript. Please try enabling it if you encounter problems. Find, install and publish Python packages with the Python Package Index Search PyPI Search Or browse projects 814,551"
   },
   {
     "title": "Cloud Computing Services - Amazon Web Services (AWS)",
@@ -60,46 +78,28 @@
     "snippet": "Cloud Computing Services - Amazon Web Services (AWS) Skip to main content Meet your unique security requirements AWS is designed for security, protecting even the most sensitive workloads—including government, financial services, and healthcare Start free with AWS What's new Catch up on the most tal"
   },
   {
-    "title": "Vercel: Build and deploy the best web experiences with the AI Cloud",
-    "url": "https://vercel.com",
-    "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "Vercel: Build and deploy the best web experiences with the AI CloudSkip to contentEventsShip 26 is coming to 5 citiesGet your ticketBuild and deploy on the AI Cloud.Vercel provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more personalized web.DeployStart De"
-  },
-  {
-    "title": "Stream and listen to music online for free with SoundCloud",
-    "url": "https://soundcloud.com",
-    "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "Stream and listen to music online for free with SoundCloud SoundCloud JavaScript is disabled You need to enable JavaScript to use SoundCloud Show me how to enable it Your current browser isn't compatible with SoundCloud. Please download one of our supported browsers. Need help? Chrome | Firefox | Sa"
-  },
-  {
     "title": "Blog Tool, Publishing Platform, and CMS – WordPress.org",
     "url": "https://wordpress.org",
     "summary": "Network error: [Errno -5] No address associated with hostname",
     "snippet": "Blog Tool, Publishing Platform, and CMS – WordPress.org Skip to content WordCamp Europe 2026 is almost here. Discover what’s happening in Kraków this June. ↗ Meet WordPress The open source publishing platform of choice for millions of websites worldwide—from creators and small businesses to enterpri"
   },
   {
+    "title": "Vercel: Build and deploy the best web experiences with the AI Cloud",
+    "url": "https://vercel.com",
+    "summary": "Network error: [Errno -5] No address associated with hostname",
+    "snippet": "Vercel: Build and deploy the best web experiences with the AI CloudSkip to contentEventsShip 26 is coming to 5 citiesGet your ticketBuild and deploy on the AI Cloud.Vercel provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more personalized web.DeployStart De"
+  },
+  {
     "title": "Dribbble - Discover the World’s Top Designers & Creative Professionals",
     "url": "https://dribbble.com",
     "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "Dribbble - Discover the World’s Top Designers & Creative Professionals Get 20% (up to $100) off your first payment for design and development services on Dribbble! Use code WELCOME20 🎉 Get Started Shots Shots Designers Services Sign up Log in Discover the World’s Top Designers Explore work from the "
-  },
-  {
-    "title": "Yandex — fast Internet search",
-    "url": "https://yandex.com",
-    "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "Yandex — fast Internet searchSearch with Yandex AISearch{\"static\":\"2026-05-22-1133.1\",\"content\":\"big\",\"domain\":\"com\",\"nodeVersion\":false}1779484501736827-11355093414672175077-balancer-l7leveler-kubr-yp-vla-164-BAL"
+    "snippet": "Dribbble - Discover the World’s Top Designers & Creative Professionals Get 20% (up to $100) off your first payment for design and development services on Dribbble! Use code WELCOME20 🎉 Get Started Shots Shots Designers Services Sign up Log in Hire Talent Get Hired Work with the world’s best in web d"
   },
   {
     "title": "AI and Cloud Computing Services | Google Cloud",
     "url": "https://cloud.google.com",
     "summary": "Network error: [Errno -5] No address associated with hostname",
     "snippet": "AI and Cloud Computing Services | Google CloudThe new way to cloudBuild with AI. Deploy and scale apps fast. Analyze and secure your data. Start now with $300 in free credit. Get started for freeContact salesTry Gemini Enterprise app—the front door to AI for every employeeSecurityRedefining security"
-  },
-  {
-    "title": "Compare B2B Software, Download, & Develop Open Source & Business Software - SourceForge",
-    "url": "https://sourceforge.net",
-    "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "Compare B2B Software, Download, & Develop Open Source & Business Software - SourceForge Join/Login Business Software Open Source Software For Vendors Blog About More Articles Create SourceForge Podcast Site Documentation Subscribe to our Newsletter Support Request Compare & Review Business Software "
   },
   {
     "title": "National and Local Weather Radar, Daily Forecast and News from The Weather Channel",
@@ -114,22 +114,10 @@
     "snippet": "Centers for Disease Control and Prevention | CDC Skip to site content Skip to search Ebola Outbreak Learn More Hantavirus Outbreak Learn More CDC leads responses to Ebola and Hantavirus Learn More Ebola Outbreak Next Slide Hantavirus Outbreak Next Slide CDC leads responses to Ebola and Hantavirus Ne"
   },
   {
-    "title": "Location Intelligence Platform | Foursquare",
-    "url": "https://foursquare.com",
+    "title": "Budget Tracker & Planner | Free Online Money Management | Mint",
+    "url": "https://mint.intuit.com",
     "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "Location Intelligence Platform | Foursquare Skip to content Connect real-world behavior to business outcomesFoursquare is the industry-leading location intelligence platform, from turnkey measurement solutions for marketers to scalable building blocks for developers and beyond.Speak to salesTry for "
-  },
-  {
-    "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
-    "url": "https://stripe.com",
-    "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "Stripe | Financial Infrastructure to Grow Your RevenueGlobal GDP running on Stripe: Financial infrastructure to grow your revenue. Accept payments, offer financial services, and implement custom revenue models—from your first transaction to your billionth.Financial infrastructure to grow your revenu"
-  },
-  {
-    "title": "Bleacher Report | Sports. Highlights. News. Now.",
-    "url": "https://bleacherreport.com",
-    "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "Bleacher Report | Sports. Highlights. News. Now.Featured VideoNBAToday08:30pm1OKC(1-1)O/U: 217.52SAS(1-1)-1.5NHLToday08:00pmVGK(1-0)+140COL(0-1)-170MLBLive 9thHOU(20-31)4CHC(29-21)2Today07:05pmTB(33-15)+124NYY(30-21)-146Today07:15pmDET(20-31)+118BAL(21-29)-138Today07:40pmLAD(31-19)-112MIL(29-18)-104"
+    "snippet": "Budget Tracker & Planner | Free Online Money Management | Mint Skip To Main Content Mint has been reimagined on Credit Karma. Mint has been reimagined on Credit Karma. Reviewing transactions, monitoring your spending and tracking your net worth now have a new home. Check it out Popular Mint features"
   },
   {
     "title": "Unity: Develop, Deploy, and Grow | The World's Leading Game Engine",
@@ -138,22 +126,16 @@
     "snippet": "Unity: Develop, Deploy, and Grow | The World's Leading Game EngineUnity AI Beta is here: Trained on Unity. Designed for game development.Read moreBuild greatUnity® is the world’s leading game engine, supported by the most successful game development community in history and powered by a system that "
   },
   {
-    "title": "Budget Tracker & Planner | Free Online Money Management | Mint",
-    "url": "https://mint.intuit.com",
+    "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+    "url": "https://stripe.com",
     "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "Budget Tracker & Planner | Free Online Money Management | Mint Skip To Main Content Mint has been reimagined on Credit Karma. Mint has been reimagined on Credit Karma. Reviewing transactions, monitoring your spending and tracking your net worth now have a new home. Check it out Popular Mint features"
+    "snippet": "Stripe | Financial Infrastructure to Grow Your RevenueGlobal GDP running on Stripe: Financial infrastructure to grow your revenue. Accept payments, offer financial services, and implement custom revenue models—from your first transaction to your billionth.Financial infrastructure to grow your revenu"
   },
   {
-    "title": "Slack | AI Work Platform & Productivity Tools",
-    "url": "https://slack.com",
+    "title": "Location Intelligence Platform | Foursquare",
+    "url": "https://foursquare.com",
     "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "Slack | AI Work Platform & Productivity ToolsSkip to main contentAll your people and AI agents working together.Slack connects your team. Slackbot multiplies what they can do.Get startedTrusted by top teamsAsk SlackbotPlan launchesRun projectsChat with clientsAutomate tasksAsk SlackbotPlan launchesR"
-  },
-  {
-    "title": "TechCrunch | Startup and Technology News",
-    "url": "https://techcrunch.com",
-    "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "TechCrunch | Startup and Technology News Image Credits:TechCrunch Apps Spotify’s AI bet: more of everything, less of what you want Ivan Mehta 5 hours ago Hardware We tried Google’s AI glasses and they’re almost there Sarah Perez 5 hours ago Apps Apple says Epic lawsuit shouldn’t reshape App Store ru"
+    "snippet": "Location Intelligence Platform | Foursquare Skip to content Connect real-world behavior to business outcomesFoursquare is the industry-leading location intelligence platform, from turnkey measurement solutions for marketers to scalable building blocks for developers and beyond.Speak to salesTry for "
   },
   {
     "title": "Capture, organize, and tackle your to-dos from anywhere",
@@ -162,10 +144,22 @@
     "snippet": "Capture, organize, and tackle your to-dos from anywhereSkip to main contentSign up - it’s free!By entering my email, I acknowledge the Atlassian Privacy PolicyWatch videoHeroTrello 101Stay organized and efficient with Inbox, Boards, and Planner. Every to-do, idea, or responsibility—no matter how sma"
   },
   {
-    "title": "9to5Mac - Apple News & Mac Rumors Breaking All Day",
-    "url": "https://9to5mac.com",
+    "title": "Slack | AI Work Platform & Productivity Tools",
+    "url": "https://slack.com",
     "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "9to5Mac - Apple News & Mac Rumors Breaking All Day Skip to main content 9to5Mac iPhone iPhone 20 iPhone 19 Pro Next year’s iPhone Pro models to get radical new design, per leaker Ryan Christoffel May 21 2026 Featured Next year’s iPhone Pro models to get radical new design, per leaker Ryan Christoffe"
+    "snippet": "Slack | AI Work Platform & Productivity ToolsSkip to main contentAll your people and AI agents working together.Slack connects your team. Slackbot multiplies what they can do.Get startedFind your planTrusted by top teamsAsk SlackbotPlan launchesRun projectsChat with clientsAutomate tasksAsk Slackbot"
+  },
+  {
+    "title": "TechCrunch | Startup and Technology News",
+    "url": "https://techcrunch.com",
+    "summary": "Network error: [Errno -5] No address associated with hostname",
+    "snippet": "TechCrunch | Startup and Technology News Image Credits:TechCrunch Apps Spotify’s AI bet: more of everything, less of what you want Ivan Mehta 5 hours ago Hardware We tried Google’s AI glasses and they’re almost there Sarah Perez 6 hours ago Apps Apple says Epic lawsuit shouldn’t reshape App Store ru"
+  },
+  {
+    "title": "The AI Work Platform for People & Agents | monday.com",
+    "url": "https://monday.com",
+    "summary": "Network error: [Errno -5] No address associated with hostname",
+    "snippet": "The AI Work Platform for People & Agents | monday.comOutpace everyone with the best AI work platformOutpace everyone with the best AI work platformExponential execution that scales your business impact and expands what your teams can deliver.Get StartedNo credit card needed ✦ Unlimited time on Free "
   },
   {
     "title": "Manage your team’s work, projects, & tasks online • Asana",
@@ -180,40 +174,10 @@
     "snippet": "Best Note Taking App - Organize Your Notes with EvernoteYour second brainRemember everything and tackle any project with your notes, tasks, and schedule all in one place.Get Evernote freeAlready have an account? Log inMake the most of your ideas—and your timeCapture everything that is, was, or could"
   },
   {
-    "title": "Breaking News, Latest News and Videos | CNN",
-    "url": "https://www.cnn.com/",
-    "summary": "Network error: ",
-    "snippet": "Breaking News, Latest News and Videos | CNN Kent Nishimura/Reuters Tulsi Gabbard is resigning as director of national intelligence Her tenure was riddled with contradictory messaging, especially on the war with Iran Trump’s ‘Anti-Weaponization Fund’ hit with another legal challenge The Trump adminis"
-  },
-  {
-    "title": "The New York Times - Breaking News, US News, World News and Videos",
-    "url": "https://www.nytimes.com/",
-    "summary": "Network error: ",
-    "snippet": "The New York Times - Breaking News, US News, World News and Videos Skip to contentSkip to site indexNew York Times - Top StoriesJohn Moore/Getty ImagesBREAKINGGreen Card Seekers Must Leave U.S. to Apply, Trump Administration SaysThe decision is likely to affect hundreds of thousands of people and co"
-  },
-  {
-    "title": "Walmart | Save Money. Live better.",
-    "url": "https://www.walmart.com/",
-    "summary": "Network error: ",
-    "snippet": "Walmart | Save Money. Live better.Pickup or delivery? Walmart | Save Money. Live better. Free Delivery? It’s the member way.Join Walmart+ nowJoin Walmart+ nowNew & only at WalmartIntroducing Mainstays KidsShop nowShop nowReady for what’s next?Say hello to your new tech upgradeShop nowShop now Telehe"
-  },
-  {
-    "title": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & Audio",
-    "url": "https://www.bbc.com/",
-    "summary": "Network error: ",
-    "snippet": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & AudioSkip to contentHomeNewsUS & CanadaUKUK PoliticsEnglandN. IrelandN. Ireland PoliticsScotlandScotland PoliticsWalesWales PoliticsAfricaAsiaChinaIndiaAustraliaEuropeLatin AmericaMiddle Ea"
-  },
-  {
-    "title": "Forbes",
-    "url": "https://www.forbes.com/",
-    "summary": "Network error: ",
-    "snippet": "ForbesBillionairesMoneyInnovationLifestyleBusinessLeadershipNewslettersGamesVettedListsTrendingU.S. Edition BriefEbola Outbreak Death Toll Rises To 177: ‘Deeply Worrisome,’ WHO Chief Says (Live Updates)Trump’s Big AI Announcement Collapsed Under Pressure From These BillionairesInside The $4.1 Billio"
-  },
-  {
-    "title": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
-    "url": "https://www.shopify.com/",
-    "summary": "Network error: ",
-    "snippet": "Shopify: The All-in-One Commerce Platform for Businesses - ShopifySkip to ContentBe the nextAI all-starBe the nextstore they line up forAI all-star household name solo-preneur category creator global empire store they line up for big thing Dream big and build fast on Shopify. The world’s best commer"
+    "title": "Free Online Appointment Scheduling Software | Calendly",
+    "url": "https://calendly.com",
+    "summary": "Network error: [Errno -5] No address associated with hostname",
+    "snippet": "Free Online Appointment Scheduling Software | CalendlyTrusted by more than 100,000 of the world’s leading organizationsCalendly makes scheduling simpleCalendly’s easy enough for individual users, and powerful enough to meet the needs of enterprise organizations — including 86% of the Fortune 500 com"
   },
   {
     "title": "Mashable",
@@ -228,10 +192,34 @@
     "snippet": "Ars Technica - Serving the Technologist since 1998. News, reviews, and analysis. Skip to content Ars Technica homepage Grid Classic Grid List Neutron Star grid settings Featured If he did it The $58,000 TV bill: When DirecTV sued O.J. Simpson for piracy In 2001, the FBI raided O.J.’s house and found"
   },
   {
-    "title": "The AI Work Platform for People & Agents | monday.com",
-    "url": "https://monday.com",
+    "title": "9to5Mac - Apple News & Mac Rumors Breaking All Day",
+    "url": "https://9to5mac.com",
     "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "The AI Work Platform for People & Agents | monday.comOutpace everyone with the best AI work platformOutpace everyone with the best AI work platformExponential execution that scales your business impact and expands what your teams can deliver.Get StartedNo credit card needed ✦ Unlimited time on Free "
+    "snippet": "9to5Mac - Apple News & Mac Rumors Breaking All Day Skip to main content 9to5Mac iPhone iPhone 20 iPhone 19 Pro Next year’s iPhone Pro models to get radical new design, per leaker Ryan Christoffel May 21 2026 Featured Next year’s iPhone Pro models to get radical new design, per leaker Ryan Christoffe"
+  },
+  {
+    "title": "arXiv.org e-Print archive",
+    "url": "https://arxiv.org",
+    "summary": "Network error: [Errno -5] No address associated with hostname",
+    "snippet": "arXiv.org e-Print archive arXiv is a free distribution service and an open-access archive for nearly 2.4 million scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economi"
+  },
+  {
+    "title": "Walmart | Save Money. Live better.",
+    "url": "https://www.walmart.com/",
+    "summary": "Network error: ",
+    "snippet": "Walmart | Save Money. Live better.Pickup or delivery? Walmart | Save Money. Live better. Hey future member, want Free Delivery?Join Walmart+ nowJoin Walmart+ nowDenim & more. New & only at Walmart.Designed with Kacey Lee MusgravesShop nowShop nowNew & trendingIt’s finally golden hourShop nowShop now"
+  },
+  {
+    "title": "Forbes",
+    "url": "https://www.forbes.com/",
+    "summary": "Network error: ",
+    "snippet": "ForbesBillionairesMoneyInnovationLifestyleBusinessLeadershipNewslettersGamesVettedListsTrendingU.S. Edition BriefTulsi Gabbard Becomes Fourth Trump Cabinet Member To Go—And They've All Been WomenWho Is Kevin Warsh? Trump’s Fed Chair Nominee Had Deep Billionaire TiesGoldman Sachs CEO Says AI ‘Job Apo"
+  },
+  {
+    "title": "Amazon.com. Spend less. Smile more.",
+    "url": "https://www.amazon.com/",
+    "summary": "Network error: ",
+    "snippet": "Amazon.com. Spend less. Smile more. Previous slide Next slide Shop Memorial Day SaleClothing & moreLawn & gardenElectronicsHomeShop all 15% off designer handbagsLouis VuittonDiorGucciHermèsShop pre-loved pieces Save on Amazon Devices23% offLimited time deal40% offLimited time deal38% offLimited time"
   },
   {
     "title": "Hej! Welcome to IKEA Global",
@@ -240,22 +228,28 @@
     "snippet": "Hej! Welcome to IKEA Global Welcome to IKEA Global! Pause video For the love of design IKEA PS 2026 is here! The GULDSPETT series of paper flowers Forever in bloom The delicious outdoors Let's eat out! A family-friendly hallway Get ready, get set, go! Market spotlight Let's visit IKEA Germany! IKEA "
   },
   {
-    "title": "Amazon.com. Spend less. Smile more.",
-    "url": "https://www.amazon.com/",
-    "summary": "Network error: ",
-    "snippet": "Amazon.com. Spend less. Smile more. Previous slide Next slide Shop Memorial Day SaleClothing & moreLawn & gardenElectronicsHomeShop all 15% off designer handbagsLouis VuittonDiorGucciHermèsShop pre-loved pieces Save on Amazon Devices29% offLimited time deal23% offLimited time deal33% offLimited time"
-  },
-  {
     "title": "The Home Depot",
     "url": "https://www.homedepot.com/",
     "summary": "Network error: ",
     "snippet": "The Home Depot Specials & Offers Appliances Bath Blinds & Window Treatments Building Materials Lumber & Composites Cleaning Home Décor Lighting Doors & Windows Electrical Flooring Hardware Heating, Venting & Cooling Kitchen Garden Center Outdoors Paint Plumbing Holiday Decorations Smart Home Storage"
   },
   {
-    "title": "Pinterest",
-    "url": "https://www.pinterest.com/",
+    "title": "The New York Times - Breaking News, US News, World News and Videos",
+    "url": "https://www.nytimes.com/",
     "summary": "Network error: ",
-    "snippet": "PinterestOh no! Pinterest doesn't work unless you turn on JavaScript."
+    "snippet": "The New York Times - Breaking News, US News, World News and Videos Skip to contentSkip to site indexNew York Times - Top StoriesJohn Moore/Getty ImagesBREAKINGGreen Card Seekers Must Leave U.S. to Apply, Trump Administration SaysThe decision is likely to affect hundreds of thousands of people and co"
+  },
+  {
+    "title": "Target : Expect More. Pay Less.",
+    "url": "https://www.target.com/",
+    "summary": "Network error: ",
+    "snippet": "Target : Expect More. Pay Less.skip to main contentskip to footerEnds Monday, 5/25.Up to 40percent off select clothing, swim & sandals for all*pauseWomen’sKids’Men’sBabySponsoredEven more big summer savingsOutdoor FurnitureOutdoor ToysBeddingBathSun CareGroceriesLoading...Loading...Loading...Loadin"
+  },
+  {
+    "title": "Breaking News, Latest News and Videos | CNN",
+    "url": "https://www.cnn.com/",
+    "summary": "Network error: ",
+    "snippet": "Breaking News, Latest News and Videos | CNN Alex Brandon/AP Tulsi Gabbard is resigning as director of national intelligence Her tenure was riddled with contradictory messaging, especially on the war with Iran Trump’s ‘Anti-Weaponization Fund’ hit with another legal challenge The Trump administration"
   },
   {
     "title": "Snapchat - Say It In A Snap",
@@ -264,10 +258,10 @@
     "snippet": "Snapchat - Say It In A Snap© Snap Inc. 2026Snapchat"
   },
   {
-    "title": "Electronics, Cars, Fashion, Collectibles & More | eBay",
-    "url": "https://www.ebay.com/",
+    "title": "Apple",
+    "url": "https://www.apple.com/",
     "summary": "Network error: ",
-    "snippet": "Electronics, Cars, Fashion, Collectibles & More | eBayElectronics, Cars, Fashion, Collectibles & More | eBay eBay LiveSavedMotorsExpand: MotorsElectronicsExpand: ElectronicsCollectiblesExpand: CollectiblesHome and gardenExpand: Home and gardenClothing, shoes and accessoriesExpand: Clothing, shoes an"
+    "snippet": "Apple Apple iPhone Meet the latest iPhone lineup. Learn more Shop iPhone MacBook Neo Amazing Mac. Surprising price. Learn more Buy Real Madrid The Weight of Greatness in Apple Immersive Legacy demands everything. Experience it firsthand on Apple Vision Pro. Watch the trailer Learn more WWDC 26 Apple"
   },
   {
     "title": "LinkedIn: Log In or Sign Up",
@@ -276,10 +270,10 @@
     "snippet": "LinkedIn: Log In or Sign Up Skip to main content Agree & Join LinkedIn By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy. Welcome to your professional community Sign in with email By clicking Continue to join or sign in, you agree to L"
   },
   {
-    "title": "Alibaba.com: Manufacturers, Suppliers, Exporters & Importers from the world's largest online B2B marketplace",
-    "url": "https://www.alibaba.com/",
+    "title": "Pinterest",
+    "url": "https://www.pinterest.com/",
     "summary": "Network error: ",
-    "snippet": "Alibaba.com: Manufacturers, Suppliers, Exporters & Importers from the world's largest online B2B marketplace All categoriesFeatured selectionsOrder protectionsBuyer CentralHelp CenterApp & extensionSell on Alibaba.comWhat are you looking for? Welcome to Alibaba.comCategories for youApparel & Accesso"
+    "snippet": "PinterestOh no! Pinterest doesn't work unless you turn on JavaScript."
   },
   {
     "title": "YouTube",
@@ -294,82 +288,22 @@
     "snippet": "TikTok - Make Your Day"
   },
   {
-    "title": "Apple",
-    "url": "https://www.apple.com/",
-    "summary": "Network error: ",
-    "snippet": "Apple Apple iPhone Meet the latest iPhone lineup. Learn more Shop iPhone MacBook Neo Amazing Mac. Surprising price. Learn more Buy Real Madrid The Weight of Greatness in Apple Immersive Legacy demands everything. Experience it firsthand on Apple Vision Pro. Watch the trailer Learn more WWDC 26 Apple"
-  },
-  {
     "title": "Facebook",
     "url": "https://www.facebook.com/",
     "summary": "Network error: ",
     "snippet": "Facebook Explore the things you love.Log into FacebookEmail or mobile numberPasswordLog inForgot password?Create new account English (US)EspañolFrançais (France)中文(简体)العربيةPortuguês (Brasil)ItalianoMore languages…Sign UpLog InMessengerFacebook LiteVideoMeta PayMeta StoreMeta QuestRay-Ban MetaMeta "
   },
   {
-    "title": "Instagram",
-    "url": "https://www.instagram.com/",
+    "title": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+    "url": "https://www.ebay.com/",
     "summary": "Network error: ",
-    "snippet": "Instagram See everyday moments from your close friends.Log into InstagramMobile number, username or emailPasswordLog inForgot password?Log in with FacebookCreate new account"
+    "snippet": "Electronics, Cars, Fashion, Collectibles & More | eBayElectronics, Cars, Fashion, Collectibles & More | eBay eBay LiveSavedMotorsExpand: MotorsElectronicsExpand: ElectronicsCollectiblesExpand: CollectiblesHome and gardenExpand: Home and gardenClothing, shoes and accessoriesExpand: Clothing, shoes an"
   },
   {
-    "title": "Target : Expect More. Pay Less.",
-    "url": "https://www.target.com/",
-    "summary": "Network error: ",
-    "snippet": "Target : Expect More. Pay Less.skip to main contentskip to footerEnds Monday, 5/25.Up to 40percent off select clothing, swim & sandals for all*pauseWomen’sKids’Men’sBabySponsoredEven more big summer savingsOutdoor FurnitureOutdoor ToysBeddingBathSun CareGroceriesLoading...Loading...Loading...Loadin"
-  },
-  {
-    "title": "Heroku: The Cloud Application Platform | Build. Deploy. Scale.",
-    "url": "https://www.heroku.com/",
-    "summary": "Network error: ",
-    "snippet": "Heroku: The Cloud Application Platform | Build. Deploy. Scale. Search overlay panel for performing site-wide searches Search For: Close The Cloud Application Platform For Building, Deploying, and Scaling AppsHeroku is your fastest path from idea to production. Our fully managed app platform tackles "
-  },
-  {
-    "title": "AI-Native Cloud | DigitalOcean",
-    "url": "https://www.digitalocean.com/",
-    "summary": "Network error: ",
-    "snippet": "AI-Native Cloud | DigitalOceanAI-Native CloudOne platform, fully integrated from silicon to agent, with economics that improve as you scale.Get StartedExplore products255010020030040050060070080090010001100120013001400From real-time agents to trillion-token workloads, leaders in AI run on DigitalOce"
-  },
-  {
-    "title": "Finally, AI for the entire software lifecycle.",
-    "url": "https://about.gitlab.com/",
-    "summary": "Network error: ",
-    "snippet": "Finally, AI for the entire software lifecycle.CloseTo search repositories and projects, login to gitlab.com. SuggestionsGitLab Duo Agent PlatformCode Suggestions (AI)CI/CDGitLab on AWSGitLab on Google CloudWhy GitLab?Finally, AI for the entire software lifecycle.Your intelligent orchestration platfo"
-  },
-  {
-    "title": "Cloud Computing Services | Microsoft Azure",
-    "url": "https://azure.microsoft.com/en-us",
-    "summary": "Network error: ",
-    "snippet": "Cloud Computing Services | Microsoft Azure This is the Trace Id: c71c28cdfae2f39701754d3339485bda Skip to main content AZURE. YOUR INTELLIGENT CLOUD. Now shipping: Microsoft Build 2026 Be part of Microsoft Build and learn how tech leaders train and fine-tune models, design agent architectures, orche"
-  },
-  {
-    "title": "Breaking News, World News and Video from Al Jazeera",
-    "url": "https://www.aljazeera.com/",
-    "summary": "Network error: ",
-    "snippet": "Breaking News, World News and Video from Al Jazeera Featured ContentThis video may contain light patterns or images that could trigger seizures or cause discomfort for people with visual sensitivities.BREAKINGBREAKING, Iran says ‘deep and significant’ gaps with US remain in talks to end warLive upda"
-  },
-  {
-    "title": "Push your ideas to the web | Netlify",
-    "url": "https://www.netlify.com/",
-    "summary": "Network error: ",
-    "snippet": "Push your ideas to the web | Netlify Push your ideas to the web Create with AI or code, deploy instantly on production infrastructure. One platform to build and ship. Start building Talk to sales How it works Build your way.Ship on one platform. Every path runs on the same workflow and production in"
-  },
-  {
-    "title": "Slate Magazine - Politics, Business, Technology, and the Arts",
-    "url": "https://slate.com",
+    "title": "Google Scholar",
+    "url": "https://scholar.google.com",
     "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "Slate Magazine - Politics, Business, Technology, and the Arts Advertisement Advertisement She’s an Antisemite, a Sex Therapist, and a Democrat. Why Are Republicans Funding Her Campaign? Christina Cauterucci The No. 1 Movie on Netflix Is Every Parent’s Worst Nightmare Rebecca Onion Stephen Colbert Cl"
-  },
-  {
-    "title": "arXiv.org e-Print archive",
-    "url": "https://arxiv.org",
-    "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "arXiv.org e-Print archive arXiv is a free distribution service and an open-access archive for nearly 2.4 million scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economi"
-  },
-  {
-    "title": "Free Online Appointment Scheduling Software | Calendly",
-    "url": "https://calendly.com",
-    "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "Free Online Appointment Scheduling Software | CalendlyTrusted by more than 100,000 of the world’s leading organizationsCalendly makes scheduling simpleCalendly’s easy enough for individual users, and powerful enough to meet the needs of enterprise organizations — including 86% of the Fortune 500 com"
+    "snippet": "Google ScholarLoading...The system can't perform the operation now. Try again later.Advanced searchFind articleswith all of the wordswith the exact phrasewith at least one of the wordswithout the wordswhere my words occuranywhere in the articlein the title of the articleReturn articles authored bye."
   },
   {
     "title": "TIME | Current & Breaking News | National & World Updates",
@@ -378,10 +312,46 @@
     "snippet": "TIME | Current & Breaking News | National & World UpdatesGraeme Sloan—Bloomberg via Getty ImagesGabbard Resigns as Trump's Director of National IntelligenceGabbard cited her husband's cancer diagnosis, but differed with others in the Administration on Iran.by Brian BennettRandall HolmesFor Tom Hanks"
   },
   {
-    "title": "Wikipedia",
-    "url": "https://www.wikipedia.org/",
+    "title": "Slate Magazine - Politics, Business, Technology, and the Arts",
+    "url": "https://slate.com",
     "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "Wikipedia Wikipedia The Free Encyclopedia Search Wikipedia Afrikaans Shqip العربية Asturianu Azərbaycanca Български 閩南語 / Bân-lâm-gú বাংলা Беларуская Català Čeština Cymraeg Dansk Deutsch Eesti Ελληνικά English Español Esperanto Euskara فارسی Français Galego 한국어 Հայերեն हिन्दी Hrvatski Bahasa Indones"
+    "snippet": "Slate Magazine - Politics, Business, Technology, and the Arts Advertisement Advertisement She’s an Antisemite, a Sex Therapist, and a Democrat. Why Are Republicans Funding Her Campaign? Christina Cauterucci The No. 1 Movie on Netflix Is Every Parent’s Worst Nightmare Rebecca Onion Stephen Colbert Cl"
+  },
+  {
+    "title": "Heroku: The Cloud Application Platform | Build. Deploy. Scale.",
+    "url": "https://www.heroku.com/",
+    "summary": "Network error: ",
+    "snippet": "Heroku: The Cloud Application Platform | Build. Deploy. Scale. Search overlay panel for performing site-wide searches Search For: Close The Cloud Application Platform For Building, Deploying, and Scaling AppsHeroku is your fastest path from idea to production. Our fully managed app platform tackles "
+  },
+  {
+    "title": "Finally, AI for the entire software lifecycle.",
+    "url": "https://about.gitlab.com/",
+    "summary": "Network error: ",
+    "snippet": "Finally, AI for the entire software lifecycle.CloseTo search repositories and projects, login to gitlab.com. SuggestionsGitLab Duo Agent PlatformCode Suggestions (AI)CI/CDGitLab on AWSGitLab on Google CloudWhy GitLab?Finally, AI for the entire software lifecycle.Your intelligent orchestration platfo"
+  },
+  {
+    "title": "Breaking News, World News and Video from Al Jazeera",
+    "url": "https://www.aljazeera.com/",
+    "summary": "Network error: ",
+    "snippet": "Breaking News, World News and Video from Al Jazeera Featured ContentThis video may contain light patterns or images that could trigger seizures or cause discomfort for people with visual sensitivities.BREAKINGBREAKING, Iran says ‘deep and significant’ gaps with US remain in talks to end warLive upda"
+  },
+  {
+    "title": "Alibaba.com: Manufacturers, Suppliers, Exporters & Importers from the world's largest online B2B marketplace",
+    "url": "https://www.alibaba.com/",
+    "summary": "Network error: ",
+    "snippet": "Alibaba.com: Manufacturers, Suppliers, Exporters & Importers from the world's largest online B2B marketplace All categoriesFeatured selectionsOrder protectionsBuyer CentralHelp CenterApp & extensionSell on Alibaba.comWhat are you looking for? Welcome to Alibaba.comCategories for youApparel & Accesso"
+  },
+  {
+    "title": "Cloud Computing Services | Microsoft Azure",
+    "url": "https://azure.microsoft.com/en-us",
+    "summary": "Network error: ",
+    "snippet": "Cloud Computing Services | Microsoft Azure This is the Trace Id: d23639e84cfc39b994e55b3f6a1a0b24 Skip to main content AZURE. YOUR INTELLIGENT CLOUD. Now shipping: Microsoft Build 2026 Be part of Microsoft Build and learn how tech leaders train and fine-tune models, design agent architectures, orche"
+  },
+  {
+    "title": "Website Builder - Create a Free Website In Minutes | Wix.com",
+    "url": "https://www.wix.com/",
+    "summary": "Network error: ",
+    "snippet": "Website Builder - Create a Free Website In Minutes | Wix.com top of pageThe new way to create a websiteGo from words to a business-ready site that’s entirely yours to shape, on the first hybrid website builder.Get Started Get Started Start for free. No credit card required. Flow between instant gene"
   },
   {
     "title": "Google",
@@ -390,28 +360,64 @@
     "snippet": "GoogleGmailImagesSign in Advanced searchAdvertisingBusiness SolutionsAbout Google© 2026 - Privacy - TermsGoogle apps"
   },
   {
+    "title": "Bleacher Report | Sports. Highlights. News. Now.",
+    "url": "https://bleacherreport.com",
+    "summary": "Network error: [Errno -5] No address associated with hostname",
+    "snippet": "Bleacher Report | Sports. Highlights. News. Now.Featured VideoNBAToday08:30pm1OKC(1-1)O/U: 217.52SAS(1-1)-1.5NHLToday08:00pmVGK(1-0)+140COL(0-1)-170MLBMay 22FinalHOU(21-31)4CHC(29-22)2Today07:05pmTB(33-15)+124NYY(30-21)-146Today07:15pmDET(20-31)+118BAL(21-29)-138Today07:40pmLAD(31-19)-108MIL(29-18)-"
+  },
+  {
     "title": "Search - Microsoft Bing",
-    "url": "https://www.bing.com/?toWww=1&redig=C106664E08BC4683A81EDF46A3B70F3C",
+    "url": "https://www.bing.com/?toWww=1&redig=6F9A3A579244422DB21AED4FC2D90E82",
     "summary": "Network error: [Errno -5] No address associated with hostname",
     "snippet": "Search - Microsoft BingSign in"
   },
   {
+    "title": "Wikipedia",
+    "url": "https://www.wikipedia.org/",
+    "summary": "Network error: [Errno -5] No address associated with hostname",
+    "snippet": "Wikipedia Wikipedia The Free Encyclopedia Search Wikipedia Afrikaans Shqip العربية Asturianu Azərbaycanca Български 閩南語 / Bân-lâm-gú বাংলা Беларуская Català Čeština Cymraeg Dansk Deutsch Eesti Ελληνικά English Español Esperanto Euskara فارسی Français Galego 한국어 Հայերեն हिन्दी Hrvatski Bahasa Indones"
+  },
+  {
     "title": "Search Projects :: Photos, videos, logos, illustrations and branding :: Behance",
     "url": "https://www.behance.net/",
-    "summary": "Network error: [Errno -5] No address associated with hostname",
+    "summary": "Network error: ",
     "snippet": "Search Projects :: Photos, videos, logos, illustrations and branding :: Behance The World’sBest CreatorsAre On BehanceA comprehensive platform to help hirers and creators navigate the creative world from discovering inspiration, to connecting with one anotherHire a FreelancerTry Behance ProFilterPro"
   },
   {
-    "title": "Website Builder - Create a Free Website In Minutes | Wix.com",
-    "url": "https://www.wix.com/",
-    "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "Website Builder - Create a Free Website In Minutes | Wix.com top of pageThe new way to create a websiteGo from words to a business-ready site that’s entirely yours to shape, on the first hybrid website builder.Get Started Get Started Start for free. No credit card required. Flow between instant gene"
+    "title": "AI-Native Cloud | DigitalOcean",
+    "url": "https://www.digitalocean.com/",
+    "summary": "Network error: ",
+    "snippet": "AI-Native Cloud | DigitalOceanAI-Native CloudOne platform, fully integrated from silicon to agent, with economics that improve as you scale.Get StartedExplore products255010020030040050060070080090010001100120013001400From real-time agents to trillion-token workloads, leaders in AI run on DigitalOce"
+  },
+  {
+    "title": "【楽天市場】Shopping is Entertainment! ： インターネット最大級の通信販売、通販オンラインショッピングコミュニティ",
+    "url": "https://www.rakuten.co.jp/",
+    "summary": "Network error: ",
+    "snippet": "【楽天市場】Shopping is Entertainment! ： インターネット最大級の通信販売、通販オンラインショッピングコミュニティ モバイル ランキング スーパーDEAL Fashion トラベル カード 証券 銀行 ブックス 電子書籍 ラクマ リーベイツ 楽天24 楽天24エクスプレス 楽天ビック ネットスーパー ROOM サービス一覧 お買い物 ふるさと納税 スーパーDEAL ランキング ギフト 定期購入 ショッピングチャンネル 楽天ブックス 楽天Koboストア 楽天24 楽天24エクスプレス 楽天ビック Rakuten Fashion 楽券 ラクマ 楽天全国スーパー 楽天リーベ"
   },
   {
     "title": "Cloudflare: Build for the agent era",
     "url": "https://www.cloudflare.com/",
-    "summary": "Network error: [Errno -5] No address associated with hostname",
+    "summary": "Network error: ",
     "snippet": "Cloudflare: Build for the agent era Hero video off in Low preview — use High mode and refresh for full motion. Agents Week is happening now April 13 - April 17! Check out the announcements here Everything we learned from powering 20% of the Internet—yours by default One platform for your apps, agent"
+  },
+  {
+    "title": "DeviantArt - The Largest Online Art Gallery and Community",
+    "url": "https://www.deviantart.com/",
+    "summary": "Network error: ",
+    "snippet": "DeviantArt - The Largest Online Art Gallery and CommunityAllGothDigital ArtFan ArtPhotographyFantasyAnime and MangaCosplayAdoptablesCharacter DesignComicsConcept ArtGame ArtScience FictionSuperheroesTraditional Art3D ArtSaidge42 on DeviantArthttps://www.deviantart.com/saidge42/art/birdbrain-13270395"
+  },
+  {
+    "title": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+    "url": "https://www.shopify.com/",
+    "summary": "Network error: [Errno -5] No address associated with hostname",
+    "snippet": "Shopify: The All-in-One Commerce Platform for Businesses - ShopifySkip to ContentBe the nextAI all-starBe the nextstore they line up forAI all-star household name solo-preneur category creator global empire store they line up for big thing Dream big and build fast on Shopify. The world’s best commer"
+  },
+  {
+    "title": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & Audio",
+    "url": "https://www.bbc.com/",
+    "summary": "Network error: [Errno -5] No address associated with hostname",
+    "snippet": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & AudioSkip to contentHomeNewsUS & CanadaUKUK PoliticsEnglandN. IrelandN. Ireland PoliticsScotlandScotland PoliticsWalesWales PoliticsAfricaAsiaChinaIndiaAustraliaEuropeLatin AmericaMiddle Ea"
   },
   {
     "title": "Best Buy | Official Online Store | Shop Now & Save",
@@ -420,27 +426,21 @@
     "snippet": "Best Buy | Official Online Store | Shop Now & Save Memorial Day SaleEnds 5/25. Limited quantities. No rainchecks.Shop now$(csi.user.businessName)Main Content........ MEMORIAL DAY SALE New tech deals just added Ends Monday Limited quantities. No rainchecks. Shop now ..Shop deals by categoryShop Top 1"
   },
   {
-    "title": "Website Builder – Easily Create Your Own Website — Squarespace",
-    "url": "https://www.squarespace.com/",
-    "summary": "Network error: [Errno -5] No address associated with hostname",
-    "snippet": "Website Builder – Easily Create Your Own Website — Squarespace A website makes it realGet StartedStart for free. No credit card required.PreviousNextJoin millions of entrepreneurs who run their business on Squarespace.123456789M+14M+14M+Entrepreneurs Served$01234567890123456789B+$36B+$36B+Earned by "
-  },
-  {
-    "title": "National Geographic | National Geographic",
-    "url": "https://www.nationalgeographic.com/",
-    "summary": "Network error: ",
-    "snippet": "National Geographic | National Geographic Subscribe for full access to read stories from National Geographic.Latest StoriesIs this the most overlooked indicator of women's health?HealthIs this the most overlooked indicator of women's health?How El Niño could reshape monsoon season around the worldEn"
-  },
-  {
     "title": "Netflix - Watch TV Shows Online, Watch Movies Online",
     "url": "https://www.netflix.com/",
     "summary": "Network error: ",
     "snippet": "Netflix - Watch TV Shows Online, Watch Movies OnlineUnlimited movies, TV shows, and moreStarts at $8.99. Cancel anytime.Ready to watch? Enter your email to create or restart your membership.Email addressGet StartedThe Netflix you love for just $8.99.Get our most affordable, ad-supported plan.Learn M"
   },
   {
-    "title": "【楽天市場】Shopping is Entertainment! ： インターネット最大級の通信販売、通販オンラインショッピングコミュニティ",
-    "url": "https://www.rakuten.co.jp/",
+    "title": "Instagram",
+    "url": "https://www.instagram.com/",
     "summary": "Network error: ",
-    "snippet": "【楽天市場】Shopping is Entertainment! ： インターネット最大級の通信販売、通販オンラインショッピングコミュニティ モバイル ランキング スーパーDEAL Fashion トラベル カード 証券 銀行 ブックス 電子書籍 ラクマ リーベイツ 楽天24 楽天24エクスプレス 楽天ビック ネットスーパー ROOM サービス一覧 お買い物 ふるさと納税 スーパーDEAL ランキング ギフト 定期購入 ショッピングチャンネル 楽天ブックス 楽天Koboストア 楽天24 楽天24エクスプレス 楽天ビック Rakuten Fashion 楽券 ラクマ 楽天全国スーパー 楽天リーベ"
+    "snippet": "Instagram See everyday moments from your close friends.Log into InstagramMobile number, username or emailPasswordLog inForgot password?Log in with FacebookCreate new account"
+  },
+  {
+    "title": "Website Builder – Easily Create Your Own Website — Squarespace",
+    "url": "https://www.squarespace.com/",
+    "summary": "Network error: ",
+    "snippet": "Website Builder – Easily Create Your Own Website — Squarespace A website makes it realGet StartedStart for free. No credit card required.PreviousNextJoin millions of entrepreneurs who run their business on Squarespace.123456789M+14M+14M+Entrepreneurs Served$01234567890123456789B+$36B+$36B+Earned by "
   }
 ]
