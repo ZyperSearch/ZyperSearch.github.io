@@ -104,15 +104,20 @@
         let db = [];
         const searchInput = document.getElementById('ui-search');
         const resDiv = document.getElementById('results');
-        const suggDiv = document.getElementById('suggestion');
-        const suggWord = document.getElementById('suggest-word');
+        const toggSugg = document.getElementById('suggestion');
+        const toggWord = document.getElementById('suggest-word');
 
         const loadData = async () => {
             try {
                 const response = await fetch('./data.json');
                 if (!response.ok) throw new Error("File not found");
                 db = await response.json();
-                console.log("Zyper database loaded.");
+                const params = new URLSearchParams(window.location.search);
+                const query = params.get('search');
+                if (query) {
+                    searchInput.value = query;
+                    performSearch(query);
+                }
             } catch (err) {
                 console.error("Index unavailable. Run the crawler to generate data.json.");
             }
@@ -135,33 +140,55 @@
                 '<div style="color:#a0a0a0;">No results found.</div>';
         };
 
-        searchInput.addEventListener('input', (e) => {
-            const val = e.target.value.toLowerCase().trim();
+        const performSearch = (val) => {
+            const url = new URL(window.location);
+            const cleanVal = val.trim();
+            
+            if (cleanVal.length === 0) {
+                url.searchParams.delete('search');
+                window.history.replaceState({}, '', url);
+                resDiv.innerHTML = '';
+                toggSugg.style.display = 'none';
+                return;
+            }
+
+            url.searchParams.set('search', cleanVal);
+            window.history.replaceState({}, '', url);
+
             resDiv.innerHTML = '';
-            suggDiv.style.display = 'none';
-            if (val.length < 2) return;
+            toggSugg.style.display = 'none';
+
+            if (cleanVal.length < 2) return;
+
+            const lowerVal = cleanVal.toLowerCase();
             const matches = db.filter(i =>
-                i.title && i.title.toLowerCase().includes(val) ||
-                (i.raw && i.raw.toLowerCase().includes(val)) ||
-                i.content && i.content.toLowerCase().includes(val)
+                (i.title && i.title.toLowerCase().includes(lowerVal)) ||
+                (i.raw && i.raw.toLowerCase().includes(lowerVal)) ||
+                (i.content && i.content.toLowerCase().includes(lowerVal))
             );
+
             if (matches.length > 0) {
-                renderResults(matches, val);
+                renderResults(matches, cleanVal);
             } else {
                 const suggestion = db.find(i =>
-                    i.title && i.title.toLowerCase().startsWith(val.slice(0, 1))
+                    i.title && i.title.toLowerCase().startsWith(lowerVal.slice(0, 1))
                 );
                 renderResults([]);
                 if (suggestion) {
-                    suggDiv.style.display = 'block';
-                    suggWord.innerText = suggestion.title;
-                    suggWord.onclick = () => {
+                    toggSugg.style.display = 'block';
+                    toggWord.innerText = suggestion.title;
+                    toggWord.onclick = () => {
                         searchInput.value = suggestion.title;
-                        searchInput.dispatchEvent(new Event('input'));
+                        performSearch(suggestion.title);
                     };
                 }
             }
+        };
+
+        searchInput.addEventListener('input', (e) => {
+            performSearch(e.target.value);
         });
+
         loadData();
     </script>
 </body>
