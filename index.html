@@ -124,6 +124,7 @@
         };
 
         function highlight(text, query) {
+            if (!text) return '';
             if (!query) return text;
             const q = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
             return text.replace(new RegExp(q, 'gi'), match => `<span style="background:rgba(88,240,27,0.2);color:#58f01b;">${match}</span>`);
@@ -134,7 +135,7 @@
                 matches.map(m => `
                     <div class="result-item">
                         <a href="${m.url}" target="_blank" rel="noopener">${highlight(m.title, query)}</a>
-                        <p>${highlight(m.content, query)}</p>
+                        <p>${highlight(m.snippet || m.summary || '', query)}</p>
                     </div>
                 `).join('') :
                 '<div style="color:#a0a0a0;">No results found.</div>';
@@ -163,8 +164,8 @@
             const lowerVal = cleanVal.toLowerCase();
             const matches = db.filter(i =>
                 (i.title && i.title.toLowerCase().includes(lowerVal)) ||
-                (i.raw && i.raw.toLowerCase().includes(lowerVal)) ||
-                (i.content && i.content.toLowerCase().includes(lowerVal))
+                (i.summary && i.summary.toLowerCase().includes(lowerVal)) ||
+                (i.snippet && i.snippet.toLowerCase().includes(lowerVal))
             );
 
             if (matches.length > 0) {
