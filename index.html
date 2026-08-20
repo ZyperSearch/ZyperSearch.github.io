@@ -190,6 +190,8 @@
 
         .suggestions {
             position: absolute;
+            max-height: min(430px, 55vh);
+            overflow-y: auto;
             top: calc(100% + 9px);
             left: 0;
             right: 0;
@@ -587,6 +589,28 @@ function meaningfulTokens(query) {
     );
 }
 
+const COMMON_DOMAIN_SUFFIXES = new Set([
+    "com", "net", "org", "io", "co", "ai", "dev", "app",
+    "me", "tv", "info", "biz", "gov", "edu", "uk", "de",
+    "fr", "ca", "au", "jp"
+]);
+
+function isBareDomainSuffixQuery(query) {
+    const value = normalize(query);
+    return COMMON_DOMAIN_SUFFIXES.has(value);
+}
+
+function shouldShowSuggestions(query) {
+    const value = normalize(query);
+
+    /*
+      Keep the suggestion panel useful while typing very short
+      queries, but don't let it cover the actual results for
+      normal 3+ character searches such as "com".
+    */
+    return value.length <= 2;
+}
+
 function containsWholeWord(text, word) {
     const value = normalize(text);
     const token = normalize(word);
@@ -794,11 +818,37 @@ function scoreResult(item, query) {
         ["summary", 75]
     ];
 
+    const bareDomainSuffix = isBareDomainSuffixQuery(q);
+
     for (const token of tokens) {
         let tokenMatched = false;
 
         for (const [name, weight] of fields) {
             const value = doc[name];
+
+            /*
+              A bare TLD such as "com" is interpreted as a domain
+              suffix search, not as a generic substring search.
+              This prevents snippets/boilerplate containing "com"
+              from dominating the ranking.
+            */
+            if (bareDomainSuffix && name !== "url") {
+                continue;
+            }
+
+            if (name === "url" && bareDomainSuffix) {
+                try {
+                    const host = new URL(item.url, window.location.href).hostname.toLowerCase();
+                    if (host.endsWith("." + token) || host === token) {
+                        score += 320;
+                        tokenMatched = true;
+                        exactMatches++;
+                    }
+                } catch {
+                    /* Ignore malformed URLs. */
+                }
+                continue;
+            }
 
             if (fieldHasToken(value, token, shortQuery)) {
                 score += weight;
@@ -861,6 +911,35 @@ function scoreResult(item, query) {
 
     if (tokens.length > 1 && coverage < 0.5) {
         score *= 0.42;
+    }
+
+    if (bareDomainSuffix) {
+        /*
+          Domain-suffix searches are intentionally strict.
+          A page whose hostname does not actually end in .com
+          should not be returned just because "com" appeared
+          in unrelated page text.
+        */
+        let hostMatches = false;
+
+        try {
+            const host = new URL(
+                item.url,
+                window.location.href
+            ).hostname.toLowerCase();
+
+            hostMatches =
+                host === q ||
+                host.endsWith("." + q);
+        } catch {
+            hostMatches = false;
+        }
+
+        if (!hostMatches) {
+            score = 0;
+            matched = 0;
+            exactMatches = 0;
+        }
     }
 
     /* Optional index metadata. */
@@ -1072,6 +1151,11 @@ function closeSuggestions() {
 }
 
 function renderSuggestions(query) {
+    if (!shouldShowSuggestions(query)) {
+        closeSuggestions();
+        return;
+    }
+
     const suggestions = getSuggestions(query);
 
     if (!suggestions.length) {
@@ -1280,12 +1364,21 @@ els.input.addEventListener("input", e => {
         return;
     }
 
-    renderSuggestions(value);
+    if (shouldShowSuggestions(value)) {
+        renderSuggestions(value);
+    } else {
+        closeSuggestions();
+    }
+
     scheduleSearch(value);
 });
 
 els.input.addEventListener("focus", () => {
-    renderSuggestions(els.input.value);
+    if (shouldShowSuggestions(els.input.value)) {
+        renderSuggestions(els.input.value);
+    } else {
+        closeSuggestions();
+    }
 });
 
 els.input.addEventListener("keydown", e => {
