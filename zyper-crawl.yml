@@ -1,0 +1,84 @@
+name: ZyperSearch Auto-Crawler
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * *'   # every day at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  crawl_and_index:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # ---------------------------------------------------------
+      # 1️⃣ Checkout
+      # ---------------------------------------------------------
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # needed for rebasing later
+
+      # ---------------------------------------------------------
+      # 2️⃣ Install OS‑level build tools for lxml
+      # ---------------------------------------------------------
+      - name: Install System Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            wget jq \
+            gcc python3-dev \
+            libxml2-dev libxslt1-dev
+
+      # ---------------------------------------------------------
+      # 3️⃣ Set up the (beta) Python version you asked for
+      # ---------------------------------------------------------
+      - name: Set up Python 3.15
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.15.0-beta.1'
+          allow-prereleases: true
+
+      # ---------------------------------------------------------
+      # 4️⃣ Install Python packages
+      # ---------------------------------------------------------
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # Using the latest lxml (will compile now that headers are present)
+          pip install httpx requests beautifulsoup4 lxml
+
+      # ---------------------------------------------------------
+      # 5️⃣ Run your crawler
+      # ---------------------------------------------------------
+      - name: Run Zyper Crawler
+        run: python crawl.py
+
+      # ---------------------------------------------------------
+      # 6️⃣ Commit & push the new data.json (if it exists)
+      # ---------------------------------------------------------
+      - name: Sync and Deploy
+        env:
+          GIT_AUTHOR_NAME: ZyperBot
+          GIT_AUTHOR_EMAIL: bot@zypersearch.local
+          GIT_COMMITTER_NAME: ZyperBot
+          GIT_COMMITTER_EMAIL: bot@zypersearch.local
+        run: |
+          # Configure git once
+          git config --global user.name "$GIT_AUTHOR_NAME"
+          git config --global user.email "$GIT_AUTHOR_EMAIL"
+
+          # Ensure we are up‑to‑date before we add anything
+          git pull --rebase origin main
+
+          if [[ -f data.json ]]; then
+            git add data.json
+            git commit -m "Automated ZyperSearch Index Update: $(date +'%Y-%m-%d')" || echo "Nothing to commit"
+            git push origin main
+          else
+            echo "data.json not found – nothing to push."
+            exit 1
+          fi

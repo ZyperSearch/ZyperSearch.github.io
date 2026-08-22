@@ -350,12 +350,20 @@ def clean_html_lxml(
     html_content: str,
 ) -> Tuple[str, str, Dict[str, str]]:
     try:
+        # Pre-strip noisy tags to prevent any raw content or CSS/JS leaking into text
+        cleaned_html = re.sub(
+            r"<(script|style|noscript|template|svg|iframe)\b[^>]*>[\s\S]*?<\/\1>",
+            " ",
+            html_content,
+            flags=re.IGNORECASE,
+        )
+
         parser = lxml.html.HTMLParser(
             encoding="utf-8"
         )
 
         doc = lxml.html.fromstring(
-            html_content.encode(
+            cleaned_html.encode(
                 "utf-8",
                 errors="ignore",
             ),
@@ -394,7 +402,7 @@ def clean_html_lxml(
         else "Untitled"
     )
 
-    title = re.sub(r"\s+", " ", title).strip()
+    title = re.sub(r"\s+", " ", title).replace("\ufffd", " ").strip()
 
     description = ""
     keywords = ""
@@ -411,7 +419,7 @@ def clean_html_lxml(
             r"\s+",
             " ",
             description_nodes[0],
-        ).strip()
+        ).replace("\ufffd", " ").strip()
 
     keyword_nodes = doc.xpath(
         '//meta[translate(@name, "ABCDEFGHIJKLMNOPQRSTUVWXYZ", '
@@ -423,7 +431,7 @@ def clean_html_lxml(
             r"\s+",
             " ",
             keyword_nodes[0],
-        ).strip()
+        ).replace("\ufffd", " ").strip()
 
     canonical_nodes = doc.xpath(
         '//link[contains('
@@ -456,9 +464,14 @@ def clean_html_lxml(
     if content_root is None:
         content_root = doc
 
-    body_text = " ".join(
-        content_root.text_content().split()
-    )
+    raw_text = content_root.text_content()
+    # Remove any leftover JSON dumps, style snippets, balancer strings, and unicode replacement characters
+    raw_text = re.sub(r'<style\b[^>]*>[\s\S]*?(?:<\/style>|$)', ' ', raw_text, flags=re.I)
+    raw_text = re.sub(r'\{"[a-zA-Z0-9_]+":[\s\S]*?\}', ' ', raw_text)
+    raw_text = re.sub(r'\d{10,}-[a-zA-Z0-9_-]+', ' ', raw_text)
+    raw_text = raw_text.replace("\ufffd", " ")
+
+    body_text = " ".join(raw_text.split())
 
     return (
         title or "Untitled",
@@ -1058,7 +1071,7 @@ async def summarise_text(
                     if content:
                         return content
 
-                    return "No summary available."
+                    return ""
 
                 if response.status_code == 429:
                     await asyncio.sleep(
@@ -1066,21 +1079,15 @@ async def summarise_text(
                     )
                     continue
 
-                return (
-                    f"OpenRouter Error "
-                    f"({response.status_code})"
-                )
+                return ""
 
-            except Exception as exc:
+            except Exception:
                 if attempt == 2:
-                    return (
-                        f"Inference unavailable: "
-                        f"{type(exc).__name__}"
-                    )
+                    return ""
 
                 await asyncio.sleep(1.5)
 
-        return "Generation Timed Out"
+        return ""
 
 
 # ============================================================
